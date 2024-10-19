@@ -1,0 +1,37 @@
+#background {
+    -fx-background-color: #F0F3F5;
+}
+
+#navbar {
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0, 0, 0); /* Shadow effect */
+}
+
+#mainContentContainer{
+    -fx-background-color: #ffffff;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0, 0, 0); /* Shadow effect */
+    -fx-background-radius: 10px;
+}
+
+#topline {
+    -fx-stroke: #adadad; /* Set the line color to red */
+    -fx-stroke-width: 2; /* Set the width of the line */
+}
+
+#title {
+    -fx-font-family: "ABeeZee";        /* Font family */
+    -fx-font-size: 25;
+    -fx-font-weight: bold;      /* Make the text bold */
+}
+
+#pushupImg {
+
+}
+
+.text-area {
+    -fx-background-color: transparent; /* Reset background */
+    -fx-border-color: transparent; /* Reset border */
+    -fx-text-fill: black; /* Default text color */
+    -fx-font-size: 12; /* Default font size */
+    /* Add any other default styles you need */
+}
