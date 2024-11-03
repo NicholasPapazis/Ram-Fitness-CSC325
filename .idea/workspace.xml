@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="Merge pull request #2 from NicholasPapazis/calisthenics-branch&#10;&#10;added calisthenics fxml page with style sheet">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/login_GUI.fxml" afterDir="false" />
+    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="Login GUi">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/login_GUI.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/login_GUI.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +110,7 @@
       <workItem from="1729529181199" duration="651000" />
       <workItem from="1729607194732" duration="147000" />
       <workItem from="1730251089542" duration="5024000" />
-      <workItem from="1730601971067" duration="2059000" />
+      <workItem from="1730601971067" duration="2980000" />
     </task>
     <task id="LOCAL-00001" summary="created blank calisthenics fxml page">
       <option name="closed" value="true" />
@@ -152,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730603442595</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Login GUi">
+      <option name="closed" value="true" />
+      <created>1730604734902</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730604734902</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +169,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created blank calisthenics fxml page" />
     <MESSAGE value="Merge pull request #2 from NicholasPapazis/calisthenics-branch&#10;&#10;added calisthenics fxml page with style sheet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge pull request #2 from NicholasPapazis/calisthenics-branch&#10;&#10;added calisthenics fxml page with style sheet" />
+    <MESSAGE value="Login GUi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login GUi" />
   </component>
 </project>
