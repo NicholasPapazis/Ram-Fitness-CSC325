@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="created blank calisthenics fxml page">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/BuildMuscle.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="Merge pull request #2 from NicholasPapazis/calisthenics-branch&#10;&#10;added calisthenics fxml page with style sheet">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/login_GUI.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Nicholas Papazis &lt;nicholasepapazis@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
@@ -58,24 +61,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "6-build-muscle",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/nicholas/IdeaProjects/ram-fitness-csc325-clone/src/main/resources/com/example/ramfitnesscsc325",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;6-build-muscle&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/nicholas/IdeaProjects/ram-fitness-csc325-clone/src/main/resources/com/example/ramfitnesscsc325&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325" />
@@ -107,6 +110,7 @@
       <workItem from="1729529181199" duration="651000" />
       <workItem from="1729607194732" duration="147000" />
       <workItem from="1730251089542" duration="5024000" />
+      <workItem from="1730601971067" duration="2059000" />
     </task>
     <task id="LOCAL-00001" summary="created blank calisthenics fxml page">
       <option name="closed" value="true" />
@@ -116,7 +120,39 @@
       <option name="project" value="LOCAL" />
       <updated>1729125060561</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Merge pull request #2 from NicholasPapazis/calisthenics-branch&#10;&#10;added calisthenics fxml page with style sheet">
+      <option name="closed" value="true" />
+      <created>1730602149030</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730602149030</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Merge pull request #2 from NicholasPapazis/calisthenics-branch&#10;&#10;added calisthenics fxml page with style sheet">
+      <option name="closed" value="true" />
+      <created>1730602164348</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730602164348</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Merge pull request #2 from NicholasPapazis/calisthenics-branch&#10;&#10;added calisthenics fxml page with style sheet">
+      <option name="closed" value="true" />
+      <created>1730603438417</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730603438417</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Merge pull request #2 from NicholasPapazis/calisthenics-branch&#10;&#10;added calisthenics fxml page with style sheet">
+      <option name="closed" value="true" />
+      <created>1730603442595</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730603442595</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +160,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created blank calisthenics fxml page" />
-    <option name="LAST_COMMIT_MESSAGE" value="created blank calisthenics fxml page" />
+    <MESSAGE value="Merge pull request #2 from NicholasPapazis/calisthenics-branch&#10;&#10;added calisthenics fxml page with style sheet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge pull request #2 from NicholasPapazis/calisthenics-branch&#10;&#10;added calisthenics fxml page with style sheet" />
   </component>
 </project>
