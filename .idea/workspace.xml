@@ -5,20 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="created blank calisthenics fxml page">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/Motivation (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/calisthenics.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/calisthenics.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/pushupImg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/ramLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/style-calisthenics.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/registergui.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/calisthenics-info.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/calisthenics-info.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="5-reduce-fat" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,7 +63,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "calisthenics-branch",
+    "git-widget-placeholder": "17-register-gui-with-no-style",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/nicholas/IdeaProjects/ram-fitness-csc325-clone/src/main/resources/com/example/ramfitnesscsc325",
     "list.type.of.created.stylesheet": "CSS",
