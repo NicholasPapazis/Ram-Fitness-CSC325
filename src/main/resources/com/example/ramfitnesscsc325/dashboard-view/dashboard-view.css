@@ -1,0 +1,57 @@
+#background {
+    -fx-background-color: #F1F5F9;
+}
+
+#sideBar, #topBar, #statusBar {
+    -fx-background-color: rgb(255, 255, 255);
+    -fx-border-color: rgb(182, 182, 182);
+    
+}
+
+.navPanes {
+    /*-fx-border-color: black;*/
+}
+
+.navPanes:hover{
+    -fx-background-color:#F1F5F9;
+}
+
+.workoutCats {
+    -fx-background-radius: 15; /* Adjust the radius as needed */
+    -fx-clip: rounded-corners(15); /* Clips the corners */
+}
+
+#exercisePane {
+    -fx-background-color: #63C041;
+    -fx-background-radius: 10px;
+}
+
+#caloriesPane {
+    -fx-background-color: #F97316;
+    -fx-background-radius: 10px;
+}
+
+#weightLiftedPane {
+    -fx-background-color: #8B5CF6;
+    -fx-background-radius: 10px;
+}
+
+#sleepPane {
+    -fx-background-color: #06B6D4;
+    -fx-background-radius: 10px;
+}
+
+#recentExercises {
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+}
+
+#chart {
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+}
+
+#sampleExercises {
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+}
