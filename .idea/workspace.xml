@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
     <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="Created a Registration GUI page which consists of an Email, Username, and Password, along with a Submit button at the bottom. They are TextField classified." />
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +62,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+
     "git-widget-placeholder": "17-register-gui-with-no-style",
+
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/nicholas/IdeaProjects/ram-fitness-csc325-clone/src/main/resources/com/example/ramfitnesscsc325",
     "list.type.of.created.stylesheet": "CSS",
@@ -81,6 +85,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325" />
     </key>
   </component>
@@ -112,6 +117,7 @@
       <option name="project" value="LOCAL" />
       <updated>1729125060561</updated>
     </task>
+
     <task id="LOCAL-00002" summary="Created a Registration GUI page which consists of an Email, Username, and Password, along with a Submit button at the bottom. They are TextField classified.">
       <option name="closed" value="true" />
       <created>1730605407427</created>
@@ -121,6 +127,7 @@
       <updated>1730605407427</updated>
     </task>
     <option name="localTasksCounter" value="3" />
+
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +135,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created blank calisthenics fxml page" />
+
     <MESSAGE value="Created a Registration GUI page which consists of an Email, Username, and Password, along with a Submit button at the bottom. They are TextField classified." />
     <option name="LAST_COMMIT_MESSAGE" value="Created a Registration GUI page which consists of an Email, Username, and Password, along with a Submit button at the bottom. They are TextField classified." />
+
   </component>
 </project>
