@@ -10,11 +10,11 @@
 
 <Pane fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" stylesheets="@register-view.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Pane fx:id="leftSection" layoutX="84.0" layoutY="57.0" prefHeight="486.0" prefWidth="325.0" stylesheets="@login-view.css">
+      <Pane fx:id="leftSection" layoutX="84.0" layoutY="57.0" prefHeight="486.0" prefWidth="325.0" stylesheets="@../css/login-view.css">
          <children>
             <ImageView fitHeight="237.0" fitWidth="257.0" layoutX="18.0" layoutY="158.0">
                <image>
-                  <Image url="@ramFitLogo.png" />
+                  <Image url="@../accessories/ramFitLogo.png" />
                </image>
             </ImageView>
             <Text fill="WHITE" layoutX="14.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ram Fitness" textAlignment="CENTER" wrappingWidth="278.0">
@@ -29,7 +29,7 @@
             </ImageView>
          </children>
       </Pane>
-      <Pane fx:id="rightSection" layoutX="383.0" layoutY="57.0" prefHeight="486.0" prefWidth="434.0" stylesheets="@login-view.css">
+      <Pane fx:id="rightSection" layoutX="383.0" layoutY="57.0" prefHeight="486.0" prefWidth="434.0" stylesheets="@../css/login-view.css">
          <children>
             <Text layoutX="56.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log In">
                <font>
