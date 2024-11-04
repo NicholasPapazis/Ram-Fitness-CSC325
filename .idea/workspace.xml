@@ -4,19 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="add login folder to inner resources folder">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_4_2024_9_39_AM_[Changes]/shelved.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Login_GUI.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/login-package/Login_GUI.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/login-package/airWave 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/login-package/airWave 1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/login-package/image 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/login-package/image 2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/login-package/login-view.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/login-package/login-view.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/login-package/login-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/login-package/login-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/login-package/ramFitLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/login-package/ramFitLogo.png" afterDir="false" />
-    </list>
+
+    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="Created a Registration GUI page which consists of an Email, Username, and Password, along with a Submit button at the bottom. They are TextField classified." />
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="5-reduce-fat" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,7 +62,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "#31 on 15-login-gui-with-no-style",
+
+    "git-widget-placeholder": "17-register-gui-with-no-style",
+
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/nicholas/IdeaProjects/ram-fitness-csc325-clone/src/main/resources/com/example/ramfitnesscsc325",
     "list.type.of.created.stylesheet": "CSS",
@@ -118,39 +117,17 @@
       <option name="project" value="LOCAL" />
       <updated>1729125060561</updated>
     </task>
-    <task id="LOCAL-00002" summary="Login GUi">
+
+    <task id="LOCAL-00002" summary="Created a Registration GUI page which consists of an Email, Username, and Password, along with a Submit button at the bottom. They are TextField classified.">
       <option name="closed" value="true" />
-      <created>1730606483419</created>
+      <created>1730605407427</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1730606483419</updated>
+      <updated>1730605407427</updated>
     </task>
-    <task id="LOCAL-00003" summary="Login GUi">
-      <option name="closed" value="true" />
-      <created>1730606500780</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1730606500780</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Login GUi">
-      <option name="closed" value="true" />
-      <created>1730686259741</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1730686259741</updated>
-    </task>
-    <task id="LOCAL-00005" summary="add login folder to inner resources folder">
-      <option name="closed" value="true" />
-      <created>1730731262739</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1730731262739</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="3" />
+
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,8 +135,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created blank calisthenics fxml page" />
-    <MESSAGE value="Login GUi" />
-    <MESSAGE value="add login folder to inner resources folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="add login folder to inner resources folder" />
+
+    <MESSAGE value="Created a Registration GUI page which consists of an Email, Username, and Password, along with a Submit button at the bottom. They are TextField classified." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a Registration GUI page which consists of an Email, Username, and Password, along with a Submit button at the bottom. They are TextField classified." />
+
   </component>
 </project>

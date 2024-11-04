@@ -1,0 +1,39 @@
+#background {
+    
+}
+
+#leftSection {
+    -fx-background-color: rgb(68, 187, 141);
+    -fx-background-radius:5px 0px 0px 5px;
+    -fx-border-radius:5px 0px 0px 5px;
+    
+}
+
+#rightSection {
+    -fx-background-color: rgb(255, 255, 255);
+    -fx-background-radius:15px 5px 5px 15px;
+    -fx-border-radius:15px 5px 5px 15px;
+    
+    
+}
+
+.registerInputFields {
+    /*-fx-effect: null;*/
+    -fx-border-color: rgb(145, 145, 145);
+    -fx-background-color: rgba(255, 255, 255, 1.0);
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-prompt-text-fill: #9c9c9c;
+    
+}
+
+.registerInputFields:focused{
+    -fx-border-color: rgb(112, 198, 255);
+}
+
+#registerButton {
+    -fx-background-color: rgb(68, 187, 141);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 17px;
+}
