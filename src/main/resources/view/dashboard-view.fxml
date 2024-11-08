@@ -24,7 +24,7 @@
             </Text>
             <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="10.0" layoutY="10.0">
                <image>
-                  <Image url="@../accessories/ramFitLogo.png" />
+                  <Image url="@../images/ramFitLogo.png" />
                </image>
             </ImageView>
             <Pane fx:id="navigationSection" layoutX="1.0" layoutY="115.0" prefHeight="314.0" prefWidth="196.0">
@@ -42,7 +42,7 @@
                         <Text fill="#616161" layoutX="47.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Workout" />
                         <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="23.0" layoutY="9.0">
                            <image>
-                              <Image url="@../accessories/workout.png" />
+                              <Image url="@../images/workout.png" />
                            </image>
                         </ImageView>
                      </children>
@@ -55,7 +55,7 @@
                         <Text fill="#616161" layoutX="47.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Diet" />
                         <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="23.0" layoutY="9.0">
                            <image>
-                              <Image url="@../accessories/diet.png" />
+                              <Image url="@../images/diet.png" />
                            </image>
                         </ImageView>
                      </children>
@@ -68,7 +68,7 @@
                         <Text fill="#616161" layoutX="47.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Goals" />
                         <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="23.0" layoutY="9.0">
                            <image>
-                              <Image url="@../accessories/goals.png" />
+                              <Image url="@../images/goals.png" />
                            </image>
                         </ImageView>
                      </children>
@@ -81,7 +81,7 @@
                         <Text fill="#616161" layoutX="48.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My Schedule" />
                         <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="23.0" layoutY="10.0">
                            <image>
-                              <Image url="@../accessories/schedule.png" />
+                              <Image url="@../images/schedule.png" />
                            </image>
                         </ImageView>
                      </children>
@@ -94,7 +94,7 @@
                         <Text fill="#616161" layoutX="48.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Progress" />
                         <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="23.0" layoutY="9.0">
                            <image>
-                              <Image url="@../accessories/chart.png" />
+                              <Image url="@../images/chart.png" />
                            </image>
                         </ImageView>
                      </children>
@@ -105,13 +105,13 @@
             <Text fill="#686868" layoutX="61.0" layoutY="573.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Logout" />
             <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="34.0" layoutY="559.0">
                <image>
-                  <Image url="@../accessories/logout.png" />
+                  <Image url="@../images/logout.png" />
                </image>
             </ImageView>
             <Text fill="#686868" layoutX="60.0" layoutY="536.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Help" />
             <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="32.0" layoutY="521.0">
                <image>
-                  <Image url="@../accessories/help.png" />
+                  <Image url="@../images/help.png" />
                </image>
             </ImageView>
          </children>
@@ -126,12 +126,12 @@
             <Text fill="#868686" layoutX="23.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Good Morning" />
             <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="180.0" layoutY="19.0">
                <image>
-                  <Image url="@../accessories/party-popper.png" />
+                  <Image url="@../images/party-popper.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="520.0" layoutY="16.0">
                <image>
-                  <Image url="@../accessories/streakFilled.png" />
+                  <Image url="@../images/streakFilled.png" />
                </image>
             </ImageView>
             <Text fill="#ff5900" layoutX="545.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="24">
@@ -141,12 +141,12 @@
             </Text>
             <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="593.0" layoutY="17.0">
                <image>
-                  <Image url="@../accessories/gear.png" />
+                  <Image url="@../images/gear.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="634.0" layoutY="6.0">
                <image>
-                  <Image url="@../accessories/profile.png" />
+                  <Image url="@../images/profile.png" />
                </image>
             </ImageView>
          </children>
@@ -156,7 +156,7 @@
          <children>
             <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="12.0" layoutY="8.0">
                <image>
-                  <Image url="@../accessories/workoutWhite.png" />
+                  <Image url="@../images/workoutWhite.png" />
                </image>
             </ImageView>
             <Text fill="WHITE" layoutX="38.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Exercise">
@@ -176,7 +176,7 @@
          <children>
             <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="13.0" layoutY="6.0">
                <image>
-                  <Image url="@../accessories/fireWhite.png" />
+                  <Image url="@../images/fireWhite.png" />
                </image>
             </ImageView>
             <Text fill="WHITE" layoutX="37.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Calories">
@@ -196,7 +196,7 @@
          <children>
             <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="12.0" layoutY="7.0">
                <image>
-                  <Image url="@../accessories/ton.png" />
+                  <Image url="@../images/ton.png" />
                </image>
             </ImageView>
             <Text fill="WHITE" layoutX="35.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Weight Lifted">
@@ -217,7 +217,7 @@
          <children>
             <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="16.0" layoutY="9.0">
                <image>
-                  <Image url="@../accessories/bed.png" />
+                  <Image url="@../images/bed.png" />
                </image>
             </ImageView>
             <Text fill="WHITE" layoutX="43.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sleep">

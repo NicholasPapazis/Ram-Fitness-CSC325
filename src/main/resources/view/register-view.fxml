@@ -14,7 +14,7 @@
          <children>
             <ImageView fitHeight="237.0" fitWidth="257.0" layoutX="18.0" layoutY="158.0">
                <image>
-                  <Image url="@../accessories/ramFitLogo.png" />
+                  <Image url="@../images/ramFitLogo.png" />
                </image>
             </ImageView>
             <Text fill="WHITE" layoutX="14.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ram Fitness" textAlignment="CENTER" wrappingWidth="278.0">

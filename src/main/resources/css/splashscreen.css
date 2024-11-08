@@ -1,0 +1,11 @@
+#background{
+    -fx-background-color: rgb(68, 187, 141)
+}
+
+#imgBack {
+    -fx-background-color: white;
+    -fx-background-radius: 250px;
+    -fx-border-radius: 250px;
+    -fx-border-color: black;
+    -fx-border-width: 10px;
+}
