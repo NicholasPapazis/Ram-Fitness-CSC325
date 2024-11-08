@@ -4,50 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="Created a Registration GUI page which consists of an Email, Username, and Password, along with a Submit button at the bottom. They are TextField classified.">
+    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="organized resources folder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/calisthenics-info.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/calisthenics.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/calisthenics.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/dashboard-view/bed.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/accessories/bed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/dashboard-view/buildMuscle.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/accessories/buildMuscle.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/dashboard-view/buildMuscle.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/accessories/buildMuscle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/dashboard-view/calisthenics.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/accessories/calisthenics.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/dashboard-view/chart.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/accessories/chart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/dashboard-view/dashboard-view.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/css/dashboard-view.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/dashboard-view/dashboard-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/views/dashboard-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/dashboard-view/diet.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/accessories/diet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/dashboard-view/fireWhite.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/accessories/fireWhite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/dashboard-view/gear.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/accessories/gear.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/dashboard-view/goals.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/accessories/goals.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/dashboard-view/help.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/accessories/help.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/dashboard-view/logout.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/accessories/logout.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/dashboard-view/loseFat.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/accessories/loseFat.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/dashboard-view/party-popper.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/accessories/party-popper.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/dashboard-view/powerLifting.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/accessories/powerLifting.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/dashboard-view/profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/accessories/profile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/dashboard-view/ramFitLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/accessories/ramFitLogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/dashboard-view/schedule.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/accessories/schedule.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/dashboard-view/streakFilled.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/accessories/streakFilled.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/dashboard-view/ton.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/accessories/ton.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/dashboard-view/workout.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/accessories/workout.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/dashboard-view/workoutWhite.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/accessories/workoutWhite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/views/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/login-package/Login_GUI.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/views/Login_GUI.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/login-package/airWave 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/accessories/airWave 1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/login-package/image 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/login-package/login-view.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/css/login-view.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/login-package/login-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/views/login-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/login-package/ramFitLogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/profilePic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/pushupImg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/ramLogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/register-package/airWave 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/register-package/image 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/register-package/ramFitLogo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/register-package/register-view.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/css/register-view.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/register-package/register-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/views/register-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/registergui.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325/views/registergui.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,25 +59,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/nicholas/IdeaProjects/ram-fitness-csc325-clone/src/main/resources/com/example/ramfitnesscsc325&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HelloApplication.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/NICHOLAS/IdeaProjects/csc325software-engineering",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325" />
@@ -153,7 +111,8 @@
       <workItem from="1729214915324" duration="2707000" />
       <workItem from="1729291745003" duration="7451000" />
       <workItem from="1730735577583" duration="535000" />
-      <workItem from="1730738207909" duration="4164000" />
+      <workItem from="1730738207909" duration="4378000" />
+      <workItem from="1730762178641" duration="148000" />
     </task>
     <task id="LOCAL-00001" summary="created blank calisthenics fxml page">
       <option name="closed" value="true" />
@@ -179,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730735720095</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="organized resources folder">
+      <option name="closed" value="true" />
+      <created>1730761754234</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730761754234</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +155,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created blank calisthenics fxml page" />
     <MESSAGE value="Created a Registration GUI page which consists of an Email, Username, and Password, along with a Submit button at the bottom. They are TextField classified." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a Registration GUI page which consists of an Email, Username, and Password, along with a Submit button at the bottom. They are TextField classified." />
+    <MESSAGE value="organized resources folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="organized resources folder" />
   </component>
 </project>
