@@ -12,5 +12,5 @@ module com.example.ramfitnesscsc325 {
     opens dao;
     exports dao;
     opens model;
-    exports model;
+
 }

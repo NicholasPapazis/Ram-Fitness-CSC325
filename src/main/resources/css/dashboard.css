@@ -18,7 +18,7 @@
 
 .workoutCats {
     -fx-background-radius: 15; /* Adjust the radius as needed */
-    -fx-clip: rounded-corners(15); /* Clips the corners */
+
 }
 
 #exercisePane {

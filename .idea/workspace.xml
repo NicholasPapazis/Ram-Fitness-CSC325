@@ -4,47 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="organized resource folder">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/airWave1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/bed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/fireWhite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/fsclogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/splashscreen.fxml" afterDir="false" />
+    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="Added login controller">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/SplashScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/SpalshScreenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/airWave 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/splashscreen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/bed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/buildMuscle.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/buildMuscle.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/buildMuscle.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/buildMuscle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/calisthenics.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/calisthenics.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/chart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/diet.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/diet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/fireWhite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/gear.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/gear.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/goals.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/goals.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/help.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/help.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/image 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/image 2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/logout.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/logout.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/loseFat.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/loseFat.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/party-popper.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/party-popper.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/powerLifting.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/powerLifting.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/profile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/ramFitLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/ramFitLogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/schedule.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/schedule.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/streakFilled.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/streakFilled.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/ton.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/ton.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/workout.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/workout.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/workoutWhite.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/workoutWhite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/views/Login_GUI.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/views/dashboard-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/dashboard-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/views/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/views/login-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/views/register-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/register-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/views/registergui.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/registergui.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/views/splashscreen.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,12 +19,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Nicholas Papazis &lt;nicholasepapazis@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="5-reduce-fat" />
@@ -77,12 +43,22 @@
     &quot;assignee&quot;: &quot;NicholasPapazis&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/NicholasPapazis/ram-fitness-csc325.git&quot;,
-    &quot;accountId&quot;: &quot;7bd9b400-8a8e-4199-aa68-de9c1ac877ac&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/NicholasPapazis/ram-fitness-csc325.git",
+    "accountId": "14d2fd84-2954-47f7-aeb6-569664526d44"
+  },
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
+    },
+    "owner": "NicholasPapazis",
+    "repository": "ram-fitness-csc325"
   }
-}</component>
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -105,9 +81,9 @@
     "Application.MainApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "splashScreen",
+    "git-widget-placeholder": "#37 on loginController",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/nicholas/IdeaProjects/ram-fitness-csc325-11-2/src/main/resources/images",
+    "last_opened_file_path": "/home/nicholas/IdeaProjects/ram-fitness-csc325-11-2",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -138,8 +114,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.387" />
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.387" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
       </set>
     </attachedChunks>
   </component>
@@ -158,6 +134,8 @@
       <workItem from="1730738207909" duration="4378000" />
       <workItem from="1730762178641" duration="148000" />
       <workItem from="1731031534952" duration="3050000" />
+      <workItem from="1731089521843" duration="13701000" />
+      <workItem from="1731111002431" duration="1869000" />
     </task>
     <task id="LOCAL-00001" summary="created blank calisthenics fxml page">
       <option name="closed" value="true" />
@@ -199,7 +177,31 @@
       <option name="project" value="LOCAL" />
       <updated>1731032153333</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added splashscreen">
+      <option name="closed" value="true" />
+      <created>1731088059836</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731088059836</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added login controller">
+      <option name="closed" value="true" />
+      <created>1731111234698</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731111234698</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added login controller">
+      <option name="closed" value="true" />
+      <created>1731111245064</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731111245064</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +212,9 @@
     <MESSAGE value="Created a Registration GUI page which consists of an Email, Username, and Password, along with a Submit button at the bottom. They are TextField classified." />
     <MESSAGE value="organized resources folder" />
     <MESSAGE value="organized resource folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="organized resource folder" />
+    <MESSAGE value="added splashscreen" />
+    <MESSAGE value="edited splash screen" />
+    <MESSAGE value="Added login controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added login controller" />
   </component>
 </project>
