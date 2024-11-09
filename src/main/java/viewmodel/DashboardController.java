@@ -6,16 +6,16 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.text.Text;
+import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
-public class SignUpController {
+public class DashboardController {
 
     @FXML
-    private Text logInLink;
+    private Pane logoutPane;
 
-    // changes scene to show log in page
-    public void logIn(MouseEvent event) {
+    // switches to login.fxml page
+    public void logOut(MouseEvent event) {
         try {
             Parent root = FXMLLoader.load(getClass().getResource("/view/login.fxml"));
             Scene scene = new Scene(root, 900, 600);

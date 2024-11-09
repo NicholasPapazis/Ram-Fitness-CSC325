@@ -48,7 +48,7 @@ public class MainApplication extends Application {
             Parent newRoot = FXMLLoader.load(getClass().getResource("/view/login.fxml").toURI().toURL());
             Scene currentScene = primaryStage.getScene();
             Parent currentRoot = currentScene.getRoot();
-            currentScene.getStylesheets().add(getClass().getResource("/css/login-view.css").toExternalForm());
+            currentScene.getStylesheets().add(getClass().getResource("/css/login.css").toExternalForm());
             FadeTransition fadeOut = new FadeTransition(Duration.seconds(1), currentRoot);
             fadeOut.setFromValue(1);
             fadeOut.setToValue(.25);

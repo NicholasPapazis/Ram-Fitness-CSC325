@@ -5,46 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="organized resource folder">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/airWave1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/bed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/fireWhite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/fsclogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/splashscreen.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/SplashScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/SpalshScreenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/airWave 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/splashscreen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/bed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/buildMuscle.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/buildMuscle.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/buildMuscle.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/buildMuscle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/calisthenics.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/calisthenics.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/chart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/diet.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/diet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/fireWhite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/gear.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/gear.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/goals.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/goals.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/help.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/help.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/image 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/image 2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/logout.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/logout.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/loseFat.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/loseFat.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/party-popper.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/party-popper.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/powerLifting.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/powerLifting.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/profile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/ramFitLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/ramFitLogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/schedule.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/schedule.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/streakFilled.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/streakFilled.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/ton.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/ton.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/workout.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/workout.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/accessories/workoutWhite.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/workoutWhite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/views/Login_GUI.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/views/dashboard-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/dashboard-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/views/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/views/login-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/views/register-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/register-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/views/registergui.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/registergui.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/views/splashscreen.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/DB_GUI_Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/DashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/SignUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/SignUpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/css/dashboard-view.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/css/login-view.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/css/register-view.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/signUp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/dashboard-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/dashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/register-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/signUp.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/registergui.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/splashscreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/splashscreen.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +81,7 @@
     "Application.MainApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "splashScreen",
+    "git-widget-placeholder": "linkFilesTogether",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/nicholas/IdeaProjects/ram-fitness-csc325-11-2/src/main/resources/images",
     "list.type.of.created.stylesheet": "CSS",
@@ -134,6 +110,19 @@
       <recent name="C:\Users\NICHOLAS\IdeaProjects\csc311advanced-programming\ram-fitness-csc32511-4-2\src\main\resources\com\example\ramfitnesscsc325" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
