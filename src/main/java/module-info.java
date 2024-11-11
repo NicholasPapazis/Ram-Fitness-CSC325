@@ -1,6 +1,7 @@
 module com.example.ramfitnesscsc325 {
     requires javafx.controls;
     requires javafx.fxml;
+    requires javafx.graphics;
 
 
     /*opens com.example.ramfitnesscsc325 to javafx.fxml;
