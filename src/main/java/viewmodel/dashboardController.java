@@ -9,7 +9,7 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
-public class dashboardController {
+public class DashboardController {
 
     @FXML
     private Pane logoutPane;
