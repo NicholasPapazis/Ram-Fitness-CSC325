@@ -7,7 +7,7 @@
 <?import javafx.scene.text.Text?>
 
 
-<Pane fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" stylesheets="@../css/splashscreen.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+<Pane fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" stylesheets="@../css/splashscreen.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewmodel.SpalshScreenController">
    <children>
       <Pane fx:id="imgBack" layoutX="264.0" layoutY="62.0" prefHeight="375.0" prefWidth="375.0" />
       <ImageView fitHeight="300.0" fitWidth="300.0" layoutX="300.0" layoutY="97.0" pickOnBounds="true" preserveRatio="true">

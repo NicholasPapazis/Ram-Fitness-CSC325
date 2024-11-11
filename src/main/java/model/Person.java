@@ -26,7 +26,7 @@ public class Person {
 
     // Constructor
     public Person(String firstName, String lastName, String email, String username, String password, int exerciseTarget,
-            int calorieTarget, int weightTarget, int sleepTarget) {
+                  int calorieTarget, int weightTarget, int sleepTarget) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
