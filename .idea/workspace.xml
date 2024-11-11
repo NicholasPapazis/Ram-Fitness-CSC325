@@ -6,19 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="added splashscreen">
       <change afterPath="$PROJECT_DIR$/src/main/java/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/viewmodel/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/viewmodel/SignUpController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/DB_GUI_Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/dashboardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/SignUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/SignUpController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/css/dashboard-view.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/dashboard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/css/login-view.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/css/register-view.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/signUp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/dashboard-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/dashboard.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/register-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/signUp.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/registergui.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +44,7 @@
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/NicholasPapazis/ram-fitness-csc325.git",
-    "accountId": "318edb9f-b0fe-4b8f-860a-6dd2bf54d342"
+    "accountId": "7bd9b400-8a8e-4199-aa68-de9c1ac877ac"
   }
 }]]></component>
   <component name="MavenImportPreferences">
@@ -73,27 +63,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HelloApplication.executor": "Run",
-    "Application.MainApplication.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/nicholas/IdeaProjects/ram-fitness-csc325-11-2",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/nicholas/IdeaProjects/ram-fitness-csc325-11-2&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/images" />
@@ -102,18 +92,31 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\NICHOLAS\IdeaProjects\csc325software-engineering\ram-fitness-csc325\src\main\java\viewmodel" />
+      <recent name="C:\Users\NICHOLAS\IdeaProjects\csc325software-engineering\ram-fitness-csc325\src\main\java\model" />
       <recent name="C:\Users\NICHOLAS\IdeaProjects\csc311advanced-programming\ram-fitness-csc32511-4-2\src\main\resources\com\example\ramfitnesscsc325\views" />
       <recent name="C:\Users\NICHOLAS\IdeaProjects\csc311advanced-programming\ram-fitness-csc32511-4-2\src\main\resources\com\example\ramfitnesscsc325\css" />
       <recent name="C:\Users\NICHOLAS\IdeaProjects\csc311advanced-programming\ram-fitness-csc32511-4-2\src\main\resources\com\example\ramfitnesscsc325\iconsAndImages" />
-      <recent name="C:\Users\NICHOLAS\IdeaProjects\csc311advanced-programming\ram-fitness-csc32511-4-2\src\main\resources\com\example\ramfitnesscsc325" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.387" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.387" />
       </set>
     </attachedChunks>
   </component>
@@ -133,6 +136,7 @@
       <workItem from="1730762178641" duration="148000" />
       <workItem from="1731031534952" duration="3050000" />
       <workItem from="1731089521843" duration="13701000" />
+      <workItem from="1731114997209" duration="1155000" />
     </task>
     <task id="LOCAL-00001" summary="created blank calisthenics fxml page">
       <option name="closed" value="true" />
