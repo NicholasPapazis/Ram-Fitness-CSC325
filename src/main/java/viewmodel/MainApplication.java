@@ -22,7 +22,7 @@ public class MainApplication extends Application {
     }
 
     public void start(Stage primaryStage) {
-        Image icon = new Image(getClass().getResourceAsStream("/images/goals.png"));
+        Image icon = new Image(getClass().getResourceAsStream("/images/ramFitLogo.png"));
         this.primaryStage = primaryStage;
         this.primaryStage.setResizable(false);
         primaryStage.getIcons().add(icon);
