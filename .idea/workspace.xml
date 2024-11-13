@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="created FirestoreContext.java and added key.json to gitignore">
+    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="added model.txt">
+      <change afterPath="$PROJECT_DIR$/src/main/java/viewmodel/AccessDataViewModel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +134,7 @@
       <workItem from="1730738207909" duration="4378000" />
       <workItem from="1730762178641" duration="148000" />
       <workItem from="1731031534952" duration="3050000" />
-      <workItem from="1731454920720" duration="2496000" />
+      <workItem from="1731454920720" duration="3598000" />
     </task>
     <task id="LOCAL-00001" summary="created blank calisthenics fxml page">
       <option name="closed" value="true" />
@@ -183,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731457006738</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added model.txt">
+      <option name="closed" value="true" />
+      <created>1731457926545</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731457926545</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +227,7 @@
     <MESSAGE value="organized resources folder" />
     <MESSAGE value="organized resource folder" />
     <MESSAGE value="created FirestoreContext.java and added key.json to gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="created FirestoreContext.java and added key.json to gitignore" />
+    <MESSAGE value="added model.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="added model.txt" />
   </component>
 </project>
