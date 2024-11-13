@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="created FirestoreContext.java and added key.json to gitignore">
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/FirestoreContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +83,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\NICHOLAS\IdeaProjects\csc325software-engineering\ram-fitness-csc32511\11\ram-fitness-csc325TwelveNightNov\src\main\resources\files" />
       <recent name="$PROJECT_DIR$/src/main/resources/images" />
       <recent name="C:\Users\NICHOLAS\IdeaProjects\csc311advanced-programming\ram-fitness-csc32511-4-2\src\main\resources" />
       <recent name="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325" />
@@ -136,7 +133,7 @@
       <workItem from="1730738207909" duration="4378000" />
       <workItem from="1730762178641" duration="148000" />
       <workItem from="1731031534952" duration="3050000" />
-      <workItem from="1731454920720" duration="1709000" />
+      <workItem from="1731454920720" duration="2496000" />
     </task>
     <task id="LOCAL-00001" summary="created blank calisthenics fxml page">
       <option name="closed" value="true" />
@@ -178,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731032153333</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="created FirestoreContext.java and added key.json to gitignore">
+      <option name="closed" value="true" />
+      <created>1731457006738</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731457006738</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
