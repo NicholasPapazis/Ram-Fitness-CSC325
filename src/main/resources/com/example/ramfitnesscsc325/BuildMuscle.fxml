@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="your.package.ControllerClass">
+    <!-- Top Navigation Bar -->
+    <top>
+        <HBox alignment="CENTER_LEFT" spacing="20" styleClass="top-bar">
+            <ImageView fitHeight="50" fitWidth="50">
+                <image>
+                    <Image url="@path/to/logo.png"/>
+                </image>
+            </ImageView>
+            <Label text="Ram Fitness" styleClass="app-title"/>
+            <Button text="Home"/>
+            <Button text="Build Muscle"/>
+            <Button text="Reduce Fat"/>
+            <Button text="Powerlifting"/>
+            <Button text="Calisthenics"/>
+            <Button graphicTextGap="10" styleClass="profile-icon"/>
+        </HBox>
+    </top>
+
+    <!-- Main Content -->
+    <center>
+        <VBox alignment="CENTER" spacing="20" styleClass="content-section" padding="20">
+            <!-- Title -->
+            <Label text="Tips For Building Muscles" styleClass="page-title"/>
+
+            <!-- Training Section -->
+            <VBox alignment="CENTER" spacing="10" styleClass="section">
+                <Label text="1. Training:" styleClass="section-title"/>
+                <TextArea editable="false" wrapText="true" styleClass="section-text">
+                    Focus on Compound Exercises: Compound exercises like squats, deadlifts, bench presses, and overhead presses engage multiple muscle groups simultaneously, leading to greater overall muscle growth and strength development.
+                    ...
+                </TextArea>
+                <ImageView fitWidth="400" preserveRatio="true">
+                    <image>
+                        <Image url="@path/to/training-image.png"/>
+                    </image>
+                </ImageView>
+            </VBox>
+
+            <!-- Nutrition Section -->
+            <VBox alignment="CENTER" spacing="10" styleClass="section">
+                <Label text="2. Nutrition:" styleClass="section-title"/>
+                <TextArea editable="false" wrapText="true" styleClass="section-text">
+                    Calorie Surplus: To build muscle, you need to consume more calories than your body burns. Aim for a moderate calorie surplus of 250-500 calories per day.
+                    ...
+                </TextArea>
+                <ImageView fitWidth="400" preserveRatio="true">
+                    <image>
+                        <Image url="@path/to/nutrition-image.png"/>
+                    </image>
+                </ImageView>
+            </VBox>
+
+            <!-- Recovery Section -->
+            <VBox alignment="CENTER" spacing="10" styleClass="section">
+                <Label text="3. Recovery:" styleClass="section-title"/>
+                <TextArea editable="false" wrapText="true" styleClass="section-text">
+                    Prioritize Sleep: Aim for 7-9 hours of quality sleep each night. Sleep is crucial for muscle repair and growth hormone production.
+                    ...
+                </TextArea>
+                <ImageView fitWidth="400" preserveRatio="true">
+                    <image>
+                        <Image url="@path/to/recovery-image.png"/>
+                    </image>
+                </ImageView>
+            </VBox>
+        </VBox>
+    </center>
+</BorderPane>
