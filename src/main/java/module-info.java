@@ -2,6 +2,9 @@ module com.example.ramfitnesscsc325 {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.graphics;
+    requires google.cloud.firestore;
+    requires firebase.admin;
+    requires com.google.auth.oauth2;
 
 
     /*opens com.example.ramfitnesscsc325 to javafx.fxml;
