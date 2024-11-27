@@ -10,7 +10,7 @@ import java.io.IOException;
 
 public class FirestoreContext {
 
-    public Firestore firebase() {
+  /*  public Firestore firebase() {
         try {
             FirebaseOptions options = new FirebaseOptions.Builder()
                     .setCredentials(GoogleCredentials.fromStream(getClass().getResourceAsStream("/files/key.json")))
@@ -22,6 +22,6 @@ public class FirestoreContext {
         }
         return FirestoreClient.getFirestore();
     }
-
+*/
 
 }
