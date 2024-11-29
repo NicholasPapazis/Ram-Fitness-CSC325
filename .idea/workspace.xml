@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="rebased with main">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="updated side bar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/login_GUI.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/FirestoreContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/FirestoreContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/MainApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,9 +71,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "updateLoginLogic",
+    "git-widget-placeholder": "55-firebase-authentication",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/nicholas/IdeaProjects/ram-fitness-csc325-11-2/src/main/resources/images",
+    "last_opened_file_path": "/home/nicholas/IdeaProjects/ram-fitness-csc325Nov29/src/main/resources/files",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -88,6 +88,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/files" />
       <recent name="$PROJECT_DIR$/src/main/resources/images" />
       <recent name="C:\Users\NICHOLAS\IdeaProjects\csc311advanced-programming\ram-fitness-csc32511-4-2\src\main\resources" />
       <recent name="$PROJECT_DIR$/src/main/resources/com/example/ramfitnesscsc325" />
@@ -135,7 +136,7 @@
       <workItem from="1732750737237" duration="392000" />
       <workItem from="1732751193622" duration="714000" />
       <workItem from="1732751928668" duration="1469000" />
-      <workItem from="1732884416277" duration="462000" />
+      <workItem from="1732884416277" duration="4806000" />
     </task>
     <task id="LOCAL-00001" summary="created blank calisthenics fxml page">
       <option name="closed" value="true" />
@@ -209,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732750826097</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="updated side bar">
+      <option name="closed" value="true" />
+      <created>1732888708433</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1732888708433</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +241,8 @@
     <MESSAGE value="organized resources folder" />
     <MESSAGE value="organized resource folder" />
     <MESSAGE value="rebased with main" />
-    <option name="LAST_COMMIT_MESSAGE" value="rebased with main" />
+    <MESSAGE value="updated side bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated side bar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

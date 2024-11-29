@@ -1,5 +1,7 @@
 package viewmodel;
 
+import com.google.cloud.firestore.Firestore;
+import com.google.firebase.auth.FirebaseAuth;
 import javafx.animation.FadeTransition;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -8,12 +10,20 @@ import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
 import javafx.util.Duration;
+import model.FirestoreContext;
 
 public class MainApplication extends Application {
 
     private static Scene scene;
     //private static DbConnectivityClass cnUtil;
     private Stage primaryStage;
+
+
+    public static Firestore fstore;
+    public static FirebaseAuth fauth;
+    private final FirestoreContext contxtFirebase = new FirestoreContext();
+
+
 
     public static void main(String[] args) {
         //cnUtil = new DbConnectivityClass();
@@ -32,6 +42,7 @@ public class MainApplication extends Application {
 
     private void showScene1() {
         try {
+            initializeFB();
             Parent root = FXMLLoader.load(getClass().getResource("/view/splashscreen.fxml"));
             Scene scene = new Scene(root, 900, 600);
             scene.getStylesheets().add(getClass().getResource("/css/splashscreen.css").toExternalForm());
@@ -62,6 +73,11 @@ public class MainApplication extends Application {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    public void initializeFB(){
+        fstore = contxtFirebase.firebase();
+        fauth = FirebaseAuth.getInstance();
     }
 
 
