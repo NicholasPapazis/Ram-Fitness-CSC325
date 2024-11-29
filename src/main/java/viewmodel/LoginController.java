@@ -100,17 +100,15 @@ public class LoginController {
                                 System.out.println("user found");
                                 try {
                                     user = FirebaseAuth.getInstance().getUserByEmail(userEmail);
+                                    
                                     System.out.println("The user is: " + user);
                                     goToDashboard();
+
                                 } catch (FirebaseAuthException e) {
                                     throw new RuntimeException(e);
                                 }
                             }
-                            /*System.out.println("User Data: ");
-                            System.out.println("Email: " + person.getEmail());
-                            System.out.println("Username: " + person.getUsername());
-                            System.out.println("Password: " + person.getPassword());  // Avoid printing real passwords in production
-                            System.out.println("------------------------");*/
+
                         });
             }
         } catch (Exception e) {

@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="added logic to sign in the user.  After sign in, the user gets brought to the dashboard page.">
+    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="got user that login in on dashboard">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/DashboardController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/dashboard.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +135,7 @@
       <workItem from="1732750737237" duration="392000" />
       <workItem from="1732751193622" duration="714000" />
       <workItem from="1732751928668" duration="1469000" />
-      <workItem from="1732884416277" duration="16761000" />
+      <workItem from="1732884416277" duration="22935000" />
     </task>
     <task id="LOCAL-00001" summary="created blank calisthenics fxml page">
       <option name="closed" value="true" />
@@ -239,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732903551932</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="got user that login in on dashboard">
+      <option name="closed" value="true" />
+      <created>1732903937337</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1732903937337</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +276,8 @@
     <MESSAGE value="initialized firebase" />
     <MESSAGE value="added logic to sign up a user" />
     <MESSAGE value="added logic to sign in the user.  After sign in, the user gets brought to the dashboard page." />
-    <option name="LAST_COMMIT_MESSAGE" value="added logic to sign in the user.  After sign in, the user gets brought to the dashboard page." />
+    <MESSAGE value="got user that login in on dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="got user that login in on dashboard" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

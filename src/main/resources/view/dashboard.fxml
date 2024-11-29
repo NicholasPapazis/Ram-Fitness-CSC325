@@ -154,7 +154,7 @@
                   <Font name="System Bold" size="15.0" />
                </font>
             </Text>
-            <Text fill="WHITE" layoutX="14.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="30">
+            <Text fx:id="exerciseCurrentText" fill="WHITE" layoutX="14.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="30">
                <font>
                   <Font name="System Bold" size="30.0" />
                </font>
@@ -174,7 +174,7 @@
                   <Font name="System Bold" size="15.0" />
                </font>
             </Text>
-            <Text fill="WHITE" layoutX="15.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1200" textAlignment="RIGHT" wrappingWidth="70.3499984741211">
+            <Text fx:id="caloriesCurrentText" fill="WHITE" layoutX="15.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1200" textAlignment="RIGHT" wrappingWidth="70.3499984741211">
                <font>
                   <Font name="System Bold" size="30.0" />
                </font>
@@ -194,7 +194,7 @@
                   <Font name="System Bold" size="15.0" />
                </font>
             </Text>
-            <Text fill="WHITE" layoutX="15.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="30">
+            <Text fx:id="weightLiftedCurrentText" fill="WHITE" layoutX="15.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="30">
                <font>
                   <Font name="System Bold" size="30.0" />
                </font>
@@ -215,7 +215,7 @@
                   <Font name="System Bold" size="15.0" />
                </font>
             </Text>
-            <Text fill="WHITE" layoutX="17.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="30">
+            <Text fx:id="sleepCurrentText" fill="WHITE" layoutX="17.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="30">
                <font>
                   <Font name="System Bold" size="30.0" />
                </font>
