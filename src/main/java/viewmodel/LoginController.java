@@ -40,8 +40,11 @@ public class LoginController {
     @FXML
     private TextField passwordField;
 
-    UserRecord user;
-
+    public static UserRecord user;
+    public static UserRecord sendUserRecord()
+    {
+        return user;
+    }
 
     public void signUp(MouseEvent event) {
 

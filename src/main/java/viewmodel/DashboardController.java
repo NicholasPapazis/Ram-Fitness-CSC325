@@ -1,5 +1,6 @@
 package viewmodel;
 
+import com.google.firebase.auth.UserRecord;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
@@ -14,6 +15,12 @@ public class DashboardController {
     @FXML
     private Pane logoutPane;
 
+
+    public void initialize() {
+        updateDashboardView();
+    }
+
+
     // switches to login.fxml page
     public void logOut(MouseEvent event) {
         try {
@@ -27,5 +34,12 @@ public class DashboardController {
             e.printStackTrace();
         }
     }
+
+
+    public void updateDashboardView() {
+        UserRecord user = LoginController.sendUserRecord();
+        System.out.println("Dashboard user: " + user);
+    }
+
 
 }
