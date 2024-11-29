@@ -36,8 +36,8 @@ public class LoginController {
         }
     }
 
-    public void dashboard(ActionEvent event) {
-        if (validateUsername(usernameField.getText()) && validatePassword(passwordField.getText())) {
+    public void login(ActionEvent event) {
+        //if (validateUsername(usernameField.getText()) && validatePassword(passwordField.getText())) {
             try {
                 Parent root = FXMLLoader.load(getClass().getResource("/view/dashboard.fxml"));
                 Scene scene = new Scene(root, 900, 600);
@@ -48,9 +48,9 @@ public class LoginController {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-        } else {
-            showAlert("Invalid credentials", "Please check your username and password and try again.");
-        }
+        //} else {
+       //     showAlert("Invalid credentials", "Please check your username and password and try again.");
+        //}
     }
 
 

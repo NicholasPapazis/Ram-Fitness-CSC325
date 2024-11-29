@@ -73,28 +73,15 @@
                         </ImageView>
                      </children>
                   </Pane>
-                  <Pane layoutY="162.0" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
+                  <Pane layoutY="161.0" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
                      <opaqueInsets>
                         <Insets />
                      </opaqueInsets>
                      <children>
-                        <Text fill="#616161" layoutX="48.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="My Schedule" />
-                        <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="23.0" layoutY="10.0">
-                           <image>
-                              <Image url="@../images/schedule.png" />
-                           </image>
-                        </ImageView>
-                     </children>
-                  </Pane>
-                  <Pane layoutY="202.0" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
-                     <opaqueInsets>
-                        <Insets />
-                     </opaqueInsets>
-                     <children>
-                        <Text fill="#616161" layoutX="48.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Progress" />
+                        <Text fill="#616161" layoutX="48.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Settings" />
                         <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="23.0" layoutY="9.0">
                            <image>
-                              <Image url="@../images/chart.png" />
+                              <Image url="@../images/gear.png" />
                            </image>
                         </ImageView>
                      </children>
@@ -137,21 +124,16 @@
                   <Image url="@../images/party-popper.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="520.0" layoutY="16.0">
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="565.0" layoutY="15.0">
                <image>
                   <Image url="@../images/streakFilled.png" />
                </image>
             </ImageView>
-            <Text fill="#ff5900" layoutX="545.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="24">
+            <Text fill="#ff5900" layoutX="590.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="24">
                <font>
                   <Font name="System Bold" size="16.0" />
                </font>
             </Text>
-            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="593.0" layoutY="17.0">
-               <image>
-                  <Image url="@../images/gear.png" />
-               </image>
-            </ImageView>
             <ImageView fitHeight="45.0" fitWidth="45.0" layoutX="634.0" layoutY="6.0">
                <image>
                   <Image url="@../images/profile.png" />
