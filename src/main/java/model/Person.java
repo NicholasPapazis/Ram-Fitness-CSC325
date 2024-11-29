@@ -3,8 +3,7 @@ package model;
 public class Person {
 
     // user info
-    private String firstName;
-    private String lastName;
+
     private String email;
     private String username;
     private String password;
@@ -24,11 +23,14 @@ public class Person {
     // streak counter
     private int goalStreak;
 
+    //default constructor
+    public Person() {
+
+    }
+
     // Constructor
-    public Person(String firstName, String lastName, String email, String username, String password, int exerciseTarget,
+    public Person(String email, String username, String password, int exerciseTarget,
                   int calorieTarget, int weightTarget, int sleepTarget) {
-        this.firstName = firstName;
-        this.lastName = lastName;
         this.email = email;
         this.username = username;
         this.password = password;
@@ -44,22 +46,6 @@ public class Person {
     }
 
     // getters and setters
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
     public String getEmail() {
         return email;
     }

@@ -1,5 +1,8 @@
 package viewmodel;
 
+import com.google.api.core.ApiFuture;
+import com.google.cloud.firestore.Firestore;
+import com.google.cloud.firestore.WriteResult;
 import com.google.firebase.auth.FirebaseAuthException;
 import com.google.firebase.auth.UserRecord;
 import javafx.event.ActionEvent;
@@ -15,9 +18,11 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import model.FirestoreContext;
+import model.Person;
 import service.UserSession;
 
 import java.io.IOException;
+import java.util.concurrent.ExecutionException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.regex.Matcher;
@@ -81,9 +86,6 @@ public class SignUpController {
 
 
 
-
-
-
     // Changes scene to show log in page
     public void logIn(MouseEvent event) {
         try {
@@ -99,15 +101,9 @@ public class SignUpController {
     }
 
 
-    public boolean signUp(ActionEvent actionEvent) throws IOException {
+    /*public boolean signUp(ActionEvent actionEvent) throws IOException {
 
         UserRecord.CreateRequest request = new UserRecord.CreateRequest()
-                /*.setEmail("user@example.com")
-                .setEmailVerified(false)
-                .setPassword("secretPassword")
-                .setPhoneNumber("+11234567890")
-                .setDisplayName("John Doe")
-                .setDisabled(false);*/
                 .setEmail(emailField.getText())
                 .setEmailVerified(false)
                 .setPassword(passwordField.getText())
@@ -132,8 +128,7 @@ public class SignUpController {
         }
 
 
-    }
-
+    }*/
 
 
     // Validation for email (standard email format)

@@ -14,6 +14,7 @@ module com.example.ramfitnesscsc325 {
     requires com.google.auth;
     requires java.desktop;
     requires java.mail;
+    requires jdk.compiler;
 
 
     /*opens com.example.ramfitnesscsc325 to javafx.fxml;

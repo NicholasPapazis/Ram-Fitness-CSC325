@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="initialized firebase">
+    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="added logic to sign up a user">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/SignUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/SignUpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/login.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +44,12 @@
     &quot;assignee&quot;: &quot;NicholasPapazis&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/NicholasPapazis/ram-fitness-csc325.git",
-    "accountId": "318edb9f-b0fe-4b8f-860a-6dd2bf54d342"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/NicholasPapazis/ram-fitness-csc325.git&quot;,
+    &quot;accountId&quot;: &quot;318edb9f-b0fe-4b8f-860a-6dd2bf54d342&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -132,7 +138,7 @@
       <workItem from="1732750737237" duration="392000" />
       <workItem from="1732751193622" duration="714000" />
       <workItem from="1732751928668" duration="1469000" />
-      <workItem from="1732884416277" duration="6076000" />
+      <workItem from="1732884416277" duration="16325000" />
     </task>
     <task id="LOCAL-00001" summary="created blank calisthenics fxml page">
       <option name="closed" value="true" />
@@ -222,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732891444336</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added logic to sign up a user">
+      <option name="closed" value="true" />
+      <created>1732892673705</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1732892673705</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,14 +261,15 @@
     <MESSAGE value="rebased with main" />
     <MESSAGE value="updated side bar" />
     <MESSAGE value="initialized firebase" />
-    <option name="LAST_COMMIT_MESSAGE" value="initialized firebase" />
+    <MESSAGE value="added logic to sign up a user" />
+    <option name="LAST_COMMIT_MESSAGE" value="added logic to sign up a user" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/viewmodel/SignUpController.java</url>
-          <line>169</line>
+          <line>164</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
