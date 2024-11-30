@@ -32,6 +32,17 @@ public class DashboardController {
     @FXML
     private Text sleepCurrentText;
 
+    @FXML
+    private Text exerciseDailyGoal;
+    @FXML
+    private Text calorieDailyGoal;
+    @FXML
+    private Text weightDailyGoal;
+    @FXML
+    private Text sleepDailyGoal;
+
+
+
 
     String documentId;
     Document doc;
@@ -95,10 +106,17 @@ public class DashboardController {
 
         //update info logic here
         System.out.println("here is the document info: " + documentId);
-        exerciseCurrentText.setText(String.valueOf(p.getExerciseTarget()));
-        caloriesCurrentText.setText(String.valueOf(p.getCalorieTarget()));
-        weightLiftedCurrentText.setText(String.valueOf(p.getWeightTarget()));
-        sleepCurrentText.setText(String.valueOf(p.getSleepTarget()));
+        exerciseDailyGoal.setText(String.valueOf(p.getExerciseTarget()));
+        calorieDailyGoal.setText(String.valueOf(p.getCalorieTarget()));
+        weightDailyGoal.setText(String.valueOf(p.getWeightTarget()));
+        sleepDailyGoal.setText(String.valueOf(p.getSleepTarget()));
+
+        exerciseCurrentText.setText(String.valueOf(p.getDailyExerciseTime()));
+        caloriesCurrentText.setText(String.valueOf(p.getDailyCalorieIntake()));
+        weightLiftedCurrentText.setText(String.valueOf(p.getDailyWeightLifted()));
+        sleepCurrentText.setText(String.valueOf(p.getSleepDuration()));
+
+
 
 
 

@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="got user that login in on dashboard">
+    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="added users targets to dashboard">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/DashboardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/view/dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/dashboard.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,28 +62,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HelloApplication.executor": "Run",
-    "Application.MainApplication.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "55-firebase-authentication",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/nicholas/IdeaProjects/ram-fitness-csc325Nov29/src/main/resources/files",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;55-firebase-authentication&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/nicholas/IdeaProjects/ram-fitness-csc325Nov29/src/main/resources/files&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/files" />
@@ -135,7 +134,7 @@
       <workItem from="1732750737237" duration="392000" />
       <workItem from="1732751193622" duration="714000" />
       <workItem from="1732751928668" duration="1469000" />
-      <workItem from="1732884416277" duration="22935000" />
+      <workItem from="1732884416277" duration="25171000" />
     </task>
     <task id="LOCAL-00001" summary="created blank calisthenics fxml page">
       <option name="closed" value="true" />
@@ -249,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732903937337</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added users targets to dashboard">
+      <option name="closed" value="true" />
+      <created>1732918913894</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1732918913894</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +284,8 @@
     <MESSAGE value="added logic to sign up a user" />
     <MESSAGE value="added logic to sign in the user.  After sign in, the user gets brought to the dashboard page." />
     <MESSAGE value="got user that login in on dashboard" />
-    <option name="LAST_COMMIT_MESSAGE" value="got user that login in on dashboard" />
+    <MESSAGE value="added users targets to dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="added users targets to dashboard" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
