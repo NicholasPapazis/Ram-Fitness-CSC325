@@ -36,7 +36,7 @@
                   <Font name="System Bold" size="28.0" />
                </font>
             </Text>
-            <TextField fx:id="usernameField" layoutX="55.0" layoutY="172.0" prefHeight="40.0" prefWidth="325.0" promptText="Username" styleClass="registerInputFields" />
+            <TextField fx:id="emailField" layoutX="55.0" layoutY="172.0" prefHeight="40.0" prefWidth="325.0" promptText="Username" styleClass="registerInputFields" />
             <TextField fx:id="passwordField" layoutX="55.0" layoutY="232.0" prefHeight="40.0" prefWidth="325.0" promptText="Password" styleClass="registerInputFields" />
             <Button fx:id="registerButton" layoutX="55.0" layoutY="291.0" mnemonicParsing="false" onAction="#login" prefHeight="40.0" prefWidth="325.0" text="Log In" />
             <Text layoutX="56.0" layoutY="353.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Don't have an account?" />

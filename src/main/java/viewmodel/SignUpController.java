@@ -1,5 +1,10 @@
 package viewmodel;
 
+import com.google.api.core.ApiFuture;
+import com.google.cloud.firestore.Firestore;
+import com.google.cloud.firestore.WriteResult;
+import com.google.firebase.auth.FirebaseAuthException;
+import com.google.firebase.auth.UserRecord;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -12,8 +17,14 @@ import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
+import model.FirestoreContext;
+import model.Person;
 import service.UserSession;
 
+import java.io.IOException;
+import java.util.concurrent.ExecutionException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -75,9 +86,6 @@ public class SignUpController {
 
 
 
-
-
-
     // Changes scene to show log in page
     public void logIn(MouseEvent event) {
         try {
@@ -93,21 +101,34 @@ public class SignUpController {
     }
 
 
-    public void signUp(ActionEvent actionEvent) {
+    /*public boolean signUp(ActionEvent actionEvent) throws IOException {
 
+        UserRecord.CreateRequest request = new UserRecord.CreateRequest()
+                .setEmail(emailField.getText())
+                .setEmailVerified(false)
+                .setPassword(passwordField.getText())
+                .setDisplayName(usernameField.getText())
+                .setDisabled(false);
+
+        UserRecord userRecord;
         try {
+            userRecord = MainApplication.fauth.createUser(request);
+            System.out.println("Successfully created new user: " + userRecord.getUid());
             Parent root = FXMLLoader.load(getClass().getResource("/view/login.fxml"));
             Scene scene = new Scene(root, 900, 600);
             scene.getStylesheets().add(getClass().getResource("/css/login.css").toExternalForm());
             Stage window = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
             window.setScene(scene);
             window.show();
-        } catch (Exception e) {
-            e.printStackTrace();
+
+            return true;
+
+        } catch (FirebaseAuthException e) {
+            throw new RuntimeException(e);
         }
 
-    }
 
+    }*/
 
 
     // Validation for email (standard email format)
