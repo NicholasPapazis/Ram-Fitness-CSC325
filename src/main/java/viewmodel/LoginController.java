@@ -34,6 +34,9 @@ public class LoginController {
 
 
     @FXML
+    private Text alertTextLogin;
+
+    @FXML
     private Text alertTextEmail;
     @FXML
     private Text alertTextPassword;
@@ -83,10 +86,12 @@ public class LoginController {
     }
 
 
+
     // Method to list all users' data from Firestore and print it to the console
     public void login() {
         String userEmail = emailField.getText();
         String userPassword = passwordField.getText();
+        boolean userFound = false; //tracks if the user is found
         try {
             // Query Firestore to get all users in the 'users' collection
             ApiFuture<QuerySnapshot> query = FirestoreClient.getFirestore().collection("users").get();
@@ -94,7 +99,7 @@ public class LoginController {
             // Get the query result
             QuerySnapshot querySnapshot = query.get();
 
-            // Check if there are any users
+            // Check if there are any users in the database
             if (querySnapshot.isEmpty()) {
                 System.out.println("No users found in the database.");
             } else {
@@ -118,6 +123,12 @@ public class LoginController {
                             }
 
                         });
+
+                //checks if user credentials were found in database
+                if(!userFound) {
+                    System.out.println("invalid email or password");
+                    alertTextLogin.setText("Invalid email or password");
+                }
             }
         } catch (Exception e) {
             e.printStackTrace();

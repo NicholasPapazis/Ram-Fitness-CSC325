@@ -105,7 +105,7 @@ public class DashboardController {
 
 
         //update info logic here
-        System.out.println("here is the document info: " + documentId);
+        System.out.println("here is the document info: " + documentId); //prints the document where user info is stored for this session
         exerciseDailyGoal.setText(String.valueOf(p.getExerciseTarget()));
         calorieDailyGoal.setText(String.valueOf(p.getCalorieTarget()));
         weightDailyGoal.setText(String.valueOf(p.getWeightTarget()));
