@@ -15,6 +15,7 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
+import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.input.MouseEvent;
@@ -31,8 +32,14 @@ import java.util.Properties;
 
 public class LoginController {
 
+
     @FXML
-    private Text signUpLink;
+    private Text alertTextEmail;
+    @FXML
+    private Text alertTextPassword;
+
+    @FXML
+    private Button signUpLink;
 
     @FXML
     private TextField emailField;
@@ -46,13 +53,14 @@ public class LoginController {
         return user;
     }
 
-    public void signUp(MouseEvent event) {
 
+    // Changes scene to show log in page
+    public void goToSignUpPage() {
         try {
             Parent root = FXMLLoader.load(getClass().getResource("/view/signUp.fxml"));
             Scene scene = new Scene(root, 900, 600);
             scene.getStylesheets().add(getClass().getResource("/css/signUp.css").toExternalForm());
-            Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
+            Stage window = (Stage) (emailField.getScene().getWindow());
             window.setScene(scene);
             window.show();
         } catch (Exception e) {
@@ -100,7 +108,7 @@ public class LoginController {
                                 System.out.println("user found");
                                 try {
                                     user = FirebaseAuth.getInstance().getUserByEmail(userEmail);
-                                    
+
                                     System.out.println("The user is: " + user);
                                     goToDashboard();
 

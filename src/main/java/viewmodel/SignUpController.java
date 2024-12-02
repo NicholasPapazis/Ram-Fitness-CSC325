@@ -1,6 +1,7 @@
 package viewmodel;
 
 import com.google.api.core.ApiFuture;
+import com.google.cloud.firestore.DocumentReference;
 import com.google.cloud.firestore.Firestore;
 import com.google.cloud.firestore.WriteResult;
 import com.google.firebase.auth.FirebaseAuthException;
@@ -22,6 +23,9 @@ import model.Person;
 import service.UserSession;
 
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.UUID;
 import java.util.concurrent.ExecutionException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -86,6 +90,9 @@ public class SignUpController {
 
 
 
+
+
+
     // Changes scene to show log in page
     public void logIn(MouseEvent event) {
         try {
@@ -101,9 +108,17 @@ public class SignUpController {
     }
 
 
-    /*public boolean signUp(ActionEvent actionEvent) throws IOException {
+    public boolean signUp(ActionEvent actionEvent) throws IOException {
+
+        addData();
 
         UserRecord.CreateRequest request = new UserRecord.CreateRequest()
+                /*.setEmail("user@example.com")
+                .setEmailVerified(false)
+                .setPassword("secretPassword")
+                .setPhoneNumber("+11234567890")
+                .setDisplayName("John Doe")
+                .setDisabled(false);*/
                 .setEmail(emailField.getText())
                 .setEmailVerified(false)
                 .setPassword(passwordField.getText())
@@ -128,7 +143,36 @@ public class SignUpController {
         }
 
 
-    }*/
+    }
+
+    public void addData() {
+        //create a document reference with a unique id
+        DocumentReference docRef = MainApplication.fstore.collection("users").document(UUID.randomUUID().toString());
+
+        //prepare the data map with additional fields
+        Map<String, Object> data = new HashMap<>();
+
+        //add the fields to the document
+        data.put("email", emailField.getText());
+        data.put("username", usernameField.getText());
+        data.put("password", passwordField.getText());
+
+        data.put("exerciseTarget", 0);
+        data.put("calorieTarget", 0);
+        data.put("weightTarget", 0);
+        data.put("sleepTarget", 0);
+
+        data.put("dailyExerciseTime", 0);
+        data.put("dailyCalorieIntake", 0);
+        data.put("dailyWeightLifted", 0);
+        data.put("sleepDuration", 0);
+
+        data.put("goalStreak", 0);
+
+        //asynchronously write data
+        ApiFuture<WriteResult> result = docRef.set(data);
+    }
+
 
 
     // Validation for email (standard email format)
