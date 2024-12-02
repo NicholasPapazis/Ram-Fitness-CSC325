@@ -94,12 +94,12 @@ public class SignUpController {
 
 
     // Changes scene to show log in page
-    public void logIn(MouseEvent event) {
+    public void logIn() {
         try {
             Parent root = FXMLLoader.load(getClass().getResource("/view/login.fxml"));
             Scene scene = new Scene(root, 900, 600);
             scene.getStylesheets().add(getClass().getResource("/css/login.css").toExternalForm());
-            Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
+            Stage window = (Stage) (emailField.getScene().getWindow());
             window.setScene(scene);
             window.show();
         } catch (Exception e) {
@@ -235,7 +235,7 @@ public class SignUpController {
 
     // Validation for password (same as LoginController)
     private boolean validatePassword() {
-        final String regex = "^.{2,25}$"; //regular expression
+        final String regex = "^.{6,25}$"; //regular expression
         String userInput = passwordField.getText(); //gets text from input
 
         final Pattern pattern = Pattern.compile(regex, Pattern.MULTILINE);
@@ -253,7 +253,7 @@ public class SignUpController {
             passwordField.setStyle("-fx-border-color: red");
             alertTextPassword.setStyle("-fx-text-fill: red");
             alertTextPassword.setStyle("-fx-font-size: 10px");
-            alertTextPassword.setText("* Password must be 2-25 characters");
+            alertTextPassword.setText("* Password must be 6-25 characters");
 
         } else { //if the field is empty or not focused, then remove styling and alert
             passwordField.setStyle("");
