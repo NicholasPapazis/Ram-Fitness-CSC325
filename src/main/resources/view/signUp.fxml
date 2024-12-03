@@ -44,7 +44,7 @@
             <Text fx:id="alertTextEmail" fill="RED" layoutX="51.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="325.0" />
             <Text fx:id="alertTextUsername" fill="RED" layoutX="51.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="325.0" />
             <Text fx:id="alertTextPassword" fill="RED" layoutX="51.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="325.0" />
-            <Button fx:id="loginLink" layoutX="206.0" layoutY="352.0" mnemonicParsing="false" onAction="#logIn" text="Button" />
+            <Button fx:id="loginLink" layoutX="202.0" layoutY="352.0" mnemonicParsing="false" onAction="#logIn" styleClass="loginSignupLinkBtn" text="Login" />
          </children></Pane>
    </children>
 </Pane>

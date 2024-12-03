@@ -37,3 +37,10 @@
     -fx-font-weight: bold;
     -fx-font-size: 17px;
 }
+
+.loginSignupLinkBtn {
+    -fx-background-color: rgba(68, 187, 141, 0);
+    -fx-text-fill: #44BB8DFF;
+    -fx-font-size: 13px;
+    -fx-cursor: hand;
+}
