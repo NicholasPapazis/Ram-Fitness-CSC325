@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="added alert text to login screen if invalid email or password">
-      <change afterPath="$PROJECT_DIR$/src/main/java/viewmodel/UpdateDataController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/updateData.fxml" afterDir="false" />
+    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="added progress bars to display visual">
+      <change afterPath="$PROJECT_DIR$/src/main/java/viewmodel/BulidMuscle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/viewmodel/Calisthenics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/viewmodel/LoseFat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/viewmodel/Powerlifting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/viewmodel/getStarted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/bulidMuscle.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/calisthenics.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/getStarted.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/loseFat.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/powerlifting.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/DashboardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/css/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/dashboard.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/view/dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/dashboard.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,7 +157,7 @@
       <workItem from="1733176044177" duration="8358000" />
       <workItem from="1733184832229" duration="2004000" />
       <workItem from="1733188225558" duration="12369000" />
-      <workItem from="1733225556925" duration="2162000" />
+      <workItem from="1733225556925" duration="10554000" />
     </task>
     <task id="LOCAL-00001" summary="created blank calisthenics fxml page">
       <option name="closed" value="true" />
@@ -297,7 +303,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733183696275</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="added progress bars to display visual">
+      <option name="closed" value="true" />
+      <created>1733228117762</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1733228117762</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,6 +343,7 @@
     <MESSAGE value="added addData() method and called it in signUp method so that a new document gets added to db when user is signed up" />
     <MESSAGE value="updated regex for password when signing up.  6 characters necessary now." />
     <MESSAGE value="added alert text to login screen if invalid email or password" />
-    <option name="LAST_COMMIT_MESSAGE" value="added alert text to login screen if invalid email or password" />
+    <MESSAGE value="added progress bars to display visual" />
+    <option name="LAST_COMMIT_MESSAGE" value="added progress bars to display visual" />
   </component>
 </project>

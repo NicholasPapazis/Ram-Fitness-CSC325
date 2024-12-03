@@ -17,6 +17,7 @@ import javafx.stage.Stage;
 import model.Person;
 
 import javax.swing.text.Document;
+import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 
@@ -63,6 +64,23 @@ public class DashboardController {
         updateDashboardView();
     }
 
+
+
+    //for text
+    public void goToGetStarted(MouseEvent actionEvent) throws IOException {
+
+        try {
+            Parent root = FXMLLoader.load(getClass().getResource("/view/getStarted.fxml"));
+            Scene scene = new Scene(root, 900, 600);
+            scene.getStylesheets().add(getClass().getResource("/css/dashboard.css").toExternalForm());
+            Stage window = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+            window.setScene(scene);
+            window.show();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+    }
 
     // switches to login.fxml page
     public void logOut(MouseEvent event) {
@@ -171,6 +189,7 @@ public class DashboardController {
     public static String getDocumentId() {
         return documentId;
     }
+
 
 
 }
