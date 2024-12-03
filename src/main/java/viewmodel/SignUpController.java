@@ -1,6 +1,7 @@
 package viewmodel;
 
 import com.google.api.core.ApiFuture;
+import com.google.cloud.firestore.DocumentReference;
 import com.google.cloud.firestore.Firestore;
 import com.google.cloud.firestore.WriteResult;
 import com.google.firebase.auth.FirebaseAuthException;
@@ -22,6 +23,9 @@ import model.Person;
 import service.UserSession;
 
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.UUID;
 import java.util.concurrent.ExecutionException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -86,13 +90,16 @@ public class SignUpController {
 
 
 
+
+
+
     // Changes scene to show log in page
-    public void logIn(MouseEvent event) {
+    public void logIn() {
         try {
             Parent root = FXMLLoader.load(getClass().getResource("/view/login.fxml"));
             Scene scene = new Scene(root, 900, 600);
             scene.getStylesheets().add(getClass().getResource("/css/login.css").toExternalForm());
-            Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
+            Stage window = (Stage) (emailField.getScene().getWindow());
             window.setScene(scene);
             window.show();
         } catch (Exception e) {
@@ -101,9 +108,17 @@ public class SignUpController {
     }
 
 
-    /*public boolean signUp(ActionEvent actionEvent) throws IOException {
+    public boolean signUp(ActionEvent actionEvent) throws IOException {
+
+        addData();
 
         UserRecord.CreateRequest request = new UserRecord.CreateRequest()
+                /*.setEmail("user@example.com")
+                .setEmailVerified(false)
+                .setPassword("secretPassword")
+                .setPhoneNumber("+11234567890")
+                .setDisplayName("John Doe")
+                .setDisabled(false);*/
                 .setEmail(emailField.getText())
                 .setEmailVerified(false)
                 .setPassword(passwordField.getText())
@@ -128,7 +143,36 @@ public class SignUpController {
         }
 
 
-    }*/
+    }
+
+    public void addData() {
+        //create a document reference with a unique id
+        DocumentReference docRef = MainApplication.fstore.collection("users").document(UUID.randomUUID().toString());
+
+        //prepare the data map with additional fields
+        Map<String, Object> data = new HashMap<>();
+
+        //add the fields to the document
+        data.put("email", emailField.getText());
+        data.put("username", usernameField.getText());
+        data.put("password", passwordField.getText());
+
+        data.put("exerciseTarget", 0);
+        data.put("calorieTarget", 0);
+        data.put("weightTarget", 0);
+        data.put("sleepTarget", 0);
+
+        data.put("dailyExerciseTime", 0);
+        data.put("dailyCalorieIntake", 0);
+        data.put("dailyWeightLifted", 0);
+        data.put("sleepDuration", 0);
+
+        data.put("goalStreak", 0);
+
+        //asynchronously write data
+        ApiFuture<WriteResult> result = docRef.set(data);
+    }
+
 
 
     // Validation for email (standard email format)
@@ -191,7 +235,7 @@ public class SignUpController {
 
     // Validation for password (same as LoginController)
     private boolean validatePassword() {
-        final String regex = "^.{2,25}$"; //regular expression
+        final String regex = "^.{6,25}$"; //regular expression
         String userInput = passwordField.getText(); //gets text from input
 
         final Pattern pattern = Pattern.compile(regex, Pattern.MULTILINE);
@@ -209,7 +253,7 @@ public class SignUpController {
             passwordField.setStyle("-fx-border-color: red");
             alertTextPassword.setStyle("-fx-text-fill: red");
             alertTextPassword.setStyle("-fx-font-size: 10px");
-            alertTextPassword.setText("* Password must be 2-25 characters");
+            alertTextPassword.setText("* Password must be 6-25 characters");
 
         } else { //if the field is empty or not focused, then remove styling and alert
             passwordField.setStyle("");

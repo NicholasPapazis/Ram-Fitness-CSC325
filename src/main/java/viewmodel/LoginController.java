@@ -15,6 +15,7 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
+import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.input.MouseEvent;
@@ -31,8 +32,17 @@ import java.util.Properties;
 
 public class LoginController {
 
+
     @FXML
-    private Text signUpLink;
+    private Text alertTextLogin;
+
+    @FXML
+    private Text alertTextEmail;
+    @FXML
+    private Text alertTextPassword;
+
+    @FXML
+    private Button signUpLink;
 
     @FXML
     private TextField emailField;
@@ -46,13 +56,14 @@ public class LoginController {
         return user;
     }
 
-    public void signUp(MouseEvent event) {
 
+    // Changes scene to show log in page
+    public void goToSignUpPage() {
         try {
             Parent root = FXMLLoader.load(getClass().getResource("/view/signUp.fxml"));
             Scene scene = new Scene(root, 900, 600);
             scene.getStylesheets().add(getClass().getResource("/css/signUp.css").toExternalForm());
-            Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
+            Stage window = (Stage) (emailField.getScene().getWindow());
             window.setScene(scene);
             window.show();
         } catch (Exception e) {
@@ -75,10 +86,12 @@ public class LoginController {
     }
 
 
+
     // Method to list all users' data from Firestore and print it to the console
     public void login() {
         String userEmail = emailField.getText();
         String userPassword = passwordField.getText();
+        boolean userFound = false; //tracks if the user is found
         try {
             // Query Firestore to get all users in the 'users' collection
             ApiFuture<QuerySnapshot> query = FirestoreClient.getFirestore().collection("users").get();
@@ -86,7 +99,7 @@ public class LoginController {
             // Get the query result
             QuerySnapshot querySnapshot = query.get();
 
-            // Check if there are any users
+            // Check if there are any users in the database
             if (querySnapshot.isEmpty()) {
                 System.out.println("No users found in the database.");
             } else {
@@ -100,7 +113,7 @@ public class LoginController {
                                 System.out.println("user found");
                                 try {
                                     user = FirebaseAuth.getInstance().getUserByEmail(userEmail);
-                                    
+
                                     System.out.println("The user is: " + user);
                                     goToDashboard();
 
@@ -110,6 +123,12 @@ public class LoginController {
                             }
 
                         });
+
+                //checks if user credentials were found in database
+                if(!userFound) {
+                    System.out.println("invalid email or password");
+                    alertTextLogin.setText("Invalid email or password");
+                }
             }
         } catch (Exception e) {
             e.printStackTrace();
