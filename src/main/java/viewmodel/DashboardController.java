@@ -9,6 +9,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.ProgressBar;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
 import javafx.scene.text.Text;
@@ -41,10 +42,20 @@ public class DashboardController {
     @FXML
     private Text sleepDailyGoal;
 
+    @FXML
+    private ProgressBar exerciseProgBar;
+    @FXML
+    private ProgressBar caloriesProgBar;
+    @FXML
+    private ProgressBar weightLiftedProgBar;
+    @FXML
+    private ProgressBar sleepProgBar;
 
 
 
-    String documentId;
+
+
+    static String documentId;
     Document doc;
     Person p;
 
@@ -59,6 +70,20 @@ public class DashboardController {
             Parent root = FXMLLoader.load(getClass().getResource("/view/login.fxml"));
             Scene scene = new Scene(root, 900, 600);
             scene.getStylesheets().add(getClass().getResource("/css/login.css").toExternalForm());
+            Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
+            window.setScene(scene);
+            window.show();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    // switches to updateData.fxml page
+    public void goToUpdateDataPage(MouseEvent event) {
+        try {
+            Parent root = FXMLLoader.load(getClass().getResource("/view/updateData.fxml"));
+            Scene scene = new Scene(root, 900, 600);
+            scene.getStylesheets().add(getClass().getResource("/css/dashboard.css").toExternalForm());
             Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
             window.setScene(scene);
             window.show();
@@ -93,6 +118,11 @@ public class DashboardController {
 
                                 );
 
+                        p.setDailyExerciseTime(Integer.parseInt(document.getData().get("dailyExerciseTime").toString()));
+                        p.setDailyCalorieIntake(Integer.parseInt(document.getData().get("dailyCalorieIntake").toString()));
+                        p.setDailyWeightLifted(Integer.parseInt(document.getData().get("dailyWeightLifted").toString()));
+                        p.setSleepDuration(Integer.parseInt(document.getData().get("sleepDuration").toString()));
+
                         break;
                     }
 
@@ -117,9 +147,29 @@ public class DashboardController {
         sleepCurrentText.setText(String.valueOf(p.getSleepDuration()));
 
 
+        double exProg = (double)p.getDailyExerciseTime() / (double)p.getExerciseTarget();
+        exerciseProgBar.setProgress(exProg);
+        exerciseProgBar.setStyle("-fx-accent: #63C041;");
+
+        double calProg = (double)p.getDailyCalorieIntake() / (double)p.getCalorieTarget();
+        caloriesProgBar.setProgress(calProg);
+        caloriesProgBar.setStyle("-fx-accent: #F97316;");
+
+        double weightProg = (double)p.getDailyWeightLifted() / (double)p.getWeightTarget();
+        weightLiftedProgBar.setProgress(weightProg);
+        weightLiftedProgBar.setStyle("-fx-accent: #8B5CF6;");
+
+        double sleepProg = (double)p.getSleepDuration() / (double)p.getSleepTarget();
+        sleepProgBar.setProgress(sleepProg);
+        sleepProgBar.setStyle("-fx-accent: #06B6D4;");
 
 
 
+
+    }
+
+    public static String getDocumentId() {
+        return documentId;
     }
 
 

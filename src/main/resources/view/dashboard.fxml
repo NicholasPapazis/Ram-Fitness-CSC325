@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.chart.BarChart?>
-<?import javafx.scene.chart.CategoryAxis?>
-<?import javafx.scene.chart.NumberAxis?>
 <?import javafx.scene.control.ProgressBar?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -61,7 +58,7 @@
                         </ImageView>
                      </children>
                   </Pane>
-                  <Pane layoutY="122.0" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
+                  <Pane layoutY="122.0" onMouseClicked="#goToUpdateDataPage" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
                      <opaqueInsets>
                         <Insets />
                      </opaqueInsets>
@@ -155,7 +152,6 @@
                   <Font name="System Bold" size="15.0" />
                </font>
             </Text>
-            <ProgressBar layoutX="12.0" layoutY="90.0" prefHeight="7.0" prefWidth="175.0" progress="0.0" />
             <HBox alignment="BASELINE_LEFT" layoutX="13.0" layoutY="27.0" prefHeight="1.0" prefWidth="110.0">
                <children>
                   <Text fx:id="exerciseCurrentText" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="30">
@@ -212,7 +208,6 @@
                   <Font name="System Bold" size="15.0" />
                </font>
             </Text>
-            <ProgressBar layoutX="13.0" layoutY="89.0" prefHeight="7.0" prefWidth="175.0" progress="0.0" />
             <HBox alignment="CENTER_LEFT" layoutX="15.0" layoutY="62.0" prefHeight="23.0" prefWidth="175.0">
                <children>
                   <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Daily Goal:">
@@ -269,8 +264,6 @@
                   <Font name="System Bold" size="15.0" />
                </font>
             </Text>
-            <ProgressBar layoutX="12.0" layoutY="90.0" prefHeight="7.0" prefWidth="175.0" progress="0.0" />
-            <ProgressBar layoutX="13.0" layoutY="89.0" prefHeight="7.0" prefWidth="175.0" progress="0.0" />
             <HBox alignment="BASELINE_LEFT" layoutX="14.0" layoutY="27.0" prefHeight="41.0" prefWidth="175.0">
                <children>
                   <Text fx:id="weightLiftedCurrentText" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="30">
@@ -327,8 +320,6 @@
                   <Font name="System Bold" size="15.0" />
                </font>
             </Text>
-            <ProgressBar layoutX="12.0" layoutY="90.0" prefHeight="7.0" prefWidth="175.0" progress="0.0" />
-            <ProgressBar layoutX="13.0" layoutY="89.0" prefHeight="7.0" prefWidth="175.0" progress="0.0" />
             <HBox alignment="BASELINE_LEFT" layoutX="14.0" layoutY="26.0" prefHeight="41.0" prefWidth="175.0">
                <children>
                   <Text fx:id="sleepCurrentText" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="30">
@@ -373,14 +364,6 @@
             </HBox>
          </children>
       </Pane>
-      <BarChart fx:id="chart" layoutX="233.0" layoutY="324.0" prefHeight="237.0" prefWidth="416.0">
-        <xAxis>
-          <CategoryAxis side="BOTTOM" />
-        </xAxis>
-        <yAxis>
-          <NumberAxis side="LEFT" />
-        </yAxis>
-      </BarChart>
       <Pane fx:id="recentExercises" layoutX="670.0" layoutY="78.0" prefHeight="230.0" prefWidth="200.0">
          <children>
             <Text layoutX="24.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Recent Workouts">
@@ -401,5 +384,9 @@
             <Line endX="84.5" layoutX="96.0" layoutY="36.0" startX="-83.5" strokeWidth="0.5" />
          </children>
       </Pane>
+      <ProgressBar fx:id="exerciseProgBar" layoutX="234.0" layoutY="346.0" prefHeight="30.0" prefWidth="411.0" progress="0.0" />
+      <ProgressBar fx:id="caloriesProgBar" layoutX="234.0" layoutY="394.0" prefHeight="30.0" prefWidth="411.0" progress="0.0" />
+      <ProgressBar fx:id="weightLiftedProgBar" layoutX="234.0" layoutY="443.0" prefHeight="30.0" prefWidth="411.0" progress="0.0" />
+      <ProgressBar fx:id="sleepProgBar" layoutX="234.0" layoutY="488.0" prefHeight="30.0" prefWidth="411.0" progress="0.0" />
    </children>
 </Pane>
