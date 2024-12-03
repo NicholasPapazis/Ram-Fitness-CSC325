@@ -13,6 +13,7 @@ import java.io.IOException;
 
 public class Powerlifting {
 
+
     @FXML
     private Pane logoutPane;
 
