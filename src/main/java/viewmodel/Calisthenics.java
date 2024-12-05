@@ -20,6 +20,9 @@ public class Calisthenics {
     private Pane dashboardLink;
 
 
+    /****** sidebar methods start *******/
+
+    //go to dashboard
     public void goToDashboard(MouseEvent actionEvent) throws IOException {
 
         try {
@@ -35,7 +38,39 @@ public class Calisthenics {
         }
     }
 
-    // switches to login.fxml page
+    //go to Update Goals
+    public void goToUpdateDataPage(MouseEvent event) {
+        try {
+            Parent root = FXMLLoader.load(getClass().getResource("/view/updateData.fxml"));
+            Scene scene = new Scene(root, 900, 600);
+            scene.getStylesheets().add(getClass().getResource("/css/dashboard.css").toExternalForm());
+            Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
+            window.setScene(scene);
+            window.show();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    //go to Get Started
+    public void goToGetStarted(MouseEvent actionEvent) throws IOException {
+
+        try {
+            Parent root = FXMLLoader.load(getClass().getResource("/view/getStarted.fxml"));
+            Scene scene = new Scene(root, 900, 600);
+            scene.getStylesheets().add(getClass().getResource("/css/dashboard.css").toExternalForm());
+            Stage window = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+            window.setScene(scene);
+            window.show();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    //go to Settings
+
+    //log out. Go to login page
     public void logOut(MouseEvent event) {
         try {
             Parent root = FXMLLoader.load(getClass().getResource("/view/login.fxml"));
@@ -48,4 +83,8 @@ public class Calisthenics {
             e.printStackTrace();
         }
     }
+
+    /****** sidebar methods end******/
+
+
 }

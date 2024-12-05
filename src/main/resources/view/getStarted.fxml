@@ -90,7 +90,7 @@
             <Font name="System Bold" size="23.0" />
          </font>
       </Button>
-        <Button fx:id="powerliftingBtn" layoutX="330.0" layoutY="340.0" mnemonicParsing="false" onAction="#goToPowerlifting" prefHeight="200.0" prefWidth="200.0" styleClass="getStartedBtns" text="Powerlifting" textFill="WHITE">
+        <Button fx:id="powerliftingBtn" layoutX="330.0" layoutY="340.0" mnemonicParsing="false" onAction="#goToPowerlifting" onMouseClicked="#goToPowerlifting" prefHeight="200.0" prefWidth="200.0" styleClass="getStartedBtns" text="Powerlifting" textFill="WHITE">
          <font>
             <Font name="System Bold" size="23.0" />
          </font>
@@ -107,7 +107,7 @@
                   <Font size="12.0" />
                </font>
             </Text>
-            <Pane fx:id="dashboardLink" layoutY="86.0" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
+            <Pane fx:id="dashboardLink" layoutY="86.0" onMouseClicked="#goToDashboard" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
@@ -125,7 +125,7 @@
                   <Insets />
                </opaqueInsets>
                <children>
-                  <Text fill="#616161" layoutX="47.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Goals" />
+                  <Text fill="#616161" layoutX="47.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update Goals" />
                   <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="23.0" layoutY="9.0">
                      <image>
                         <Image url="@../images/goals.png" />

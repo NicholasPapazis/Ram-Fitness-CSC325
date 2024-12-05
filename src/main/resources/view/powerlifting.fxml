@@ -85,7 +85,7 @@
                   <Font size="12.0" />
                </font>
             </Text>
-            <Pane fx:id="dashboardLink" layoutY="86.0" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
+            <Pane fx:id="dashboardLink" layoutY="86.0" onMouseClicked="#goToDashboard" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
@@ -103,7 +103,7 @@
                   <Insets />
                </opaqueInsets>
                <children>
-                  <Text fill="#616161" layoutX="47.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Goals" />
+                  <Text fill="#616161" layoutX="47.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update Goals" />
                   <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="23.0" layoutY="9.0">
                      <image>
                         <Image url="@../images/goals.png" />
