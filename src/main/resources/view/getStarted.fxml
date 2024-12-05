@@ -78,54 +78,6 @@
             </children>
         </Pane>
         <Pane fx:id="statusBar" layoutX="199.0" layoutY="577.0" prefHeight="23.0" prefWidth="701.0" />
-        <Pane fx:id="navigationSection" layoutX="2.0" layoutY="125.0" prefHeight="314.0" prefWidth="196.0">
-            <children>
-                <Text layoutX="23.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manage">
-                    <font>
-                        <Font size="12.0" />
-                    </font>
-                </Text>
-                <Pane fx:id="dashboardLink" layoutY="86.0" onMouseClicked="#goToDashboard" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
-                    <opaqueInsets>
-                        <Insets />
-                    </opaqueInsets>
-                    <children>
-                        <Text fill="#616161" layoutX="47.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dashboard" />
-                        <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="23.0" layoutY="9.0">
-                            <image>
-                                <Image url="@../images/workout.png" />
-                            </image>
-                        </ImageView>
-                    </children>
-                </Pane>
-                <Pane layoutY="122.0" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
-                    <opaqueInsets>
-                        <Insets />
-                    </opaqueInsets>
-                    <children>
-                        <Text fill="#616161" layoutX="47.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Goals" />
-                        <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="23.0" layoutY="9.0">
-                            <image>
-                                <Image url="@../images/goals.png" />
-                            </image>
-                        </ImageView>
-                    </children>
-                </Pane>
-                <Pane layoutY="161.0" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
-                    <opaqueInsets>
-                        <Insets />
-                    </opaqueInsets>
-                    <children>
-                        <Text fill="#616161" layoutX="48.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Get Started" />
-                        <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="23.0" layoutY="9.0">
-                            <image>
-                                <Image url="@../images/gear.png" />
-                            </image>
-                        </ImageView>
-                    </children>
-                </Pane>
-            </children>
-        </Pane>
 
             
                     <Button fx:id="loseFatBtn" layoutX="330.0" layoutY="100.0" mnemonicParsing="false" onAction="#goToLoseFat" prefHeight="200.0" prefWidth="200.0" styleClass="getStartedBtns" text="Lose Fat" textFill="WHITE">
@@ -148,6 +100,67 @@
             <Font name="System Bold" size="23.0" />
          </font>
       </Button>
+      <Pane fx:id="navigationSection" layoutX="1.0" layoutY="125.0" prefHeight="314.0" prefWidth="196.0">
+         <children>
+            <Text layoutX="23.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manage">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Text>
+            <Pane fx:id="dashboardLink" layoutY="86.0" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <children>
+                  <Text fill="#616161" layoutX="47.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dashboard" />
+                  <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="23.0" layoutY="9.0">
+                     <image>
+                        <Image url="@../images/workout.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutY="122.0" onMouseClicked="#goToUpdateDataPage" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <children>
+                  <Text fill="#616161" layoutX="47.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Goals" />
+                  <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="23.0" layoutY="9.0">
+                     <image>
+                        <Image url="@../images/goals.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutY="161.0" onMouseClicked="#goToGetStarted" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <children>
+                  <Text fill="#616161" layoutX="48.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Get Started" />
+                  <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="23.0" layoutY="9.0">
+                     <image>
+                        <Image url="@../images/rocket.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutY="201.0" onMouseClicked="#goToGetStarted" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <children>
+                  <Text fill="#616161" layoutX="48.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Settings" />
+                  <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="23.0" layoutY="9.0">
+                     <image>
+                        <Image url="@../images/gear.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
 
 
     </children>
