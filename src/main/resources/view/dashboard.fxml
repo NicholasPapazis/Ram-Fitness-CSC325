@@ -133,6 +133,7 @@
                   </Text>
                </children>
             </HBox>
+            <ProgressBar fx:id="exerciseProgBar" layoutX="13.0" layoutY="93.0" prefHeight="7.0" prefWidth="175.0" progress="0.0" />
          </children>
       </Pane>
       <Pane fx:id="caloriesPane" layoutX="557.0" layoutY="80.0" prefHeight="110.0" prefWidth="200.0">
@@ -189,6 +190,7 @@
                   </Text>
                </children>
             </HBox>
+            <ProgressBar fx:id="caloriesProgBar" layoutX="13.0" layoutY="91.0" prefHeight="7.0" prefWidth="175.0" progress="0.0" />
          </children>
       </Pane>
       <Pane fx:id="weightLiftedPane" layoutX="342.0" layoutY="202.0" prefHeight="110.0" prefWidth="200.0">
@@ -245,6 +247,7 @@
                   </Text>
                </children>
             </HBox>
+            <ProgressBar fx:id="weightLiftedProgBar" layoutX="14.0" layoutY="93.0" prefHeight="7.0" prefWidth="175.0" progress="0.0" />
          </children>
       </Pane>
       <Pane fx:id="sleepPane" layoutX="557.0" layoutY="202.0" prefHeight="110.0" prefWidth="200.0">
@@ -301,12 +304,9 @@
                   </Text>
                </children>
             </HBox>
+            <ProgressBar fx:id="sleepProgBar" layoutX="12.0" layoutY="91.0" prefHeight="7.0" prefWidth="175.0" progress="0.0" />
          </children>
       </Pane>
-      <ProgressBar fx:id="exerciseProgBar" layoutX="343.0" layoutY="348.0" prefHeight="30.0" prefWidth="411.0" progress="0.0" />
-      <ProgressBar fx:id="caloriesProgBar" layoutX="343.0" layoutY="396.0" prefHeight="30.0" prefWidth="411.0" progress="0.0" />
-      <ProgressBar fx:id="weightLiftedProgBar" layoutX="343.0" layoutY="445.0" prefHeight="30.0" prefWidth="411.0" progress="0.0" />
-      <ProgressBar fx:id="sleepProgBar" layoutX="343.0" layoutY="490.0" prefHeight="30.0" prefWidth="411.0" progress="0.0" />
       <Pane fx:id="navigationSection" layoutX="1.0" layoutY="125.0" prefHeight="314.0" prefWidth="196.0">
          <children>
             <Text layoutX="23.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manage">

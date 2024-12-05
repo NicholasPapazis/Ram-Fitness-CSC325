@@ -127,11 +127,27 @@
             </children>
         </Pane>
 
-
-        <Button fx:id="loseFatBtn" layoutX="450.0" layoutY="237.0" mnemonicParsing="false" onAction="#goToLoseFat" prefWidth="200.0" text="Lose Fat" />
-        <Button fx:id="buildMuscleBtn" layoutX="450.0" layoutY="271.0" mnemonicParsing="false" onAction="#goToBuildMuscle" prefWidth="200.0" text="Build Muscle" />
-        <Button fx:id="calisthenicsButton" layoutX="450.0" layoutY="303.0" mnemonicParsing="false" onAction="#goToCalisthenics" prefWidth="200.0" text="Calisthenics" />
-        <Button fx:id="powerliftingBtn" layoutX="450.0" layoutY="337.0" mnemonicParsing="false" onAction="#goToPowerlifting" prefWidth="200.0" text="Powerlifting" />
+            
+                    <Button fx:id="loseFatBtn" layoutX="330.0" layoutY="100.0" mnemonicParsing="false" onAction="#goToLoseFat" prefHeight="200.0" prefWidth="200.0" styleClass="getStartedBtns" text="Lose Fat" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Button>
+        <Button fx:id="calisthenicsButton" layoutX="570.0" layoutY="100.0" mnemonicParsing="false" onAction="#goToCalisthenics" prefHeight="200.0" prefWidth="200.0" styleClass="getStartedBtns" text="Calisthenics" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Button>
+        <Button fx:id="powerliftingBtn" layoutX="330.0" layoutY="340.0" mnemonicParsing="false" onAction="#goToPowerlifting" prefHeight="200.0" prefWidth="200.0" styleClass="getStartedBtns" text="Powerlifting" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Button>
+        <Button fx:id="buildMuscleBtn" layoutX="570.0" layoutY="340.0" mnemonicParsing="false" onAction="#goToBuildMuscle" prefHeight="200.0" prefWidth="200.0" styleClass="getStartedBtns" text="Build Muscle" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Button>
 
 
     </children>

@@ -77,3 +77,28 @@
     -fx-prompt-text-fill: #9c9c9c;
     -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.2, 0, 0);
 }
+
+
+.getStartedBtns {
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-border-color: black;
+    -fx-background-color: white;
+
+}
+
+#loseFatBtn {
+    -fx-background-color: rgba(255, 76, 76, 0.9);
+}
+
+#calisthenicsButton {
+    -fx-background-color: #2196F3;
+}
+
+#powerliftingBtn {
+    -fx-background-color: #212121;
+}
+
+#buildMuscleBtn {
+    -fx-background-color: #00897B;
+}
