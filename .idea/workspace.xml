@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="added alert text to login screen if invalid email or password">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/css/signUp.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/signUp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/signUp.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/signUp.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="status as of presentation" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,9 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="FxmlFile" />
         <option value="Class" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -72,9 +66,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;57-debug-issues-with-login-and-sign-up&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;60-allow-users-to-update-their-goals-on-dashboard&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/nicholas/IdeaProjects/csc325_module-6-assignmentNov29&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/nicholas/IdeaProjects/ram-fitness-csc325Dec2Two/src/main/resources/files&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -97,22 +91,17 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/viewmodel" />
       <recent name="C:\Users\NICHOLAS\IdeaProjects\csc311advanced-programming\ram-fitness-csc32511-4-2\src\main\resources\com\example\ramfitnesscsc325\views" />
       <recent name="C:\Users\NICHOLAS\IdeaProjects\csc311advanced-programming\ram-fitness-csc32511-4-2\src\main\resources\com\example\ramfitnesscsc325\css" />
       <recent name="C:\Users\NICHOLAS\IdeaProjects\csc311advanced-programming\ram-fitness-csc32511-4-2\src\main\resources\com\example\ramfitnesscsc325\iconsAndImages" />
       <recent name="C:\Users\NICHOLAS\IdeaProjects\csc311advanced-programming\ram-fitness-csc32511-4-2\src\main\resources\com\example\ramfitnesscsc325" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="viewmodel.MainApplication" />
       <module name="ram-fitness-csc325" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,6 +141,9 @@
       <workItem from="1732751928668" duration="1469000" />
       <workItem from="1732884416277" duration="25171000" />
       <workItem from="1733176044177" duration="8358000" />
+      <workItem from="1733184832229" duration="2004000" />
+      <workItem from="1733188225558" duration="12369000" />
+      <workItem from="1733225556925" duration="11320000" />
     </task>
     <task id="LOCAL-00001" summary="created blank calisthenics fxml page">
       <option name="closed" value="true" />
@@ -297,7 +289,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733183696275</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="added progress bars to display visual">
+      <option name="closed" value="true" />
+      <created>1733228117762</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1733228117762</updated>
+    </task>
+    <task id="LOCAL-00020" summary="status as of presentation">
+      <option name="closed" value="true" />
+      <created>1733239750962</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1733239750962</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,6 +337,8 @@
     <MESSAGE value="added addData() method and called it in signUp method so that a new document gets added to db when user is signed up" />
     <MESSAGE value="updated regex for password when signing up.  6 characters necessary now." />
     <MESSAGE value="added alert text to login screen if invalid email or password" />
-    <option name="LAST_COMMIT_MESSAGE" value="added alert text to login screen if invalid email or password" />
+    <MESSAGE value="added progress bars to display visual" />
+    <MESSAGE value="status as of presentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="status as of presentation" />
   </component>
 </project>

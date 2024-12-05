@@ -28,6 +28,8 @@ public class Person {
 
     }
 
+
+
     // Constructor
     public Person(String email, String username, String password, int exerciseTarget,
                   int calorieTarget, int weightTarget, int sleepTarget) {
