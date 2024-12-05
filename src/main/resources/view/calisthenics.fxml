@@ -78,7 +78,7 @@
         </Pane>
         <Pane fx:id="statusBar" layoutX="199.0" layoutY="577.0" prefHeight="23.0" prefWidth="701.0" />
       <Text layoutX="347.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Calisthenics is a form of exercise that uses your body weight for resistance, focusing on improving strength, flexibility, and endurance. It includes movements like push-ups, pull-ups, squats, and planks, which can be performed anywhere without equipment. Calisthenics helps build functional strength, enhances coordination, and increases muscle control. It's great for beginners and advanced athletes alike, as exercises can be modified to match your fitness level. With consistent practice, you can progress to more challenging moves like handstands, muscle-ups, and planches, making it a versatile and effective workout method." wrappingWidth="384.13000106811523" />
-      <Pane fx:id="navigationSection" layoutX="2.0" layoutY="125.0" prefHeight="314.0" prefWidth="196.0">
+      <Pane fx:id="navigationSection" layoutX="1.0" layoutY="125.0" prefHeight="314.0" prefWidth="196.0">
          <children>
             <Text layoutX="23.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manage">
                <font>
@@ -98,12 +98,12 @@
                   </ImageView>
                </children>
             </Pane>
-            <Pane layoutY="122.0" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
+            <Pane layoutY="122.0" onMouseClicked="#goToUpdateDataPage" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
                <children>
-                  <Text fill="#616161" layoutX="47.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Goals" />
+                  <Text fill="#616161" layoutX="47.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update Goals" />
                   <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="23.0" layoutY="9.0">
                      <image>
                         <Image url="@../images/goals.png" />
@@ -111,12 +111,25 @@
                   </ImageView>
                </children>
             </Pane>
-            <Pane layoutY="161.0" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
+            <Pane layoutY="161.0" onMouseClicked="#goToGetStarted" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
                <children>
                   <Text fill="#616161" layoutX="48.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Get Started" />
+                  <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="23.0" layoutY="9.0">
+                     <image>
+                        <Image url="@../images/rocket.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutY="201.0" onMouseClicked="#goToGetStarted" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <children>
+                  <Text fill="#616161" layoutX="48.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Settings" />
                   <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="23.0" layoutY="9.0">
                      <image>
                         <Image url="@../images/gear.png" />

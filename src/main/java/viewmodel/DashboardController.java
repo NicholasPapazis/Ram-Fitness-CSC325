@@ -23,6 +23,8 @@ import java.util.concurrent.ExecutionException;
 
 public class DashboardController {
 
+
+
     @FXML
     private Pane logoutPane;
     @FXML
@@ -53,9 +55,6 @@ public class DashboardController {
     private ProgressBar sleepProgBar;
 
 
-
-
-
     static String documentId;
     Document doc;
     Person p;
@@ -66,7 +65,39 @@ public class DashboardController {
 
 
 
-    //for text
+    /****** sidebar methods start *******/
+
+    //go to dashboard
+    public void goToDashboard(MouseEvent actionEvent) throws IOException {
+
+        try {
+            Parent root = FXMLLoader.load(getClass().getResource("/view/dashboard.fxml"));
+            Scene scene = new Scene(root, 900, 600);
+            scene.getStylesheets().add(getClass().getResource("/css/dashboard.css").toExternalForm());
+            Stage window = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+            window.setScene(scene);
+            window.show();
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    //go to Update Goals
+    public void goToUpdateDataPage(MouseEvent event) {
+        try {
+            Parent root = FXMLLoader.load(getClass().getResource("/view/updateData.fxml"));
+            Scene scene = new Scene(root, 900, 600);
+            scene.getStylesheets().add(getClass().getResource("/css/dashboard.css").toExternalForm());
+            Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
+            window.setScene(scene);
+            window.show();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    //go to Get Started
     public void goToGetStarted(MouseEvent actionEvent) throws IOException {
 
         try {
@@ -82,7 +113,9 @@ public class DashboardController {
 
     }
 
-    // switches to login.fxml page
+    //go to Settings
+
+    //log out. Go to login page
     public void logOut(MouseEvent event) {
         try {
             Parent root = FXMLLoader.load(getClass().getResource("/view/login.fxml"));
@@ -96,19 +129,12 @@ public class DashboardController {
         }
     }
 
-    // switches to updateData.fxml page
-    public void goToUpdateDataPage(MouseEvent event) {
-        try {
-            Parent root = FXMLLoader.load(getClass().getResource("/view/updateData.fxml"));
-            Scene scene = new Scene(root, 900, 600);
-            scene.getStylesheets().add(getClass().getResource("/css/dashboard.css").toExternalForm());
-            Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
-            window.setScene(scene);
-            window.show();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
+    /****** sidebar methods end******/
+
+
+
+
+
 
 
     public void updateDashboardView() {

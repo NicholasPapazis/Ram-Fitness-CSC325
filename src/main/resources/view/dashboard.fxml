@@ -314,7 +314,7 @@
                   <Font size="12.0" />
                </font>
             </Text>
-            <Pane fx:id="dashboardLink" layoutY="86.0" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
+            <Pane fx:id="dashboardLink" layoutY="86.0" onMouseClicked="#goToDashboard" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
@@ -332,7 +332,7 @@
                   <Insets />
                </opaqueInsets>
                <children>
-                  <Text fill="#616161" layoutX="47.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Goals" />
+                  <Text fill="#616161" layoutX="47.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update Goals" />
                   <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="23.0" layoutY="9.0">
                      <image>
                         <Image url="@../images/goals.png" />
@@ -346,6 +346,19 @@
                </opaqueInsets>
                <children>
                   <Text fill="#616161" layoutX="48.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Get Started" />
+                  <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="23.0" layoutY="9.0">
+                     <image>
+                        <Image url="@../images/rocket.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutY="201.0" onMouseClicked="#goToGetStarted" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <children>
+                  <Text fill="#616161" layoutX="48.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Settings" />
                   <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="23.0" layoutY="9.0">
                      <image>
                         <Image url="@../images/gear.png" />
