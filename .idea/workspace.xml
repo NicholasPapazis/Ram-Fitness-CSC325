@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="created consistent sidebar on all pages">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/BulidMuscle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/BulidMuscle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/Calisthenics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/Calisthenics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/DashboardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/LoseFat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/LoseFat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/UpdateDataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/UpdateGoalsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/getStarted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/getStarted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/buildMuscle.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/buildMuscle.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/calisthenics.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/calisthenics.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/dashboard.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/getStarted.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/getStarted.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/loseFat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/loseFat.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/powerlifting.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/powerlifting.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/updateData.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/updateData.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/files/key.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/key.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,9 +68,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "64-make-a-consistent-side-bar-for-all-pages",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/nicholas/IdeaProjects/ram-fitness-csc325dec5/src/main/resources/files",
+    "last_opened_file_path": "/home/nicholas/IdeaProjects/ram-fitness-csc325dec6second/src/main/resources/files",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -155,6 +142,7 @@
       <workItem from="1733225556925" duration="11320000" />
       <workItem from="1733429206986" duration="7584000" />
       <workItem from="1733432318177" duration="3571000" />
+      <workItem from="1733498431961" duration="566000" />
     </task>
     <task id="LOCAL-00001" summary="created blank calisthenics fxml page">
       <option name="closed" value="true" />
