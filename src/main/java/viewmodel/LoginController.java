@@ -1,34 +1,21 @@
 package viewmodel;
 
 import com.google.api.core.ApiFuture;
-import com.google.cloud.firestore.QueryDocumentSnapshot;
 import com.google.cloud.firestore.QuerySnapshot;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthException;
 import com.google.firebase.auth.UserRecord;
 import com.google.firebase.cloud.FirestoreClient;
-import com.sun.tools.javac.Main;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
-import javafx.scene.image.Image;
-import javafx.scene.input.MouseEvent;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import model.Person;
-
-import javax.mail.*;
-import javax.mail.internet.InternetAddress;
-import javax.mail.internet.MimeMessage;
-import java.io.IOException;
-import java.util.List;
-import java.util.Properties;
 
 public class LoginController {
 
@@ -76,7 +63,7 @@ public class LoginController {
         try {
             Parent root = FXMLLoader.load(getClass().getResource("/view/dashboard.fxml"));
             Scene scene = new Scene(root, 900, 600);
-            scene.getStylesheets().add(getClass().getResource("/css/dashboard.css").toExternalForm());
+            scene.getStylesheets().add(getClass().getResource("/css/theme1.css").toExternalForm());
             Stage window = (Stage) (emailField.getScene().getWindow());
             window.setScene(scene);
             window.show();
