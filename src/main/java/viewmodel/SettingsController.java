@@ -26,7 +26,7 @@ public class SettingsController {
             Stage window = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
             window.setScene(scene);
             window.show();
-
+            ThemeController.registerScene(scene);//register theme so that style can be applied
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -41,6 +41,7 @@ public class SettingsController {
             Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
             window.setScene(scene);
             window.show();
+            ThemeController.registerScene(scene);//register theme so that style can be applied
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -56,6 +57,7 @@ public class SettingsController {
             Stage window = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
             window.setScene(scene);
             window.show();
+            ThemeController.registerScene(scene);//register theme so that style can be applied
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -72,6 +74,7 @@ public class SettingsController {
             Stage window = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
             window.setScene(scene);
             window.show();
+            ThemeController.registerScene(scene);//register theme so that style can be applied
         } catch (Exception e) {
             e.printStackTrace();
         }
