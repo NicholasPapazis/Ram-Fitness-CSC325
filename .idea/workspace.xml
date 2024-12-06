@@ -4,8 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="created consistent sidebar on all pages">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/files/key.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/key.json" afterDir="false" />
+    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="added note to files directory">
+      <change afterPath="$PROJECT_DIR$/src/main/java/viewmodel/SettingsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/view/settings.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/BulidMuscle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/BulidMuscle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/Calisthenics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/Calisthenics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/DashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/LoseFat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/LoseFat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/Powerlifting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/Powerlifting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/UpdateGoalsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/UpdateGoalsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/getStarted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/getStarted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/css/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/buildMuscle.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/buildMuscle.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/calisthenics.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/calisthenics.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/dashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/getStarted.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/getStarted.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/loseFat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/loseFat.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/powerlifting.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/powerlifting.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/updateData.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/updateData.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,9 +85,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "68-settings-gui",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/nicholas/IdeaProjects/ram-fitness-csc325dec6second/src/main/resources/files",
+    "last_opened_file_path": "/home/nicholas/IdeaProjects/ram-fitness-csc325decfive/src/main/resources/files",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -143,6 +160,7 @@
       <workItem from="1733429206986" duration="7584000" />
       <workItem from="1733432318177" duration="3571000" />
       <workItem from="1733498431961" duration="566000" />
+      <workItem from="1733500546808" duration="3778000" />
     </task>
     <task id="LOCAL-00001" summary="created blank calisthenics fxml page">
       <option name="closed" value="true" />
@@ -320,7 +338,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733433550922</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="added note to files directory">
+      <option name="closed" value="true" />
+      <created>1733500637692</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1733500637692</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,6 +383,7 @@
     <MESSAGE value="updated styles of getStarted.fxml page.  Fixed bug with one of the buttons" />
     <MESSAGE value="added rocket as icon for get started tab" />
     <MESSAGE value="created consistent sidebar on all pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="created consistent sidebar on all pages" />
+    <MESSAGE value="added note to files directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="added note to files directory" />
   </component>
 </project>

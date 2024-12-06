@@ -102,3 +102,8 @@
 #buildMuscleBtn {
     -fx-background-color: #00897B;
 }
+
+
+.header-text {
+    -fx-fill: #595959;
+}

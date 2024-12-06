@@ -146,7 +146,7 @@
                   </ImageView>
                </children>
             </Pane>
-            <Pane layoutY="201.0" onMouseClicked="#goToGetStarted" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
+            <Pane layoutY="201.0" onMouseClicked="#goToSettings" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>

@@ -1,23 +1,17 @@
 package viewmodel;
 
-import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class Calisthenics {
+public class SettingsController {
 
-    @FXML
-    private Pane logoutPane;
 
-    @FXML
-    private Pane dashboardLink;
 
 
     /****** sidebar methods start *******/
@@ -99,6 +93,9 @@ public class Calisthenics {
     }
 
     /****** sidebar methods end******/
+
+
+
 
 
 }
