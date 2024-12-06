@@ -79,7 +79,7 @@
          </children>
       </Pane>
       <Pane fx:id="statusBar" layoutX="199.0" layoutY="577.0" prefHeight="23.0" prefWidth="701.0" />
-      <Pane fx:id="exercisePane" layoutX="342.0" layoutY="80.0" prefHeight="110.0" prefWidth="200.0">
+      <Pane fx:id="exercisePane" layoutX="224.0" layoutY="113.0" prefHeight="110.0" prefWidth="200.0">
          <children>
             <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="12.0" layoutY="8.0">
                <image>
@@ -136,7 +136,7 @@
             <ProgressBar fx:id="exerciseProgBar" layoutX="13.0" layoutY="93.0" prefHeight="7.0" prefWidth="175.0" progress="0.0" />
          </children>
       </Pane>
-      <Pane fx:id="caloriesPane" layoutX="557.0" layoutY="80.0" prefHeight="110.0" prefWidth="200.0">
+      <Pane fx:id="caloriesPane" layoutX="439.0" layoutY="113.0" prefHeight="110.0" prefWidth="200.0">
          <children>
             <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="9.0" layoutY="6.0">
                <image>
@@ -193,7 +193,7 @@
             <ProgressBar fx:id="caloriesProgBar" layoutX="13.0" layoutY="91.0" prefHeight="7.0" prefWidth="175.0" progress="0.0" />
          </children>
       </Pane>
-      <Pane fx:id="weightLiftedPane" layoutX="342.0" layoutY="202.0" prefHeight="110.0" prefWidth="200.0">
+      <Pane fx:id="weightLiftedPane" layoutX="224.0" layoutY="235.0" prefHeight="110.0" prefWidth="200.0">
          <children>
             <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="12.0" layoutY="7.0">
                <image>
@@ -250,7 +250,7 @@
             <ProgressBar fx:id="weightLiftedProgBar" layoutX="14.0" layoutY="93.0" prefHeight="7.0" prefWidth="175.0" progress="0.0" />
          </children>
       </Pane>
-      <Pane fx:id="sleepPane" layoutX="557.0" layoutY="202.0" prefHeight="110.0" prefWidth="200.0">
+      <Pane fx:id="sleepPane" layoutX="439.0" layoutY="235.0" prefHeight="110.0" prefWidth="200.0">
          <children>
             <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="14.0" layoutY="9.0">
                <image>
@@ -353,7 +353,7 @@
                   </ImageView>
                </children>
             </Pane>
-            <Pane layoutY="201.0" onMouseClicked="#goToGetStarted" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
+            <Pane layoutY="201.0" onMouseClicked="#goToSettings" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
@@ -368,5 +368,10 @@
             </Pane>
          </children>
       </Pane>
+      <Text layoutX="224.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="header-text" text="Dashboard">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
    </children>
 </Pane>
