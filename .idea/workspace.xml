@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="added ThemeController.java to viewmodel directory">
+    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="added code to register all screens for the correct theme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/SettingsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/SettingsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/settings.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/settings.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +145,7 @@
       <workItem from="1733429206986" duration="7584000" />
       <workItem from="1733432318177" duration="3571000" />
       <workItem from="1733498431961" duration="566000" />
-      <workItem from="1733500546808" duration="5950000" />
+      <workItem from="1733500546808" duration="7184000" />
     </task>
     <task id="LOCAL-00001" summary="created blank calisthenics fxml page">
       <option name="closed" value="true" />
@@ -353,7 +355,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733509713478</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="added code to register all screens for the correct theme">
+      <option name="closed" value="true" />
+      <created>1733524316678</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1733524316678</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,6 +404,7 @@
     <MESSAGE value="created settings gui" />
     <MESSAGE value="removed all stylesheets from fxml files" />
     <MESSAGE value="added ThemeController.java to viewmodel directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="added ThemeController.java to viewmodel directory" />
+    <MESSAGE value="added code to register all screens for the correct theme" />
+    <option name="LAST_COMMIT_MESSAGE" value="added code to register all screens for the correct theme" />
   </component>
 </project>
