@@ -77,7 +77,6 @@
             </children>
         </Pane>
         <Pane fx:id="statusBar" layoutX="199.0" layoutY="577.0" prefHeight="23.0" prefWidth="701.0" />
-      <Text layoutX="375.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Losing fat involves creating a calorie deficit, which means burning more calories than you consume. Start by focusing on a balanced diet rich in whole foods like lean proteins, fruits, vegetables, and whole grains while cutting back on processed foods and sugary drinks. Combine this with regular exercise, including both cardio (like walking, running, or cycling) to burn calories and strength training to build muscle, which boosts your metabolism. Stay consistent, prioritize quality sleep, and manage stress, as these factors also play a crucial role in fat loss. Small, sustainable changes over time yield the best results." wrappingWidth="348.13000106811523" />
       <Pane fx:id="navigationSection" layoutX="1.0" layoutY="125.0" prefHeight="314.0" prefWidth="196.0">
          <children>
             <Text layoutX="23.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="leftSideText" text="Manage">
@@ -139,5 +138,20 @@
             </Pane>
          </children>
       </Pane>
+      <Text layoutX="308.0" layoutY="311.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Losing fat involves creating a calorie deficit, which means burning more calories than you consume." wrappingWidth="409.844970703125" />
+      <Text layoutX="308.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Start by focusing on a balanced diet rich in whole foods like lean proteins, fruits, vegetables, and whole grains while cutting back on processed foods and sugary drinks." wrappingWidth="387.2178955078125" />
+      <Text layoutX="308.0" layoutY="426.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Combine this with regular exercise, including both cardio (like walking, running, or cycling) to burn calories and strength training to build muscle, which boosts your metabolism." wrappingWidth="455.844970703125" />
+      <Text layoutX="308.0" layoutY="492.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Stay consistent, prioritize quality sleep, and manage stress, as these factors also play a crucial role in fat loss." wrappingWidth="409.844970703125" />
+      <Text layoutX="308.0" layoutY="541.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Small, sustainable changes over time yield the best results." />
+      <Text layoutX="297.0" layoutY="311.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="•" />
+      <Text layoutX="297.0" layoutY="359.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="•" />
+      <Text layoutX="297.0" layoutY="425.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="•" />
+      <Text layoutX="296.0" layoutY="492.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="•" />
+      <Text layoutX="296.0" layoutY="540.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="•" />
+      <ImageView fitHeight="192.0" fitWidth="337.0" layoutX="346.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/loseFat.jpg" />
+         </image>
+      </ImageView>
     </children>
 </Pane>
