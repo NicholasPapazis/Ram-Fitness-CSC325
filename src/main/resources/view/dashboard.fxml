@@ -50,12 +50,12 @@
       </Pane>
       <Pane fx:id="topBar" layoutX="199.0" prefHeight="57.0" prefWidth="701.0">
          <children>
-            <Text layoutX="24.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome Back">
+            <Text layoutX="24.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Welcome Back">
                <font>
                   <Font name="System Bold" size="21.0" />
                </font>
             </Text>
-            <Text fill="#868686" layoutX="23.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Good Morning" />
+            <Text fill="#868686" layoutX="23.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Good Morning" />
             <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="180.0" layoutY="19.0">
                <image>
                   <Image url="@../images/party-popper.png" />
@@ -368,7 +368,7 @@
             </Pane>
          </children>
       </Pane>
-      <Text layoutX="224.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="header-text" text="Dashboard">
+      <Text layoutX="224.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Dashboard">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>

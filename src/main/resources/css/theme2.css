@@ -1,11 +1,26 @@
-theme1.css#background {
-    -fx-background-color: #F1F5F9;
+#background {
+    -fx-background-color: #1c1c1e;
 }
 
-#sideBar, #topBar, #statusBar {
+
+#sideBar {
     -fx-background-color: rgb(255, 255, 255);
     -fx-border-color: rgb(182, 182, 182);
-    
+
+}
+
+#topBar {
+    -fx-background-color: #1c1c1e;
+    -fx-border-color: transparent transparent #28282b #B6B6B6FF;
+}
+
+#statusBar {
+    -fx-background-color: #1c1c1e;
+    -fx-border-color: #28282b transparent transparent #B6B6B6FF;
+}
+
+.rightSideText {
+    -fx-fill: white;
 }
 
 .navPanes {
@@ -58,7 +73,8 @@ theme1.css#background {
 
 .updateDataInputField {
     /*-fx-border-color: rgb(145, 145, 145);*/
-    -fx-background-color: rgba(255, 255, 255, 1.0);
+    -fx-background-color: rgb(67, 67, 67);
+    -fx-text-fill: white;
     -fx-border-radius: 5px;
     -fx-background-radius: 5px;
     -fx-min-width: 300px;
@@ -106,4 +122,19 @@ theme1.css#background {
 
 .header-text {
     -fx-fill: #595959;
+}
+
+
+#topBar {
+    fx-background-color: red;
+}
+
+Button {
+    -fx-background-color: rgb(55, 55, 55);
+    -fx-border-radius: 5px;
+    -fx-border-color: grey;
+}
+
+#saveBtn {
+    -fx-text-fill: white;
 }

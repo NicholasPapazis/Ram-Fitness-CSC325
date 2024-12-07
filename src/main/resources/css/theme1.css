@@ -21,6 +21,10 @@
 
 }
 
+.rightSideText {
+    -fx-fill: black;
+}
+
 #exercisePane {
     -fx-background-color: #63C041;
     -fx-background-radius: 10px;
@@ -106,4 +110,14 @@
 
 .header-text {
     -fx-fill: #595959;
+}
+
+Button {
+    -fx-background-color: white;
+    -fx-border-radius: 5px;
+    -fx-border-color: grey;
+}
+
+#saveBtn {
+    -fx-text-fill: black;
 }
