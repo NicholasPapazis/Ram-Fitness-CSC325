@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="theme3 complete">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/calisthenics.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/calisthenics.fxml" afterDir="false" />
+    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="updated style of calisthenics page">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/buildMuscle.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/buildMuscle.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/buildMuscle.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/buildMuscle.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "62-add-style-to-workout-page",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/nicholas/IdeaProjects/ram-fitness-csc325decfive/src/main/resources/css",
+    "last_opened_file_path": "/home/nicholas/IdeaProjects/ram-fitness-csc325dec7/src/main/resources/files",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -87,8 +87,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/css" />
       <recent name="$PROJECT_DIR$/src/main/resources/files" />
+      <recent name="$PROJECT_DIR$/src/main/resources/css" />
       <recent name="C:\Users\NICHOLAS\IdeaProjects\ram-fitness-csc325Dec5\src\main\resources\files" />
       <recent name="$PROJECT_DIR$/src/main/resources/images" />
       <recent name="C:\Users\NICHOLAS\IdeaProjects\csc311advanced-programming\ram-fitness-csc32511-4-2\src\main\resources" />
@@ -146,7 +146,7 @@
       <workItem from="1733498431961" duration="566000" />
       <workItem from="1733500546808" duration="17497000" />
       <workItem from="1733584948987" duration="4264000" />
-      <workItem from="1733589883616" duration="1363000" />
+      <workItem from="1733589883616" duration="2109000" />
     </task>
     <task id="LOCAL-00001" summary="created blank calisthenics fxml page">
       <option name="closed" value="true" />
@@ -388,7 +388,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733543843837</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="updated style of calisthenics page">
+      <option name="closed" value="true" />
+      <created>1733592425874</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1733592425874</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,7 +414,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="organized resources folder" />
     <MESSAGE value="organized resource folder" />
     <MESSAGE value="rebased with main" />
     <MESSAGE value="updated side bar" />
@@ -431,6 +438,7 @@
     <MESSAGE value="completed theme switching logic" />
     <MESSAGE value="theme1 and theme2 complete" />
     <MESSAGE value="theme3 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="theme3 complete" />
+    <MESSAGE value="updated style of calisthenics page" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated style of calisthenics page" />
   </component>
 </project>
