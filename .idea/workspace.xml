@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="updated style of buildMuscle page">
+    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="updated style of loseFat page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/loseFat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/loseFat.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/powerlifting.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/powerlifting.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +146,7 @@
       <workItem from="1733498431961" duration="566000" />
       <workItem from="1733500546808" duration="17497000" />
       <workItem from="1733584948987" duration="4264000" />
-      <workItem from="1733589883616" duration="2916000" />
+      <workItem from="1733589883616" duration="4141000" />
     </task>
     <task id="LOCAL-00001" summary="created blank calisthenics fxml page">
       <option name="closed" value="true" />
@@ -404,7 +404,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733593043329</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="updated style of loseFat page">
+      <option name="closed" value="true" />
+      <created>1733593914924</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1733593914924</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,7 +430,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="rebased with main" />
     <MESSAGE value="updated side bar" />
     <MESSAGE value="initialized firebase" />
     <MESSAGE value="added logic to sign up a user" />
@@ -447,6 +454,7 @@
     <MESSAGE value="theme3 complete" />
     <MESSAGE value="updated style of calisthenics page" />
     <MESSAGE value="updated style of buildMuscle page" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated style of buildMuscle page" />
+    <MESSAGE value="updated style of loseFat page" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated style of loseFat page" />
   </component>
 </project>

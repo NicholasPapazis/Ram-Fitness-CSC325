@@ -77,7 +77,6 @@
             </children>
         </Pane>
         <Pane fx:id="statusBar" layoutX="199.0" layoutY="577.0" prefHeight="23.0" prefWidth="701.0" />
-      <Text layoutX="348.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Powerlifting is a strength sport that focuses on three main lifts: the squat, bench press, and deadlift. The goal is to lift as much weight as possible for a single repetition in each lift. It emphasizes building maximum strength and requires proper technique, progressive overload, and consistency. Powerlifting is great for improving overall muscle strength and density, and it's suitable for all fitness levels, as training programs can be tailored to individual goals and abilities." wrappingWidth="403.13000106811523" />
       <Pane fx:id="navigationSection" layoutX="1.0" layoutY="125.0" prefHeight="314.0" prefWidth="196.0">
          <children>
             <Text layoutX="23.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="leftSideText" text="Manage">
@@ -139,5 +138,18 @@
             </Pane>
          </children>
       </Pane>
+      <Text layoutX="330.0" layoutY="341.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Powerlifting is a strength sport that focuses on three main lifts: the squat, bench press, and deadlift." wrappingWidth="391.6309814453125" />
+      <Text layoutX="330.0" layoutY="389.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="The goal is to lift as much weight as possible for a single repetition in each lift." wrappingWidth="391.6309814453125" />
+      <Text layoutX="330.0" layoutY="437.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="It emphasizes building maximum strength and requires proper technique, progressive overload, and consistency." wrappingWidth="404.53680419921875" />
+      <Text layoutX="330.0" layoutY="485.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Powerlifting is great for improving overall muscle strength and density, and it's suitable for all fitness levels, as training programs can be tailored to individual goals and abilities." wrappingWidth="384.843994140625" />
+      <Text layoutX="321.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="•" />
+      <Text layoutX="320.0" layoutY="388.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="•" />
+      <Text layoutX="320.0" layoutY="437.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="•" />
+      <Text layoutX="320.0" layoutY="485.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="•" />
+      <ImageView fitHeight="219.0" fitWidth="536.0" layoutX="342.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/powerlifting.png" />
+         </image>
+      </ImageView>
     </children>
 </Pane>
