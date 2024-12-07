@@ -78,7 +78,10 @@
             </ImageView>
          </children>
       </Pane>
-      <Pane fx:id="statusBar" layoutX="199.0" layoutY="577.0" prefHeight="23.0" prefWidth="701.0" />
+      <Pane fx:id="statusBar" layoutX="199.0" layoutY="577.0" prefHeight="23.0" prefWidth="701.0">
+         <children>
+            <Text fx:id="statusText" layoutX="19.0" layoutY="17.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+         </children></Pane>
       <Pane fx:id="exercisePane" layoutX="224.0" layoutY="113.0" prefHeight="110.0" prefWidth="200.0">
          <children>
             <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="12.0" layoutY="8.0">
