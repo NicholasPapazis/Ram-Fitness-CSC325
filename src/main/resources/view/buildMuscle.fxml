@@ -77,7 +77,6 @@
             </children>
         </Pane>
         <Pane fx:id="statusBar" layoutX="199.0" layoutY="577.0" prefHeight="23.0" prefWidth="701.0" />
-      <Text layoutX="348.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Building muscle, or hypertrophy, involves resistance training to challenge your muscles and stimulate growth. Focus on compound exercises like squats, deadlifts, and bench presses, combined with isolation movements such as bicep curls and tricep extensions. Aim for 8-12 reps per set with progressively heavier weights to encourage muscle growth. Pair your workouts with a protein-rich diet to support recovery and repair. Consistency, proper form, and adequate rest are key to building muscle effectively." wrappingWidth="403.13000106811523" />
       <Pane fx:id="navigationSection" layoutX="1.0" layoutY="125.0" prefHeight="314.0" prefWidth="196.0">
          <children>
             <Text layoutX="23.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="leftSideText" text="Manage">
@@ -139,5 +138,20 @@
             </Pane>
          </children>
       </Pane>
+      <Text layoutX="328.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Building muscle, or hypertrophy, involves resistance training to challenge your muscles and stimulate growth." wrappingWidth="408.70892333984375" />
+      <Text layoutX="328.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Focus on compound exercises like squats, deadlifts, and bench presses, combined with isolation movements such as bicep curls and tricep extensions." wrappingWidth="397.9578857421875" />
+      <Text layoutX="328.0" layoutY="424.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Aim for 8-12 reps per set with progressively heavier weights to encourage muscle growth." wrappingWidth="397.9578857421875" />
+      <Text layoutX="328.0" layoutY="471.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Pair your workouts with a protein-rich diet to support recovery and repair." wrappingWidth="397.9578857421875" />
+      <Text layoutX="328.0" layoutY="519.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Consistency, proper form, and adequate rest are key to building muscle effectively." wrappingWidth="432.907958984375" />
+      <Text layoutX="316.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="•" />
+      <Text layoutX="316.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="•" />
+      <Text layoutX="316.0" layoutY="424.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="•" />
+      <Text layoutX="317.0" layoutY="470.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="•" />
+      <Text layoutX="317.0" layoutY="519.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="•" />
+      <ImageView fitHeight="198.0" fitWidth="307.0" layoutX="359.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/buildMuscle.jpg" />
+         </image>
+      </ImageView>
     </children>
 </Pane>

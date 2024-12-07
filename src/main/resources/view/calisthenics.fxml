@@ -77,7 +77,6 @@
             </children>
         </Pane>
         <Pane fx:id="statusBar" layoutX="199.0" layoutY="577.0" prefHeight="23.0" prefWidth="701.0" />
-      <Text layoutX="347.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Calisthenics is a form of exercise that uses your body weight for resistance, focusing on improving strength, flexibility, and endurance. It includes movements like push-ups, pull-ups, squats, and planks, which can be performed anywhere without equipment. Calisthenics helps build functional strength, enhances coordination, and increases muscle control. It's great for beginners and advanced athletes alike, as exercises can be modified to match your fitness level. With consistent practice, you can progress to more challenging moves like handstands, muscle-ups, and planches, making it a versatile and effective workout method." wrappingWidth="384.13000106811523" />
       <Pane fx:id="navigationSection" layoutX="1.0" layoutY="125.0" prefHeight="314.0" prefWidth="196.0">
          <children>
             <Text layoutX="23.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="leftSideText" text="Manage">
@@ -139,5 +138,20 @@
             </Pane>
          </children>
       </Pane>
+      <Text layoutX="336.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Calisthenics is a form of exercise that uses your body weight for resistance, focusing on improving strength, flexibility, and endurance." wrappingWidth="421.973876953125" />
+      <Text layoutX="336.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="It includes movements like push-ups, pull-ups, squats, and planks, which can be performed anywhere without equipment." wrappingWidth="396.430908203125" />
+      <Text layoutX="333.0" layoutY="416.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Calisthenics helps build functional strength, enhances coordination, and increases muscle control." wrappingWidth="421.973876953125" />
+      <Text layoutX="334.0" layoutY="465.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="It's great for beginners and advanced athletes alike, as exercises can be modified to match your fitness level." wrappingWidth="407.49285888671875" />
+      <Text layoutX="334.0" layoutY="515.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="With consistent practice, you can progress to more challenging moves like handstands, muscle-ups, and planches, making it a versatile and effective workout method." wrappingWidth="415.427978515625" />
+      <ImageView fitHeight="171.0" fitWidth="407.0" layoutX="365.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/calisthenics.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="326.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="•" />
+      <Text layoutX="325.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="•" />
+      <Text layoutX="324.0" layoutY="416.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="•" />
+      <Text layoutX="323.0" layoutY="465.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="•" />
+      <Text layoutX="323.0" layoutY="514.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="•" />
     </children>
 </Pane>
