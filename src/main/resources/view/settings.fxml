@@ -15,8 +15,8 @@
     <children>
         <Pane fx:id="sideBar" prefHeight="600.0" prefWidth="200.0">
             <children>
-                <Line endX="84.5" layoutX="95.0" layoutY="56.0" startX="-83.5" strokeWidth="0.5" />
-                <Text layoutX="53.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ram Fitness">
+                <Line fx:id="line" endX="84.5" layoutX="95.0" layoutY="56.0" startX="-83.5" strokeWidth="0.5" />
+                <Text layoutX="53.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="leftSideText" text="Ram Fitness">
                     <font>
                         <Font name="System Bold" size="21.0" />
                     </font>
@@ -26,7 +26,7 @@
                         <Image url="@../images/ramFitLogo.png" />
                     </image>
                 </ImageView>
-                <Line endX="84.5" layoutX="99.0" layoutY="549.0" startX="-83.5" strokeWidth="0.5" />
+                <Line fx:id="line2" endX="84.5" layoutX="99.0" layoutY="549.0" startX="-83.5" strokeWidth="0.5" />
                 <Pane layoutX="1.0" layoutY="508.0" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
                     <children>
                         <Text fill="#686868" layoutX="60.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Help" />
@@ -79,10 +79,10 @@
                 </ImageView>
             </children>
         </Pane>
-        <Pane fx:id="statusBar" layoutX="199.0" layoutY="577.0" prefHeight="23.0" prefWidth="701.0" />
+        <Pane fx:id="statusBar" layoutX="199.0" layoutY="577.0" prefHeight="23.0" prefWidth="687.0" />
         <Pane fx:id="navigationSection" layoutX="1.0" layoutY="125.0" prefHeight="314.0" prefWidth="196.0">
             <children>
-                <Text layoutX="23.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manage">
+                <Text layoutX="23.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="leftSideText" text="Manage">
                     <font>
                         <Font size="12.0" />
                     </font>
@@ -92,7 +92,7 @@
                         <Insets />
                     </opaqueInsets>
                     <children>
-                        <Text fill="#616161" layoutX="47.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dashboard" />
+                        <Text fill="#616161" layoutX="47.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="leftSideText" text="Dashboard" />
                         <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="23.0" layoutY="9.0">
                             <image>
                                 <Image url="@../images/workout.png" />
@@ -105,7 +105,7 @@
                         <Insets />
                     </opaqueInsets>
                     <children>
-                        <Text fill="#616161" layoutX="47.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update Goals" />
+                        <Text fill="#616161" layoutX="47.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="leftSideText" text="Update Goals" />
                         <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="23.0" layoutY="9.0">
                             <image>
                                 <Image url="@../images/goals.png" />
@@ -118,7 +118,7 @@
                         <Insets />
                     </opaqueInsets>
                     <children>
-                        <Text fill="#616161" layoutX="48.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Get Started" />
+                        <Text fill="#616161" layoutX="48.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="leftSideText" text="Get Started" />
                         <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="23.0" layoutY="9.0">
                             <image>
                                 <Image url="@../images/rocket.png" />
@@ -131,7 +131,7 @@
                         <Insets />
                     </opaqueInsets>
                     <children>
-                        <Text fill="#616161" layoutX="48.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Settings" />
+                        <Text fill="#616161" layoutX="48.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="leftSideText" text="Settings" />
                         <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="23.0" layoutY="9.0">
                             <image>
                                 <Image url="@../images/gear.png" />
@@ -141,7 +141,7 @@
                 </Pane>
             </children>
         </Pane>
-      <Pane fx:id="rightSectionSettings" layoutX="201.0" layoutY="59.0" prefHeight="514.0" prefWidth="693.0">
+      <Pane fx:id="rightSectionSettings" layoutX="201.0" layoutY="59.0" prefHeight="514.0" prefWidth="693.0" stylesheets="@../css/theme3.css">
           <children>
               <Text fx:id="headerText" layoutX="52.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Settings">
                   <font>
@@ -159,12 +159,7 @@
               <Arc fill="WHITE" layoutX="164.0" layoutY="154.0" length="180.0" radiusX="30.0" radiusY="30.0" startAngle="90.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
               <Circle fx:id="theme3" fill="WHITE" layoutX="85.0" layoutY="155.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
               <Circle fx:id="theme4" layoutX="243.0" layoutY="154.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
-              <Button layoutX="56.0" layoutY="467.0" mnemonicParsing="false" text="Delete Account" textFill="RED" />
-              <Text layoutX="56.0" layoutY="460.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Delete Account">
-                  <font>
-                      <Font size="14.0" />
-                  </font>
-              </Text>
+              <Button layoutX="56.0" layoutY="446.0" mnemonicParsing="false" text="Delete Account" textFill="RED" />
 
               <Pane fx:id="theme4Pane" layoutX="289.0" layoutY="120.0" onMouseClicked="#setTheme4" prefHeight="70.0" prefWidth="70.0" />
               <Pane fx:id="theme2Pane" layoutX="129.0" layoutY="119.0" onMouseClicked="#setTheme2" prefHeight="70.0" prefWidth="70.0" />

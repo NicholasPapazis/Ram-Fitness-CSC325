@@ -1,11 +1,26 @@
 #background {
-    -fx-background-color: #F1F5F9;
+    -fx-background-color: #1c1c1e;
 }
 
-#sideBar, #topBar, #statusBar {
-    -fx-background-color: rgb(255, 255, 255);
-    -fx-border-color: rgb(182, 182, 182);
-    
+
+#sideBar {
+    -fx-background-color: #1c1c1e;
+    -fx-border-color: #28282b;
+
+}
+
+#topBar {
+    -fx-background-color: #1c1c1e;
+    -fx-border-color: transparent transparent #28282b #28282b;
+}
+
+#statusBar {
+    -fx-background-color: #1c1c1e;
+    -fx-border-color: #28282b transparent #28282b #28282b;
+}
+
+.rightSideText {
+    -fx-fill: white;
 }
 
 .navPanes {
@@ -13,7 +28,7 @@
 }
 
 .navPanes:hover{
-    -fx-background-color:#F1F5F9;
+    -fx-background-color: #292929;
 }
 
 .workoutCats {
@@ -58,7 +73,8 @@
 
 .updateDataInputField {
     /*-fx-border-color: rgb(145, 145, 145);*/
-    -fx-background-color: rgba(255, 255, 255, 1.0);
+    -fx-background-color: rgb(67, 67, 67);
+    -fx-text-fill: white;
     -fx-border-radius: 5px;
     -fx-background-radius: 5px;
     -fx-min-width: 300px;
@@ -108,3 +124,29 @@
     -fx-fill: #595959;
 }
 
+
+#topBar {
+    fx-background-color: red;
+}
+
+Button {
+    -fx-background-color: rgb(55, 55, 55);
+    -fx-border-radius: 5px;
+    -fx-border-color: grey;
+}
+
+#saveBtn {
+    -fx-text-fill: white;
+}
+
+#line, #line2 {
+    -fx-stroke: grey;
+}
+
+.rightSideText{
+    -fx-fill: grey;
+}
+
+.leftSideText{
+    -fx-fill: grey;
+}
