@@ -6,7 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="updated style of loseFat page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/powerlifting.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/powerlifting.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/DashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/getStarted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/getStarted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/css/theme1.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/theme1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/css/theme2.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/theme2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/css/theme3.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/theme3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/css/theme4.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/theme4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/dashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/getStarted.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/getStarted.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,9 +76,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "62-add-style-to-workout-page",
+    "git-widget-placeholder": "65-make-status-bar-work",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/nicholas/IdeaProjects/ram-fitness-csc325dec7/src/main/resources/files",
+    "last_opened_file_path": "/home/nicholas/IdeaProjects/ram-fitness-csc325dec7Two/src/main/resources/files",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -147,6 +154,7 @@
       <workItem from="1733500546808" duration="17497000" />
       <workItem from="1733584948987" duration="4264000" />
       <workItem from="1733589883616" duration="4141000" />
+      <workItem from="1733596429757" duration="2497000" />
     </task>
     <task id="LOCAL-00001" summary="created blank calisthenics fxml page">
       <option name="closed" value="true" />

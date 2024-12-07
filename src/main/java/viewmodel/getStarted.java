@@ -9,14 +9,12 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
+import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 import java.io.IOException;
 
 public class getStarted {
-
-    @FXML
-    public Pane dashboardLink;
 
     @FXML
     public Button calisthenicsBtn;
@@ -30,6 +28,43 @@ public class getStarted {
 
     @FXML
     public Pane logoutPane;
+
+
+    @FXML
+    private Pane dashboardLink;
+    @FXML
+    private Pane updateGoalsLink;
+    @FXML
+    private Pane getStartedLink;
+    @FXML
+    private Pane settingsLink;
+
+    @FXML
+    private Pane helpLink;
+    @FXML
+    private Pane logoutLink;
+
+
+    @FXML
+    private Text statusText;
+
+
+
+    public void initialize() {
+
+
+        //hover effects for each pane on side bar
+        setupHoverEffect(dashboardLink, "click to go to Dashboard");
+        setupHoverEffect(updateGoalsLink, "click to update your goals");
+        setupHoverEffect(getStartedLink, "click to learn about working out");
+        setupHoverEffect(settingsLink, "click to open settings");
+
+        setupHoverEffect(helpLink, "click for instructions");
+        setupHoverEffect(logoutLink, "click logout of your account");
+
+
+    }
+
 
 
 
@@ -183,6 +218,27 @@ public class getStarted {
             e.printStackTrace();
         }
     }
+
+
+    /* status bar methods start */
+
+    //detects where mouse is
+    private void setupHoverEffect(Pane pane, String message){
+        pane.setOnMouseEntered(event -> showStatusMessage(message));
+        pane.setOnMouseExited(event -> clearStatusMessage());
+    }
+
+    //shows status message
+    private void showStatusMessage(String message) {
+        statusText.setText(message);
+    }
+
+    //clears status message
+    private void clearStatusMessage() {
+        statusText.setText(""); // Clear the message when mouse leaves the Pane
+    }
+
+    /* status bar methods end */
 
 
 
