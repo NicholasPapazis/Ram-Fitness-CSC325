@@ -27,7 +27,7 @@
                     </image>
                 </ImageView>
                 <Line fx:id="line2" endX="84.5" layoutX="99.0" layoutY="549.0" startX="-83.5" strokeWidth="0.5" />
-                <Pane layoutX="1.0" layoutY="508.0" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
+                <Pane fx:id="helpLink" layoutX="1.0" layoutY="508.0" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
                     <children>
                         <Text fill="#686868" layoutX="60.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Help" />
                         <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="32.0" layoutY="10.0">
@@ -37,7 +37,7 @@
                         </ImageView>
                     </children>
                 </Pane>
-                <Pane layoutX="1.0" layoutY="550.0" onMouseClicked="#logOut" prefHeight="51.0" prefWidth="198.0" styleClass="navPanes">
+                <Pane fx:id="logoutLink" layoutX="1.0" layoutY="550.0" onMouseClicked="#logOut" prefHeight="51.0" prefWidth="198.0" styleClass="navPanes">
                     <children>
                         <Text fill="#686868" layoutX="60.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Logout" />
                         <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="33.0" layoutY="11.0">
@@ -80,9 +80,12 @@
             </children>
         </Pane>
         <Pane fx:id="statusBar" layoutX="199.0" layoutY="577.0" prefHeight="23.0" prefWidth="701.0">
-         <children>
-            <Text fx:id="statusBarText" layoutX="16.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Text" wrappingWidth="200.0" />
-         </children></Pane>
+            <children>
+                <Text fx:id="statusText" layoutX="8.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0">
+                    <font>
+                        <Font size="11.0" />
+                    </font></Text>
+            </children></Pane>
       <VBox layoutX="400.0" layoutY="122.0" prefHeight="314.0" prefWidth="300.0">
          <children>
             <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Daily Progress" />
@@ -162,7 +165,7 @@
                   </ImageView>
                </children>
             </Pane>
-            <Pane layoutY="122.0" onMouseClicked="#goToUpdateDataPage" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
+            <Pane fx:id="updateGoalsLink" layoutY="122.0" onMouseClicked="#goToUpdateDataPage" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
@@ -175,7 +178,7 @@
                   </ImageView>
                </children>
             </Pane>
-            <Pane layoutY="161.0" onMouseClicked="#goToGetStarted" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
+            <Pane fx:id="getStartedLink" layoutY="161.0" onMouseClicked="#goToGetStarted" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
@@ -188,7 +191,7 @@
                   </ImageView>
                </children>
             </Pane>
-            <Pane layoutY="201.0" onMouseClicked="#goToSettings" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
+            <Pane fx:id="settingsLink" layoutY="201.0" onMouseClicked="#goToSettings" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>

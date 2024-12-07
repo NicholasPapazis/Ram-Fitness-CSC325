@@ -138,3 +138,7 @@ Button {
 #line, #line2 {
     -fx-stroke: grey;
 }
+
+#statusText {
+    -fx-fill: grey;
+}

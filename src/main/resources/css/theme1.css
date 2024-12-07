@@ -125,3 +125,7 @@ Button {
 #deleteBtn{
     -fx-text-fill: red;
 }
+
+#statusText {
+    -fx-fill: grey;
+}

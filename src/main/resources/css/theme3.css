@@ -159,3 +159,7 @@ Button {
     -fx-border-color: grey;
     -fx-text-fill: red;
 }
+
+#statusText {
+    -fx-fill: grey;
+}

@@ -5,8 +5,10 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
+import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -24,9 +26,50 @@ public class SettingsController {
     private Pane theme4Pane;
 
 
+    @FXML
+    private Pane dashboardLink;
+    @FXML
+    private Pane updateGoalsLink;
+    @FXML
+    private Pane getStartedLink;
+    @FXML
+    private Pane settingsLink;
+
+    @FXML
+    private Pane helpLink;
+    @FXML
+    private Pane logoutLink;
+
+
+    @FXML
+    private Text statusText;
+
+    @FXML
+    private Button deleteBtn;
+
+
     public void initialize() {
 
         setThemeCircleIndicator();
+
+
+        setupHoverEffect(dashboardLink, "click to go to Dashboard");
+        setupHoverEffect(updateGoalsLink, "click to update your goals");
+        setupHoverEffect(getStartedLink, "click to learn about working out");
+        setupHoverEffect(settingsLink, "click to open settings");
+
+        setupHoverEffect(helpLink, "click for instructions");
+        setupHoverEffect(logoutLink, "click logout of your account");
+
+        setupHoverEffect(theme1Pane, "click to change theme to light");
+        setupHoverEffect(theme2Pane, "click to change theme to light/dark");
+        setupHoverEffect(theme3Pane, "click to change theme to dark");
+        setupHoverEffect(theme4Pane, "click to change theme to dark/light");
+
+        setupHoverEffect(deleteBtn, "click to delete your account");
+
+
+
 
     }
 
@@ -180,6 +223,32 @@ public class SettingsController {
         setThemeCircleIndicator();
     }
 
+
+    /* status bar methods start */
+
+    //detects where mouse is for pane
+    private void setupHoverEffect(Pane pane, String message){
+        pane.setOnMouseEntered(event -> showStatusMessage(message));
+        pane.setOnMouseExited(event -> clearStatusMessage());
+    }
+
+    //detects where mouse is for button
+    private void setupHoverEffect(Button btn, String message){
+        btn.setOnMouseEntered(event -> showStatusMessage(message));
+        btn.setOnMouseExited(event -> clearStatusMessage());
+    }
+
+    //shows status message
+    private void showStatusMessage(String message) {
+        statusText.setText(message);
+    }
+
+    //clears status message
+    private void clearStatusMessage() {
+        statusText.setText(""); // Clear the message when mouse leaves the Pane
+    }
+
+    /* status bar methods end */
 
 
 
