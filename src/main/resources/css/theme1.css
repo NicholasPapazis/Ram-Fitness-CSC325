@@ -121,3 +121,7 @@ Button {
 #saveBtn {
     -fx-text-fill: black;
 }
+
+#deleteBtn{
+    -fx-text-fill: red;
+}

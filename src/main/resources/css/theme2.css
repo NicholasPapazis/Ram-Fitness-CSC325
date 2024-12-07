@@ -138,3 +138,11 @@ Button {
 #saveBtn {
     -fx-text-fill: white;
 }
+
+#deleteBtn {
+    -fx-background-color: #545454;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-color: grey;
+    -fx-text-fill: red;
+}

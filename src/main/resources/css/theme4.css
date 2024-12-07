@@ -2,10 +2,15 @@
     -fx-background-color: #F1F5F9;
 }
 
-#sideBar, #topBar, #statusBar {
+#sideBar {
+    -fx-background-color: #1c1c1e;
+    -fx-border-color: #28282b;
+}
+
+#topBar, #statusBar {
     -fx-background-color: rgb(255, 255, 255);
     -fx-border-color: rgb(182, 182, 182);
-    
+
 }
 
 .navPanes {
@@ -13,12 +18,16 @@
 }
 
 .navPanes:hover{
-    -fx-background-color:#F1F5F9;
+    -fx-background-color: #292929;
 }
 
 .workoutCats {
     -fx-background-radius: 15; /* Adjust the radius as needed */
 
+}
+
+.rightSideText {
+    -fx-fill: black;
 }
 
 #exercisePane {
@@ -106,4 +115,26 @@
 
 .header-text {
     -fx-fill: #595959;
+}
+
+Button {
+    -fx-background-color: white;
+    -fx-border-radius: 5px;
+    -fx-border-color: grey;
+}
+
+#saveBtn {
+    -fx-text-fill: black;
+}
+
+#deleteBtn{
+    -fx-text-fill: red;
+}
+
+.leftSideText{
+    -fx-fill: grey;
+}
+
+#line, #line2 {
+    -fx-stroke: grey;
 }

@@ -51,6 +51,7 @@ public class ThemeController {
         String stylesheet = currentTheme.getStylesheet();
         //gets the location of the new stylesheet
         URL cssURL = ThemeController.class.getResource("/css" + stylesheet);
+        System.out.println(cssURL);
         if (cssURL != null) { //makes sure stylesheet is accessible
             scene.getStylesheets().add(cssURL.toExternalForm()); //adds the new stylesheet
         } else {

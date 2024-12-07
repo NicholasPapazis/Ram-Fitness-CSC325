@@ -79,10 +79,10 @@
                 </ImageView>
             </children>
         </Pane>
-        <Pane fx:id="statusBar" layoutX="199.0" layoutY="577.0" prefHeight="23.0" prefWidth="687.0" />
+        <Pane fx:id="statusBar" layoutX="199.0" layoutY="577.0" prefHeight="23.0" prefWidth="701.0" />
         <Pane fx:id="navigationSection" layoutX="1.0" layoutY="125.0" prefHeight="314.0" prefWidth="196.0">
             <children>
-                <Text layoutX="23.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="leftSideText" text="Manage">
+                <Text fx:id="manageText" layoutX="23.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="leftSideText" text="Manage">
                     <font>
                         <Font size="12.0" />
                     </font>
@@ -141,14 +141,14 @@
                 </Pane>
             </children>
         </Pane>
-      <Pane fx:id="rightSectionSettings" layoutX="201.0" layoutY="59.0" prefHeight="514.0" prefWidth="693.0" stylesheets="@../css/theme3.css">
+      <Pane fx:id="rightSectionSettings" layoutX="201.0" layoutY="59.0" prefHeight="514.0" prefWidth="693.0">
           <children>
               <Text fx:id="headerText" layoutX="52.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Settings">
                   <font>
                       <Font name="System Bold" size="20.0" />
                   </font>
               </Text>
-              <Text layoutX="52.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Theme">
+              <Text fx:id="themeText" layoutX="52.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Theme">
                   <font>
                       <Font size="14.0" />
                   </font>
@@ -159,12 +159,12 @@
               <Arc fill="WHITE" layoutX="164.0" layoutY="154.0" length="180.0" radiusX="30.0" radiusY="30.0" startAngle="90.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
               <Circle fx:id="theme3" fill="WHITE" layoutX="85.0" layoutY="155.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
               <Circle fx:id="theme4" layoutX="243.0" layoutY="154.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
-              <Button layoutX="56.0" layoutY="446.0" mnemonicParsing="false" text="Delete Account" textFill="RED" />
 
-              <Pane fx:id="theme4Pane" layoutX="289.0" layoutY="120.0" onMouseClicked="#setTheme4" prefHeight="70.0" prefWidth="70.0" />
+              <Pane fx:id="theme4Pane" layoutX="289.0" layoutY="119.0" onMouseClicked="#setTheme4" prefHeight="70.0" prefWidth="70.0" />
               <Pane fx:id="theme2Pane" layoutX="129.0" layoutY="119.0" onMouseClicked="#setTheme2" prefHeight="70.0" prefWidth="70.0" />
               <Pane fx:id="theme1Pane" layoutX="50.0" layoutY="120.0" onMouseClicked="#setTheme1" prefHeight="70.0" prefWidth="70.0" />
               <Pane fx:id="theme3Pane" layoutX="208.0" layoutY="120.0" onMouseClicked="#setTheme3" prefHeight="70.0" prefWidth="70.0" />
+            <Button fx:id="deleteBtn" layoutX="63.0" layoutY="430.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="144.0" text="Button" />
 
           </children>
       </Pane>

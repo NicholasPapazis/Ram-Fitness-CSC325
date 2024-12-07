@@ -13,7 +13,7 @@
         <Pane fx:id="sideBar" prefHeight="600.0" prefWidth="200.0">
             <children>
                 <Line endX="84.5" layoutX="95.0" layoutY="56.0" startX="-83.5" strokeWidth="0.5" />
-                <Text layoutX="53.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ram Fitness">
+                <Text layoutX="53.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="leftSideText" text="Ram Fitness">
                     <font>
                         <Font name="System Bold" size="21.0" />
                     </font>
@@ -48,12 +48,12 @@
         </Pane>
         <Pane fx:id="topBar" layoutX="199.0" prefHeight="57.0" prefWidth="701.0">
             <children>
-                <Text layoutX="24.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome Back">
+                <Text layoutX="24.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Welcome Back">
                     <font>
                         <Font name="System Bold" size="21.0" />
                     </font>
                 </Text>
-                <Text fill="#868686" layoutX="23.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Good Morning" />
+                <Text fill="#868686" layoutX="23.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Good Morning" />
                 <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="180.0" layoutY="19.0">
                     <image>
                         <Image url="@../images/party-popper.png" />
@@ -77,10 +77,10 @@
             </children>
         </Pane>
         <Pane fx:id="statusBar" layoutX="199.0" layoutY="577.0" prefHeight="23.0" prefWidth="701.0" />
-      <Text layoutX="348.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Powerlifting is a strength sport that focuses on three main lifts: the squat, bench press, and deadlift. The goal is to lift as much weight as possible for a single repetition in each lift. It emphasizes building maximum strength and requires proper technique, progressive overload, and consistency. Powerlifting is great for improving overall muscle strength and density, and it's suitable for all fitness levels, as training programs can be tailored to individual goals and abilities." wrappingWidth="403.13000106811523" />
+      <Text layoutX="348.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Powerlifting is a strength sport that focuses on three main lifts: the squat, bench press, and deadlift. The goal is to lift as much weight as possible for a single repetition in each lift. It emphasizes building maximum strength and requires proper technique, progressive overload, and consistency. Powerlifting is great for improving overall muscle strength and density, and it's suitable for all fitness levels, as training programs can be tailored to individual goals and abilities." wrappingWidth="403.13000106811523" />
       <Pane fx:id="navigationSection" layoutX="1.0" layoutY="125.0" prefHeight="314.0" prefWidth="196.0">
          <children>
-            <Text layoutX="23.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manage">
+            <Text layoutX="23.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="leftSideText" text="Manage">
                <font>
                   <Font size="12.0" />
                </font>
