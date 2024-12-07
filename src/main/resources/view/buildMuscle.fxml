@@ -8,12 +8,12 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<Pane fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" stylesheets="@../css/dashboard.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewmodel.BulidMuscle">
+<Pane fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewmodel.BulidMuscle">
     <children>
         <Pane fx:id="sideBar" prefHeight="600.0" prefWidth="200.0">
             <children>
                 <Line endX="84.5" layoutX="95.0" layoutY="56.0" startX="-83.5" strokeWidth="0.5" />
-                <Text layoutX="53.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ram Fitness">
+                <Text layoutX="53.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="leftSideText" text="Ram Fitness">
                     <font>
                         <Font name="System Bold" size="21.0" />
                     </font>
@@ -48,12 +48,12 @@
         </Pane>
         <Pane fx:id="topBar" layoutX="199.0" prefHeight="57.0" prefWidth="701.0">
             <children>
-                <Text layoutX="24.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome Back">
+                <Text layoutX="24.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Welcome Back">
                     <font>
                         <Font name="System Bold" size="21.0" />
                     </font>
                 </Text>
-                <Text fill="#868686" layoutX="23.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Good Morning" />
+                <Text fill="#868686" layoutX="23.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Good Morning" />
                 <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="180.0" layoutY="19.0">
                     <image>
                         <Image url="@../images/party-popper.png" />
@@ -77,10 +77,10 @@
             </children>
         </Pane>
         <Pane fx:id="statusBar" layoutX="199.0" layoutY="577.0" prefHeight="23.0" prefWidth="701.0" />
-      <Text layoutX="348.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Building muscle, or hypertrophy, involves resistance training to challenge your muscles and stimulate growth. Focus on compound exercises like squats, deadlifts, and bench presses, combined with isolation movements such as bicep curls and tricep extensions. Aim for 8-12 reps per set with progressively heavier weights to encourage muscle growth. Pair your workouts with a protein-rich diet to support recovery and repair. Consistency, proper form, and adequate rest are key to building muscle effectively." wrappingWidth="403.13000106811523" />
+      <Text layoutX="348.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Building muscle, or hypertrophy, involves resistance training to challenge your muscles and stimulate growth. Focus on compound exercises like squats, deadlifts, and bench presses, combined with isolation movements such as bicep curls and tricep extensions. Aim for 8-12 reps per set with progressively heavier weights to encourage muscle growth. Pair your workouts with a protein-rich diet to support recovery and repair. Consistency, proper form, and adequate rest are key to building muscle effectively." wrappingWidth="403.13000106811523" />
       <Pane fx:id="navigationSection" layoutX="1.0" layoutY="125.0" prefHeight="314.0" prefWidth="196.0">
          <children>
-            <Text layoutX="23.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manage">
+            <Text layoutX="23.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="leftSideText" text="Manage">
                <font>
                   <Font size="12.0" />
                </font>

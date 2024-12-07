@@ -1,0 +1,161 @@
+#background {
+    -fx-background-color: #1c1c1e;
+}
+
+
+#sideBar {
+    -fx-background-color: #1c1c1e;
+    -fx-border-color: #28282b;
+
+}
+
+#topBar {
+    -fx-background-color: #1c1c1e;
+    -fx-border-color: transparent transparent #28282b #28282b;
+}
+
+#statusBar {
+    -fx-background-color: #1c1c1e;
+    -fx-border-color: #28282b transparent #28282b #28282b;
+}
+
+.rightSideText {
+    -fx-fill: white;
+}
+
+.navPanes {
+    /*-fx-border-color: black;*/
+}
+
+.navPanes:hover{
+    -fx-background-color: #292929;
+}
+
+.workoutCats {
+    -fx-background-radius: 15; /* Adjust the radius as needed */
+
+}
+
+#exercisePane {
+    -fx-background-color: #63C041;
+    -fx-background-radius: 10px;
+}
+
+#caloriesPane {
+    -fx-background-color: #F97316;
+    -fx-background-radius: 10px;
+}
+
+#weightLiftedPane {
+    -fx-background-color: #8B5CF6;
+    -fx-background-radius: 10px;
+}
+
+#sleepPane {
+    -fx-background-color: #06B6D4;
+    -fx-background-radius: 10px;
+}
+
+#recentExercises {
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+}
+
+#chart {
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+}
+
+#sampleExercises {
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+}
+
+.updateDataInputField {
+    /*-fx-border-color: rgb(145, 145, 145);*/
+    -fx-background-color: rgb(67, 67, 67);
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-min-width: 300px;
+    -fx-min-height: 30px;
+    -fx-prompt-text-fill: #9c9c9c;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.2, 0, 0);
+}
+
+.updateDataInputField:selected {
+    -fx-border-color: rgb(145, 145, 145);
+    -fx-background-color: rgba(255, 255, 255, 1.0);
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-min-width: 300px;
+    -fx-min-height: 30px;
+    -fx-prompt-text-fill: #9c9c9c;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0.2, 0, 0);
+}
+
+
+.getStartedBtns {
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-border-color: black;
+    -fx-background-color: white;
+
+}
+
+#loseFatBtn {
+    -fx-background-color: rgba(255, 76, 76, 0.9);
+}
+
+#calisthenicsButton {
+    -fx-background-color: #2196F3;
+}
+
+#powerliftingBtn {
+    -fx-background-color: #212121;
+}
+
+#buildMuscleBtn {
+    -fx-background-color: #00897B;
+}
+
+
+.header-text {
+    -fx-fill: #595959;
+}
+
+
+#topBar {
+    fx-background-color: red;
+}
+
+Button {
+    -fx-background-color: rgb(55, 55, 55);
+    -fx-border-radius: 5px;
+    -fx-border-color: grey;
+}
+
+#saveBtn {
+    -fx-text-fill: white;
+}
+
+#line, #line2 {
+    -fx-stroke: grey;
+}
+
+.rightSideText{
+    -fx-fill: grey;
+}
+
+.leftSideText{
+    -fx-fill: grey;
+}
+
+
+#deleteBtn {
+    -fx-background-color: #545454;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-color: grey;
+    -fx-text-fill: red;
+}
