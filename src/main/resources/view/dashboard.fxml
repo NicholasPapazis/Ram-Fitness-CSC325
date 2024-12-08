@@ -386,5 +386,13 @@
       <Text fx:id="exProgLabel1" layoutX="313.0" layoutY="423.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Calories" wrappingWidth="67.56099700927734" />
       <Text fx:id="exProgLabel2" layoutX="312.0" layoutY="466.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Weight Lifted" wrappingWidth="101.43000030517578" />
       <Text fx:id="exProgLabel3" layoutX="312.0" layoutY="503.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Sleep" wrappingWidth="67.56099700927734" />
+      <Pane fx:id="indicator" layoutX="134.0" layoutY="250.0" prefHeight="40.0" prefWidth="140.0">
+         <children>
+            <Line endX="31.0" endY="1.0" layoutX="109.0" layoutY="19.0" startX="-100.0" stroke="#14ff33" strokeWidth="3.0" />
+            <Line endX="100.0" layoutX="-81.0" layoutY="12.0" startX="86.0" startY="7.0" stroke="#14ff33" strokeWidth="3.0" />
+            <Line endX="75.5" endY="-3.5" layoutX="-70.0" layoutY="22.0" startX="89.0" startY="5.0" stroke="#14ff33" strokeWidth="3.0" />
+            <Text fill="#14ff33" layoutX="27.0" layoutY="16.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Click to set data" wrappingWidth="110.0" />
+         </children>
+      </Pane>
    </children>
 </Pane>

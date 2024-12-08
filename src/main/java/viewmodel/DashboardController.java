@@ -4,6 +4,8 @@ import com.google.api.core.ApiFuture;
 import com.google.cloud.firestore.QueryDocumentSnapshot;
 import com.google.cloud.firestore.QuerySnapshot;
 import com.google.firebase.auth.UserRecord;
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -15,6 +17,7 @@ import javafx.scene.input.*;
 import javafx.scene.layout.Pane;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
+import javafx.util.Duration;
 import model.Person;
 
 import javax.swing.text.Document;
@@ -86,6 +89,8 @@ public class DashboardController {
     @FXML
     private Text sleepPercentage;
 
+    @FXML
+    private Pane indicator;
 
     static String documentId;
     Document doc;
@@ -94,6 +99,7 @@ public class DashboardController {
 
 
     public void initialize() {
+        indicator.setVisible(false);
         updateDashboardView();
 
         //hover effects for each pane on side bar
@@ -106,6 +112,33 @@ public class DashboardController {
         setupHoverEffect(logoutLink, "click logout of your account");
 
 
+
+        final boolean[] movingRight = {true};
+        if (exerciseCurrentText.getText().equals("0") &&
+                caloriesCurrentText.getText().equals("0") &&
+                weightLiftedCurrentText.getText().equals("0") &&
+                sleepCurrentText.getText().equals("0") &&
+                exerciseDailyGoal.getText().equals("0") &&
+                calorieDailyGoal.getText().equals("0") &&
+                weightDailyGoal.getText().equals("0") &&
+                sleepDailyGoal.getText().equals("0")) {
+            indicator.setVisible(true); //make arrow visible
+            Timeline timeline = new Timeline(
+                    new KeyFrame(Duration.millis(1000), e -> {
+                        if (movingRight[0]) {
+                            indicator.setLayoutX(indicator.getLayoutX() + 20);
+                        } else {
+                            indicator.setLayoutX(indicator.getLayoutX() - 20);
+                        }
+
+
+                        movingRight[0] = !movingRight[0];
+                    })
+            );
+
+            timeline.setCycleCount(Timeline.INDEFINITE);
+            timeline.play();
+        }
 
     }
 
