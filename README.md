@@ -1,60 +1,46 @@
-RAM Fitness
-RAM Fitness is a desktop application designed to help users build and maintain a healthy lifestyle through personalized fitness plans, progress tracking, and user-centric features. The application leverages JavaFX for its interface, incorporates design best practices, and demonstrates robust functionality through clean, modular code.
+# **Ram Fitness** - Fitness Tracking Application
 
-Table of Contents
-Project Overview
-Features
-Design Process
-Development Approach
-Installation and Usage
-Challenges and Solutions
-Future Enhancements
-Contributors
-License
-Project Overview
-The goal of RAM Fitness is to provide users with a one-stop solution for fitness planning and tracking. The application offers a streamlined user interface, detailed progress visualization, and personalized workout suggestions tailored to individual goals.
+**Ram Fitness** helps users track their fitness goals, monitor progress, and stay motivated. With features such as personalized themes, account management, and an interactive dashboard, this app is designed to keep your fitness journey on track.
 
-Key Objectives:
+## **Features**
 
-Deliver a user-friendly and professional interface.
-Provide tools for users to track fitness progress efficiently.
-Enable users to create and follow personalized workout plans.
-Features
-Personalized Training Plans: Users receive tailored workout routines based on their fitness goals.
-Progress Tracking: Interactive progress bars and visual data to track workouts and milestones.
-Interactive UI: Designed with a clean and intuitive JavaFX interface.
-User-Friendly Experience: Guided navigation through all features.
-Data Security: User information stored securely with the potential for integration with cloud databases.
-Design Process
-LoFi and HiFi Prototypes
-The application’s design process began with:
+### 1. **Google Firebase Authentication**
+   - Users can securely sign up, log in, and manage their accounts using Google Firebase Authentication.
 
-LoFi Prototypes: Sketches focusing on user flow and layout.
-HiFi Prototypes: Detailed Figma designs incorporating branding, colors, and fonts.
-The iterative design process focused on usability, aesthetics, and seamless transitions between screens.
+### 2. **Regex Input Validation**
+   - Ensures that all user inputs such as email, password, and fitness data are correctly formatted using regular expressions during registration and throughout the app.
 
-Development Approach
-Tools and Frameworks
-JavaFX: Used to build the interactive user interface.
-SCRUM Methodology: Agile approach to manage development tasks.
-Version Control: Collaboration and version management via GitHub.
-YouTrack: Managed tasks, progress, and team communication.
-Code Highlights
-Modular architecture with organized classes for each feature.
-Consistent commit history to demonstrate development progress.
-Professional documentation in the README.md file.
+     ![Screenshot from 2024-12-08 02-21-15](https://github.com/user-attachments/assets/33d59e2c-225b-4171-9ffe-83acdf0aa583)
 
 
-Challenges and Solutions
-Challenge: Managing consistent UI updates during live demonstrations.
-Solution: Ensured frequent testing and debugged issues before integration.
-Challenge: Collaborative workflow and resolving merge conflicts.
-Solution: Established clear branch structures and regular team sync-ups.
-Future Enhancements
-Cloud Integration: Allow users to sync data with a cloud database.
-Mobile App Development: Extend the desktop app to a mobile-friendly version.
-Additional Features: Incorporate dietary suggestions, fitness video tutorials, and community forums.
-Contributors
+### 3. **Dashboard**
+   - Displays real-time progress towards daily fitness goals, including metrics like calories burned, weight lifted, exercise time, and sleep hours.
 
-Nick, Moeez, Muhammad and Hashim
+### 4. **Update Progress and Goals**
+   - Users can update their daily fitness progress and adjust their goals directly within the app for better goal management.
 
+### 5. **Get Started Page**
+   - A learning hub for users to explore different types of exercises, such as calisthenics, powerlifting, fat loss, and muscle building.
+
+### 6. **Settings Page with Theme Customization**
+   - Switch between four different themes for a personalized experience and a visually appealing user interface.
+
+### 7. **Thread-Safe Theme Switching**
+   - Ensures smooth and safe switching between themes across multiple threads, preventing concurrency issues during theme changes.
+
+### 8. **Account Deletion**
+   - Users can delete their accounts at any time from the settings page.
+
+### 9. **Real-Time Progress Monitoring**
+   - Real-time updates to reflect fitness progress toward user-defined goals, ensuring that users remain motivated.
+
+### 10. **User-Friendly Interface**
+   - Designed with JavaFX, the application features a modern and intuitive interface, including material design icons to enhance the user experience.
+
+## **Technologies Used**
+
+- **JavaFX**: The user interface is built with JavaFX, providing a smooth and modern desktop experience.
+- **Google Firebase Authentication**: Provides secure and reliable authentication services for users.
+- **Regex**: Regular expressions are used to validate user inputs, such as emails and passwords, throughout the app.
+- **Google Material Design Icons**: These icons help improve the app's design with modern and user-friendly visuals.
+- **Thread Safety (Java)**: Ensures that theme switching is managed safely and effectively in a multi-threaded environment.
