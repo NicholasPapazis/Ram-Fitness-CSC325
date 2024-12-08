@@ -25,6 +25,12 @@ import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 
+
+
+/**
+ * Controller for the Dashboard view in the Ram Fitness application.
+ * Handles UI interactions, updating user progress data, and navigating between views.
+ */
 public class DashboardController {
 
 
@@ -97,7 +103,9 @@ public class DashboardController {
     static public Person p; //
 
 
-
+    /**
+     * Initializes the Dashboard by setting up hover effects and displaying progress data.
+     */
     public void initialize() {
         indicator.setVisible(false);
         updateDashboardView();
@@ -144,7 +152,12 @@ public class DashboardController {
 
     /****** sidebar methods start *******/
 
-    //go to dashboard
+    /**
+     * Navigates to the Dashboard view when the Dashboard link is clicked.
+     *
+     * @param actionEvent The event triggered by the user clicking the dashboard link.
+     * @throws IOException if there is an error loading the dashboard view.
+     */
     public void goToDashboard(MouseEvent actionEvent) throws IOException {
 
         try {
@@ -161,7 +174,11 @@ public class DashboardController {
         }
     }
 
-    //go to Update Goals
+    /**
+     * Navigates to the Update Goals page when the Update Goals link is clicked.
+     *
+     * @param event The event triggered by the user clicking the update goals link.
+     */
     public void goToUpdateDataPage(MouseEvent event) {
         try {
             Parent root = FXMLLoader.load(getClass().getResource("/view/updateData.fxml"));
@@ -176,7 +193,12 @@ public class DashboardController {
         }
     }
 
-    //go to Get Started
+    /**
+     * Navigates to the Get Started page when the Get Started link is clicked.
+     *
+     * @param actionEvent The event triggered by the user clicking the Get Started link.
+     * @throws IOException if there is an error loading the Get Started view.
+     */
     public void goToGetStarted(MouseEvent actionEvent) throws IOException {
 
         try {
@@ -193,7 +215,12 @@ public class DashboardController {
 
     }
 
-    //go to Settings
+    /**
+     * Navigates to the Settings page when the Settings link is clicked.
+     *
+     * @param actionEvent The event triggered by the user clicking the settings link.
+     * @throws IOException if there is an error loading the settings view.
+     */
     public void goToSettings(MouseEvent actionEvent) throws IOException {
 
         try {
@@ -210,7 +237,12 @@ public class DashboardController {
 
     }
 
-    //go to help
+    /**
+     * Opens the Help window when the Help link is clicked.
+     *
+     * @param actionEvent The event triggered by the user clicking the help link.
+     * @throws IOException if there is an error loading the help window.
+     */
     public void goToHelp(MouseEvent actionEvent) throws IOException {
 
         try {
@@ -232,7 +264,11 @@ public class DashboardController {
         }
     }
 
-    //log out. Go to login page
+    /**
+     * Logs out the current user and navigates to the Login page.
+     *
+     * @param event The event triggered by the user clicking the logout link.
+     */
     public void logOut(MouseEvent event) {
         try {
             Parent root = FXMLLoader.load(getClass().getResource("/view/login.fxml"));
@@ -253,7 +289,10 @@ public class DashboardController {
 
 
 
-
+    /**
+     * Updates the dashboard view with the latest data for the user.
+     * This includes displaying the users goals, current progress, and updating progress bars.
+     */
     public void updateDashboardView() {
         UserRecord user = LoginController.sendUserRecord();
         System.out.println("Dashboard user: " + user);
@@ -335,6 +374,11 @@ public class DashboardController {
 
     }
 
+    /**
+     * Retrieves the document ID of the current user.
+     *
+     * @return The document ID of the current user.
+     */
     public static String getDocumentId() {
         return documentId;
     }
@@ -343,20 +387,32 @@ public class DashboardController {
 
     /* status bar methods start */
 
-    //detects where mouse is
+    /**
+     * sets up hover effects for the given pane.
+     *
+     * @param pane The pane to apply the hover effect to.
+     * @param message The message to display when the mouse enters the pane.
+     */
     private void setupHoverEffect(Pane pane, String message){
         pane.setOnMouseEntered(event -> showStatusMessage(message));
         pane.setOnMouseExited(event -> clearStatusMessage());
     }
 
-    //shows status message
+    /**
+     * Displays the given status message in the status text area.
+     *
+     * @param message The status message to display.
+     */
     private void showStatusMessage(String message) {
         statusText.setText(message);
     }
 
-    //clears status message
+    /**
+     * Clears the status message from the status text area.
+     * This method is typically called when the mouse exits a pane.
+     */
     private void clearStatusMessage() {
-        statusText.setText(""); // Clear the message when mouse leaves the Pane
+        statusText.setText(""); //clear the message when the mouse leaves the pane
     }
 
     /* status bar methods end */

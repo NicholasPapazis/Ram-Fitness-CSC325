@@ -12,6 +12,11 @@ import javafx.stage.Stage;
 import javafx.util.Duration;
 import model.FirestoreContext;
 
+/**
+ * MainApplication is the entry point of the Ram Fitness application.
+ * It sets up the initial user interface and manages the transitions between scenes.
+ * It also initializes the connection to Firebase for authentication and Firestore database operations.
+ */
 public class MainApplication extends Application {
 
     private static Scene scene;
@@ -24,13 +29,23 @@ public class MainApplication extends Application {
     private final FirestoreContext contxtFirebase = new FirestoreContext();
 
 
-
+    /**
+     * The main method launches the JavaFX application.
+     *
+     * @param args command line arguments
+     */
     public static void main(String[] args) {
         //cnUtil = new DbConnectivityClass();
         launch(args);
 
     }
 
+    /**
+     *This method is called after the application is initialized.
+     *It sets the application window icon, title, and displays the initial splash screen.
+     *
+     * @param primaryStage The primary stage (window) for the application
+     */
     public void start(Stage primaryStage) {
         Image icon = new Image(getClass().getResourceAsStream("/images/ramFitLogo.png"));
         this.primaryStage = primaryStage;
@@ -40,6 +55,9 @@ public class MainApplication extends Application {
         showScene1();
     }
 
+    /**
+     * Displays the splash screen scene and initializes the Firebase connection.
+     */
     private void showScene1() {
         try {
             initializeFB();
@@ -54,6 +72,9 @@ public class MainApplication extends Application {
         }
     }
 
+    /**
+     * Changes the scene from the splash screen to the login screen with a fade effect.
+     */
     public void changeScene() {
         try {
             Parent newRoot = FXMLLoader.load(getClass().getResource("/view/login.fxml").toURI().toURL());
@@ -75,6 +96,9 @@ public class MainApplication extends Application {
         }
     }
 
+    /**
+     * Initializes the Firebase services
+     */
     public void initializeFB(){
         fstore = contxtFirebase.firebase();
         fauth = FirebaseAuth.getInstance();
