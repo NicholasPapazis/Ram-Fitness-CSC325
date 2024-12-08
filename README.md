@@ -22,19 +22,26 @@
 ### 5. **Get Started Page**
    - A learning hub for users to explore different types of exercises, such as calisthenics, powerlifting, fat loss, and muscle building.
 
-### 6. **Settings Page with Theme Customization**
+   ![Screenshot from 2024-12-08 14-03-12](https://github.com/user-attachments/assets/eda050bc-f870-47ad-a1af-99da99bc93e5)
+
+### 6. **Status Bar**
+   - The status bar provides helpful instructions when the user hovers over different areas of the screen, guiding them through the app and enhancing navigation with contextual tips.
+
+### 7. **Settings Page with Theme Customization**
    - Switch between four different themes for a personalized experience and a visually appealing user interface.
 
-### 7. **Thread-Safe Theme Switching**
+### 8. **Thread-Safe Theme Switching**
    - Ensures smooth and safe switching between themes across multiple threads, preventing concurrency issues during theme changes.
 
-### 8. **Account Deletion**
+### 9. **Account Deletion**
    - Users can delete their accounts at any time from the settings page.
 
-### 9. **Real-Time Progress Monitoring**
+   ![Screenshot from 2024-12-08 14-27-34](https://github.com/user-attachments/assets/7e468efd-ae31-45cb-8d16-f9c5c243a2d0)
+
+### 10. **Real-Time Progress Monitoring**
    - Real-time updates to reflect fitness progress toward user-defined goals, ensuring that users remain motivated.
 
-### 10. **User-Friendly Interface**
+### 11. **User-Friendly Interface**
    - Designed with JavaFX, the application features a modern and intuitive interface, including material design icons to enhance the user experience.
 
 ## **Technologies Used**
@@ -43,4 +50,4 @@
 - **Google Firebase Authentication**: Provides secure and reliable authentication services for users.
 - **Regex**: Regular expressions are used to validate user inputs, such as emails and passwords, throughout the app.
 - **Google Material Design Icons**: These icons help improve the app's design with modern and user-friendly visuals.
-- **Thread Safety (Java)**: Ensures that theme switching is managed safely and effectively in a multi-threaded environment.
+- **Thread Safety**: Ensures that theme switching is managed safely and effectively in a multi-threaded environment.
