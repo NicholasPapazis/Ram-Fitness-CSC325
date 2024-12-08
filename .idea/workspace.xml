@@ -4,26 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="added styles to progress bars on dashboard">
-      <change afterPath="$PROJECT_DIR$/src/main/java/viewmodel/Help.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/view/help.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/DashboardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/SettingsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/SettingsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/UpdateGoalsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/UpdateGoalsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/getStarted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/getStarted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/css/theme1.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/theme1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/css/theme2.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/theme2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/css/theme3.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/theme3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/css/theme4.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/theme4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/buildMuscle.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/buildMuscle.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/calisthenics.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/calisthenics.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/dashboard.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/getStarted.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/getStarted.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/loseFat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/loseFat.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/powerlifting.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/powerlifting.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/settings.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/settings.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/updateData.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/updateData.fxml" afterDir="false" />
+    <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="general updates">
+      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/ThemeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/ThemeController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +147,7 @@
       <workItem from="1733584948987" duration="4264000" />
       <workItem from="1733589883616" duration="4141000" />
       <workItem from="1733596429757" duration="4327000" />
-      <workItem from="1733626527639" duration="14055000" />
+      <workItem from="1733626527639" duration="14362000" />
     </task>
     <task id="LOCAL-00001" summary="created blank calisthenics fxml page">
       <option name="closed" value="true" />
@@ -471,7 +453,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733636856090</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="general updates">
+      <option name="closed" value="true" />
+      <created>1733641280823</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1733641280823</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,7 +479,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added users targets to dashboard" />
     <MESSAGE value="added addData() method and called it in signUp method so that a new document gets added to db when user is signed up" />
     <MESSAGE value="updated regex for password when signing up.  6 characters necessary now." />
     <MESSAGE value="added alert text to login screen if invalid email or password" />
@@ -514,7 +503,8 @@
     <MESSAGE value="update goals page input fields now have the users data already in the fields, so now the user just has to modify it if they need to" />
     <MESSAGE value="added progress bars with labels and percentages to visualize the users performance" />
     <MESSAGE value="added styles to progress bars on dashboard" />
-    <option name="LAST_COMMIT_MESSAGE" value="added styles to progress bars on dashboard" />
+    <MESSAGE value="general updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="general updates" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
