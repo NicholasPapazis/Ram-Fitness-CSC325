@@ -246,6 +246,28 @@ public class UpdateGoalsController {
 
     }
 
+    //go to help
+    public void goToHelp(MouseEvent actionEvent) throws IOException {
+
+        try {
+            Parent root = FXMLLoader.load(getClass().getResource("/view/help.fxml"));
+            Scene helpScene = new Scene(root, 500, 300); // Adjust the size as needed
+            helpScene.getStylesheets().add(getClass().getResource("/css/theme1.css").toExternalForm());
+            Stage helpStage = new Stage();
+            helpStage.setScene(helpScene);
+            helpStage.setTitle("Help");
+            helpStage.initModality(javafx.stage.Modality.APPLICATION_MODAL);
+            Stage mainStage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+            helpStage.initOwner(mainStage); // This makes sure the help window stays on top of the main window
+            helpStage.showAndWait(); // Wait for the user to close the modal
+
+            ThemeController.registerScene(helpScene);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
     //log out. Go to login page
     public void logOut(MouseEvent event) {
         try {

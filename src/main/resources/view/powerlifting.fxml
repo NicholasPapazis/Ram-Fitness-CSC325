@@ -48,17 +48,11 @@
         </Pane>
         <Pane fx:id="topBar" layoutX="199.0" prefHeight="57.0" prefWidth="701.0">
             <children>
-                <Text layoutX="24.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Welcome Back">
+                <Text layoutX="24.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Powerlifting">
                     <font>
                         <Font name="System Bold" size="21.0" />
                     </font>
                 </Text>
-                <Text fill="#868686" layoutX="23.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Good Morning" />
-                <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="180.0" layoutY="19.0">
-                    <image>
-                        <Image url="@../images/party-popper.png" />
-                    </image>
-                </ImageView>
                 <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="565.0" layoutY="15.0">
                     <image>
                         <Image url="@../images/streakFilled.png" />

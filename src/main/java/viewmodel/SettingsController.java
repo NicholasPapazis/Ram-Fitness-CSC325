@@ -1,5 +1,6 @@
 package viewmodel;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
@@ -122,6 +123,28 @@ public class SettingsController {
             e.printStackTrace();
         }
 
+    }
+
+    //go to help
+    public void goToHelp(MouseEvent actionEvent) throws IOException {
+
+        try {
+            Parent root = FXMLLoader.load(getClass().getResource("/view/help.fxml"));
+            Scene helpScene = new Scene(root, 500, 300); // Adjust the size as needed
+            helpScene.getStylesheets().add(getClass().getResource("/css/theme1.css").toExternalForm());
+            Stage helpStage = new Stage();
+            helpStage.setScene(helpScene);
+            helpStage.setTitle("Help");
+            helpStage.initModality(javafx.stage.Modality.APPLICATION_MODAL);
+            Stage mainStage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+            helpStage.initOwner(mainStage); // This makes sure the help window stays on top of the main window
+            helpStage.showAndWait(); // Wait for the user to close the modal
+
+            ThemeController.registerScene(helpScene);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     //go to Settings
@@ -250,6 +273,23 @@ public class SettingsController {
 
     /* status bar methods end */
 
+
+    //delete account button method
+    public void deleteAccount(ActionEvent event) {
+        try {
+            Parent root = FXMLLoader.load(getClass().getResource("/view/login.fxml"));
+            Scene scene = new Scene(root, 900, 600);
+            scene.getStylesheets().add(getClass().getResource("/css/login.css").toExternalForm());
+
+            Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
+
+            window.setScene(scene);
+
+            window.show();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 
 
 

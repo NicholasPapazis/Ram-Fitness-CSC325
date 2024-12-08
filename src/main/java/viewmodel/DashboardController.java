@@ -4,13 +4,14 @@ import com.google.api.core.ApiFuture;
 import com.google.cloud.firestore.QueryDocumentSnapshot;
 import com.google.cloud.firestore.QuerySnapshot;
 import com.google.firebase.auth.UserRecord;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.ProgressBar;
-import javafx.scene.input.MouseEvent;
+import javafx.scene.input.*;
 import javafx.scene.layout.Pane;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
@@ -24,6 +25,9 @@ import java.util.concurrent.ExecutionException;
 public class DashboardController {
 
 
+
+    @FXML
+    private Pane backgroud;
 
     @FXML
     private Pane logoutPane;
@@ -101,9 +105,9 @@ public class DashboardController {
         setupHoverEffect(helpLink, "click for instructions");
         setupHoverEffect(logoutLink, "click logout of your account");
 
+
+
     }
-
-
 
     /****** sidebar methods start *******/
 
@@ -173,7 +177,27 @@ public class DashboardController {
 
     }
 
-    //go to Settings
+    //go to help
+    public void goToHelp(MouseEvent actionEvent) throws IOException {
+
+        try {
+            Parent root = FXMLLoader.load(getClass().getResource("/view/help.fxml"));
+            Scene helpScene = new Scene(root, 500, 300); // Adjust the size as needed
+            helpScene.getStylesheets().add(getClass().getResource("/css/theme1.css").toExternalForm());
+            Stage helpStage = new Stage();
+            helpStage.setScene(helpScene);
+            helpStage.setTitle("Help");
+            helpStage.initModality(javafx.stage.Modality.APPLICATION_MODAL);
+            Stage mainStage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+            helpStage.initOwner(mainStage); // This makes sure the help window stays on top of the main window
+            helpStage.showAndWait(); // Wait for the user to close the modal
+
+            ThemeController.registerScene(helpScene);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 
     //log out. Go to login page
     public void logOut(MouseEvent event) {
