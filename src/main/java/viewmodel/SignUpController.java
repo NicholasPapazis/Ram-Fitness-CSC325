@@ -119,7 +119,7 @@ public class SignUpController {
                 .setPhoneNumber("+11234567890")
                 .setDisplayName("John Doe")
                 .setDisabled(false);*/
-                .setEmail(emailField.getText())
+                .setEmail(emailField.getText().toLowerCase()) //lowercase
                 .setEmailVerified(false)
                 .setPassword(passwordField.getText())
                 .setDisplayName(usernameField.getText())
@@ -153,7 +153,7 @@ public class SignUpController {
         Map<String, Object> data = new HashMap<>();
 
         //add the fields to the document
-        data.put("email", emailField.getText());
+        data.put("email", emailField.getText().toLowerCase()); //lowercase
         data.put("username", usernameField.getText());
         data.put("password", passwordField.getText());
 

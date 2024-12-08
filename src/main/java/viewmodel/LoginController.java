@@ -76,7 +76,7 @@ public class LoginController {
 
     // Method to list all users' data from Firestore and print it to the console
     public void login() {
-        String userEmail = emailField.getText();
+        String userEmail = emailField.getText().toLowerCase(); //lowercase
         String userPassword = passwordField.getText();
         boolean userFound = false; //tracks if the user is found
         try {
