@@ -22,6 +22,8 @@ import java.util.concurrent.ExecutionException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import static viewmodel.DashboardController.p; //import person from dashboard
+
 public class UpdateGoalsController {
 
     @FXML
@@ -163,6 +165,15 @@ public class UpdateGoalsController {
         sleepProgress.textProperty().addListener((observable, oldValue, newValue) -> checkValidationStatus());
 
 
+        exerciseProgress.setText(String.valueOf(p.getDailyExerciseTime()));
+        caloriesProgress.setText(String.valueOf(p.getDailyCalorieIntake()));
+        weightProgress.setText(String.valueOf(p.getDailyWeightLifted()));
+        sleepProgress.setText(String.valueOf(p.getSleepDuration()));
+
+        exerciseGoal.setText(String.valueOf(p.getExerciseTarget()));
+        caloriesGoal.setText(String.valueOf(p.getCalorieTarget()));
+        weightGoal.setText(String.valueOf(p.getWeightTarget()));
+        sleepGoal.setText(String.valueOf(p.getSleepTarget()));
 
 
 

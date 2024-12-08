@@ -76,7 +76,7 @@ public class DashboardController {
 
     static String documentId;
     Document doc;
-    Person p;
+    static public Person p; //
 
 
 
