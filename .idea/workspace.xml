@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="added status bar functionality to dashboard and getStarted page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/SettingsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/SettingsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/UpdateGoalsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/UpdateGoalsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/view/settings.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/settings.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/view/updateData.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/updateData.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,9 +70,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "65-make-status-bar-work",
+    "git-widget-placeholder": "73-finalize-everything",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/nicholas/IdeaProjects/ram-fitness-csc325dec7Two/src/main/resources/images",
+    "last_opened_file_path": "/home/nicholas/IdeaProjects/ram-fitness-csc325dec7nine/src/main/resources/files",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -84,14 +82,14 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/images" />
       <recent name="$PROJECT_DIR$/src/main/resources/files" />
+      <recent name="$PROJECT_DIR$/src/main/resources/images" />
       <recent name="$PROJECT_DIR$/src/main/resources/css" />
       <recent name="C:\Users\NICHOLAS\IdeaProjects\ram-fitness-csc325Dec5\src\main\resources\files" />
       <recent name="C:\Users\NICHOLAS\IdeaProjects\csc311advanced-programming\ram-fitness-csc32511-4-2\src\main\resources" />
@@ -151,6 +149,7 @@
       <workItem from="1733584948987" duration="4264000" />
       <workItem from="1733589883616" duration="4141000" />
       <workItem from="1733596429757" duration="4327000" />
+      <workItem from="1733626527639" duration="5354000" />
     </task>
     <task id="LOCAL-00001" summary="created blank calisthenics fxml page">
       <option name="closed" value="true" />
@@ -468,5 +467,9 @@
     <MESSAGE value="updated style of loseFat page" />
     <MESSAGE value="added status bar functionality to dashboard and getStarted page" />
     <option name="LAST_COMMIT_MESSAGE" value="added status bar functionality to dashboard and getStarted page" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
