@@ -73,6 +73,15 @@ public class DashboardController {
     @FXML
     private Text statusText;
 
+    @FXML
+    private Text exercisePercentage;
+    @FXML
+    private Text caloriesPercentage;
+    @FXML
+    private Text weightPercentage;
+    @FXML
+    private Text sleepPercentage;
+
 
     static String documentId;
     Document doc;
@@ -258,6 +267,12 @@ public class DashboardController {
         sleepProgBar.setProgress(sleepProg);
         sleepProgBar.setStyle("-fx-accent: #06B6D4;");
 
+
+        //set text of progress bars
+        exercisePercentage.setText((String.format("%.0f", exProg*100) + "%"));
+        caloriesPercentage.setText((String.format("%.0f", calProg*100) + "%"));
+        weightPercentage.setText((String.format("%.0f", weightProg*100) + "%"));
+        sleepPercentage.setText((String.format("%.0f", sleepProg*100) + "%"));
 
 
 
