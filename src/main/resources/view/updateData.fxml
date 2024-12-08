@@ -27,7 +27,7 @@
                     </image>
                 </ImageView>
                 <Line fx:id="line2" endX="84.5" layoutX="99.0" layoutY="549.0" startX="-83.5" strokeWidth="0.5" />
-                <Pane fx:id="helpLink" layoutX="1.0" layoutY="508.0" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
+                <Pane fx:id="helpLink" layoutX="1.0" layoutY="508.0" onMouseClicked="#goToHelp" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
                     <children>
                         <Text fill="#686868" layoutX="60.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Help" />
                         <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="32.0" layoutY="10.0">
@@ -51,17 +51,11 @@
         </Pane>
         <Pane fx:id="topBar" layoutX="199.0" prefHeight="57.0" prefWidth="701.0">
             <children>
-                <Text layoutX="24.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Welcome Back">
+                <Text layoutX="24.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Update Your Progress and Goals">
                     <font>
                         <Font name="System Bold" size="21.0" />
                     </font>
                 </Text>
-                <Text fill="#868686" layoutX="23.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Good Morning" />
-                <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="180.0" layoutY="19.0">
-                    <image>
-                        <Image url="@../images/party-popper.png" />
-                    </image>
-                </ImageView>
                 <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="565.0" layoutY="15.0">
                     <image>
                         <Image url="@../images/streakFilled.png" />
@@ -86,63 +80,71 @@
                         <Font size="11.0" />
                     </font></Text>
             </children></Pane>
-      <VBox layoutX="400.0" layoutY="122.0" prefHeight="314.0" prefWidth="300.0">
+      <VBox layoutX="400.0" layoutY="93.0" prefHeight="314.0" prefWidth="300.0">
          <children>
             <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Daily Progress" />
             <TextField fx:id="exerciseProgress" promptText="exercise progress" styleClass="updateDataInputField">
                <VBox.margin>
-                  <Insets bottom="10.0" />
+                  <Insets />
                </VBox.margin>
             </TextField>
+            <Text fx:id="alertTextExerciseProgress" fill="RED" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="325.0" />
             <TextField fx:id="caloriesProgress" promptText="calories progress" styleClass="updateDataInputField">
                <VBox.margin>
-                  <Insets bottom="10.0" />
+                  <Insets />
                </VBox.margin>
             </TextField>
+            <Text fx:id="alertTextCaloriesProgress" fill="RED" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="325.0" />
             <TextField fx:id="weightProgress" promptText="weight lifted progress" styleClass="updateDataInputField">
                <VBox.margin>
-                  <Insets bottom="10.0" />
+                  <Insets />
                </VBox.margin>
             </TextField>
+            <Text fx:id="alertTextWeightProgress" fill="RED" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="325.0" />
             <TextField fx:id="sleepProgress" promptText="sleep progoress" styleClass="updateDataInputField">
                <VBox.margin>
-                  <Insets bottom="10.0" />
+                  <Insets />
                </VBox.margin>
             </TextField>
+            <Text fx:id="alertTextSleepProgress" fill="RED" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="325.0" />
             <Text strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Daily Goals" />
             <TextField fx:id="exerciseGoal" promptText="exercise goal" styleClass="updateDataInputField">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
                <VBox.margin>
-                  <Insets bottom="10.0" />
+                  <Insets />
                </VBox.margin>
             </TextField>
+            <Text fx:id="alertTextExerciseGoal" fill="RED" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="325.0" />
             <TextField fx:id="caloriesGoal" promptText="calories goal" styleClass="updateDataInputField">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
                <VBox.margin>
-                  <Insets bottom="10.0" />
+                  <Insets />
                </VBox.margin>
             </TextField>
+            <Text fx:id="alertTextCaloriesGoal" fill="RED" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="325.0" />
             <TextField fx:id="weightGoal" promptText="weight lifted goal" styleClass="updateDataInputField">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
                <VBox.margin>
-                  <Insets bottom="10.0" />
+                  <Insets />
                </VBox.margin>
             </TextField>
+            <Text fx:id="alertTextWeightGoal" fill="RED" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="325.0" />
             <TextField fx:id="sleepGoal" promptText="sleep goal" styleClass="updateDataInputField">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
                <VBox.margin>
-                  <Insets bottom="10.0" />
+                  <Insets />
                </VBox.margin>
             </TextField>
-            <Button fx:id="saveBtn" mnemonicParsing="false" onAction="#saveData" prefHeight="26.0" prefWidth="308.0" text="Save" />
+            <Text fx:id="alertTextSleepGoal" fill="RED" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="325.0" />
+            <Button fx:id="saveBtn" mnemonicParsing="false" onAction="#saveData" prefHeight="26.0" prefWidth="325.0" text="Save" />
          </children>
       </VBox>
       <Pane fx:id="navigationSection" layoutX="1.0" layoutY="125.0" prefHeight="314.0" prefWidth="196.0">

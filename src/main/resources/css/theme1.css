@@ -2,6 +2,10 @@
     -fx-background-color: #F1F5F9;
 }
 
+#helpBackground {
+    -fx-background-color: #F1F5F9;
+}
+
 #sideBar, #topBar, #statusBar {
     -fx-background-color: rgb(255, 255, 255);
     -fx-border-color: rgb(182, 182, 182);
@@ -129,3 +133,14 @@ Button {
 #statusText {
     -fx-fill: grey;
 }
+
+.progress-bar .bar {
+    -fx-padding: 1px;
+    -fx-background-insets: 1;
+}
+
+.progress-bar > .track {
+    -fx-text-box-border: grey;
+    -fx-control-inner-background: #F1F5F9;
+}
+

@@ -26,7 +26,7 @@
                </image>
             </ImageView>
             <Line fx:id="line2" endX="84.5" layoutX="99.0" layoutY="549.0" startX="-83.5" strokeWidth="0.5" />
-            <Pane fx:id="helpLink" layoutX="1.0" layoutY="508.0" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
+            <Pane fx:id="helpLink" layoutX="1.0" layoutY="508.0" onMouseClicked="#goToHelp" prefHeight="40.0" prefWidth="198.0" styleClass="navPanes">
                <children>
                   <Text fill="#686868" layoutX="60.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="leftSideText" text="Help" />
                   <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="32.0" layoutY="10.0">
@@ -50,13 +50,12 @@
       </Pane>
       <Pane fx:id="topBar" layoutX="199.0" prefHeight="57.0" prefWidth="701.0">
          <children>
-            <Text layoutX="24.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Welcome Back">
+            <Text layoutX="24.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Welcome">
                <font>
                   <Font name="System Bold" size="21.0" />
                </font>
             </Text>
-            <Text fill="#868686" layoutX="23.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Good Morning" />
-            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="180.0" layoutY="19.0">
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="125.0" layoutY="19.0">
                <image>
                   <Image url="@../images/party-popper.png" />
                </image>
@@ -85,7 +84,7 @@
                   <Font size="11.0" />
                </font></Text>
          </children></Pane>
-      <Pane fx:id="exercisePane" layoutX="224.0" layoutY="113.0" prefHeight="110.0" prefWidth="200.0">
+      <Pane fx:id="exercisePane" layoutX="311.0" layoutY="114.0" prefHeight="110.0" prefWidth="200.0">
          <children>
             <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="12.0" layoutY="8.0">
                <image>
@@ -139,10 +138,9 @@
                   </Text>
                </children>
             </HBox>
-            <ProgressBar fx:id="exerciseProgBar" layoutX="13.0" layoutY="93.0" prefHeight="7.0" prefWidth="175.0" progress="0.0" />
          </children>
       </Pane>
-      <Pane fx:id="caloriesPane" layoutX="439.0" layoutY="113.0" prefHeight="110.0" prefWidth="200.0">
+      <Pane fx:id="caloriesPane" layoutX="526.0" layoutY="114.0" prefHeight="110.0" prefWidth="200.0">
          <children>
             <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="9.0" layoutY="6.0">
                <image>
@@ -196,10 +194,9 @@
                   </Text>
                </children>
             </HBox>
-            <ProgressBar fx:id="caloriesProgBar" layoutX="13.0" layoutY="91.0" prefHeight="7.0" prefWidth="175.0" progress="0.0" />
          </children>
       </Pane>
-      <Pane fx:id="weightLiftedPane" layoutX="224.0" layoutY="235.0" prefHeight="110.0" prefWidth="200.0">
+      <Pane fx:id="weightLiftedPane" layoutX="311.0" layoutY="236.0" prefHeight="110.0" prefWidth="200.0">
          <children>
             <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="12.0" layoutY="7.0">
                <image>
@@ -253,10 +250,9 @@
                   </Text>
                </children>
             </HBox>
-            <ProgressBar fx:id="weightLiftedProgBar" layoutX="14.0" layoutY="93.0" prefHeight="7.0" prefWidth="175.0" progress="0.0" />
          </children>
       </Pane>
-      <Pane fx:id="sleepPane" layoutX="439.0" layoutY="235.0" prefHeight="110.0" prefWidth="200.0">
+      <Pane fx:id="sleepPane" layoutX="526.0" layoutY="236.0" prefHeight="110.0" prefWidth="200.0">
          <children>
             <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="14.0" layoutY="9.0">
                <image>
@@ -310,7 +306,6 @@
                   </Text>
                </children>
             </HBox>
-            <ProgressBar fx:id="sleepProgBar" layoutX="12.0" layoutY="91.0" prefHeight="7.0" prefWidth="175.0" progress="0.0" />
          </children>
       </Pane>
       <Pane fx:id="navigationSection" layoutX="1.0" layoutY="125.0" prefHeight="314.0" prefWidth="196.0">
@@ -379,5 +374,17 @@
             <Font name="System Bold" size="20.0" />
          </font>
       </Text>
+      <ProgressBar fx:id="exerciseProgBar" layoutX="311.0" layoutY="388.0" prefHeight="15.0" prefWidth="415.0" progress="0.0" styleClass="progressBars" />
+      <ProgressBar fx:id="caloriesProgBar" layoutX="311.0" layoutY="427.0" prefHeight="15.0" prefWidth="415.0" progress="0.0" styleClass="progressBars" />
+      <ProgressBar fx:id="weightLiftedProgBar" layoutX="311.0" layoutY="469.0" prefHeight="15.0" prefWidth="415.0" progress="0.0" styleClass="progressBars" />
+      <ProgressBar fx:id="sleepProgBar" layoutX="311.0" layoutY="507.0" prefHeight="15.0" prefWidth="415.0" progress="0.0" styleClass="progressBars" />
+      <Text fx:id="exercisePercentage" layoutX="692.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" wrappingWidth="34.31999969482422" />
+      <Text fx:id="caloriesPercentage" layoutX="692.0" layoutY="423.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" />
+      <Text fx:id="weightPercentage" layoutX="693.0" layoutY="466.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" />
+      <Text fx:id="sleepPercentage" layoutX="692.0" layoutY="503.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" />
+      <Text fx:id="exProgLabel" layoutX="311.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Exercise" wrappingWidth="67.56099700927734" />
+      <Text fx:id="exProgLabel1" layoutX="313.0" layoutY="423.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Calories" wrappingWidth="67.56099700927734" />
+      <Text fx:id="exProgLabel2" layoutX="312.0" layoutY="466.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Weight Lifted" wrappingWidth="101.43000030517578" />
+      <Text fx:id="exProgLabel3" layoutX="312.0" layoutY="503.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="rightSideText" text="Sleep" wrappingWidth="67.56099700927734" />
    </children>
 </Pane>

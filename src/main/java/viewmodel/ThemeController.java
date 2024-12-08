@@ -5,6 +5,7 @@ import javafx.scene.Scene;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class ThemeController {
 
@@ -26,8 +27,9 @@ public class ThemeController {
         }
     }
 
-    private static Theme currentTheme = Theme.THEME_ONE; // Default theme
-    private static final List<Scene> registeredScenes = new ArrayList<>();
+    //make it volatile to make sure that updates to this variable are visible to all threads
+    private static volatile Theme currentTheme = Theme.THEME_ONE; //default theme
+    private static final List<Scene> registeredScenes = new CopyOnWriteArrayList<>(); //thread safe collection
 
     //registers the scenes to have their stylesheets changed
     public static void registerScene(Scene scene) {
@@ -37,7 +39,11 @@ public class ThemeController {
 
     //applies theme
     public static void applyTheme(Theme theme) {
-        currentTheme = theme; //updates current theme variable
+        //ensures that currentTheme is thread safe when multiple threads are trying to modify it
+        synchronized (ThemeController.class) {
+            currentTheme = theme; //updates current theme variable
+        }
+
 
         //loops through all scenes in registered scenes list
         for (Scene scene : registeredScenes) {
@@ -47,16 +53,20 @@ public class ThemeController {
 
     // Apply the current theme to a given scene
     private static void applyCurrentTheme(Scene scene) {
-        scene.getStylesheets().clear(); //clears previous stylesheet
-        String stylesheet = currentTheme.getStylesheet();
-        //gets the location of the new stylesheet
-        URL cssURL = ThemeController.class.getResource("/css" + stylesheet);
-        System.out.println(cssURL);
-        if (cssURL != null) { //makes sure stylesheet is accessible
-            scene.getStylesheets().add(cssURL.toExternalForm()); //adds the new stylesheet
-        } else {
-            System.out.println("Failed to load stylesheet: " + stylesheet); //if stylesheet fails to load, print message.
+        //prevent race conditions when changing style sheet
+        synchronized (scene) {
+            scene.getStylesheets().clear(); //clears previous stylesheet
+            String stylesheet = currentTheme.getStylesheet();
+            //gets the location of the new stylesheet
+            URL cssURL = ThemeController.class.getResource("/css" + stylesheet);
+            System.out.println(cssURL);
+            if (cssURL != null) { //makes sure stylesheet is accessible
+                scene.getStylesheets().add(cssURL.toExternalForm()); //adds the new stylesheet
+            } else {
+                System.out.println("Failed to load stylesheet: " + stylesheet); //if stylesheet fails to load, print message.
+            }
         }
+
     }
 
     //gets the current theme
