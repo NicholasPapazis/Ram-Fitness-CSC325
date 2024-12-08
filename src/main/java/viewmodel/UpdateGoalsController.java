@@ -308,6 +308,8 @@ public class UpdateGoalsController {
         updates.put("dailyWeightLifted", Integer.parseInt(weightProgress.getText()));//progress
         updates.put("sleepDuration", Integer.parseInt(sleepProgress.getText()));//progress
 
+        statusText.setText("Changes saved successfully!");
+
         // Asynchronously update the document
         ApiFuture<WriteResult> result = docRef.update(updates);
 

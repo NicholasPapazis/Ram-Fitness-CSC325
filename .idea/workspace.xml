@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="beb3e008-171f-4a59-a085-4bfcd6b4120b" name="Changes" comment="general updates">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/SignUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/SignUpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/viewmodel/UpdateGoalsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/viewmodel/UpdateGoalsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/help.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/view/help.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/nicholas/IdeaProjects/ram-fitness-csc325dec8eight/src/main/resources/files",
+    "last_opened_file_path": "/home/nicholas/IdeaProjects/ram-fitness-csc325dec8one/src/main/resources/files",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -150,6 +150,7 @@
       <workItem from="1733596429757" duration="4327000" />
       <workItem from="1733626527639" duration="14362000" />
       <workItem from="1733664472797" duration="1288000" />
+      <workItem from="1733681253805" duration="772000" />
     </task>
     <task id="LOCAL-00001" summary="created blank calisthenics fxml page">
       <option name="closed" value="true" />
